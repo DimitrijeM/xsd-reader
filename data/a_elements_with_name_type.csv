@@ -1,0 +1,1373 @@
+name,type,nillable,substitutionGroup,annotation_documentation
+AcquaintanceAssociation,nc:PersonAssociationType,true,,An association between people who recognize each other but do not know each other very well.
+Activity,nc:ActivityType,true,,"A single or set of related actions, events, or process steps."
+ActivityActualDuration,niem-xs:duration,true,,An actual duration of an activity.
+ActivityAdministratorOrganizationAssociation,nc:ActivityOrganizationAssociationType,true,,An association between an activity and an organization which administers it.
+ActivityAdministratorPersonAssociation,nc:ActivityPersonAssociationType,true,,An association between an activity and a person who administers it.
+ActivityApprovedIndicator,niem-xs:boolean,true,,True if the activity request was approved; false otherwise.
+ActivityAssignedDate,nc:DateType,true,,A date on which an activity was assigned.
+ActivityBillRecipientOrganizationAssociation,nc:ActivityOrganizationAssociationType,true,,An association between an activity and an organization which receives a bill for the activity.
+ActivityBillRecipientPersonAssociation,nc:ActivityPersonAssociationType,true,,An association between an activity and a person who receives a bill for the activity.
+ActivityCapacityQuantity,nc:QuantityType,true,,A number for the specified maximum enrollment capacity of an activity.
+ActivityCategoryText,nc:TextType,true,nc:ActivityCategoryAbstract,A kind of activity.
+ActivityComment,nc:CommentType,true,,A comment about the activity.
+ActivityCompletedIndicator,niem-xs:boolean,true,,True if an activity has ended; false otherwise.
+ActivityContactEntity,nc:EntityType,true,,A person or organization to contact for additional information about an activity.
+ActivityConveyanceAssociation,nc:ActivityConveyanceAssociationType,true,,An association between an activity and a conveyance.
+ActivityDate,nc:DateType,true,,A date of an activity.
+ActivityDescriptionText,nc:TextType,true,,A description of an activity.
+ActivityDisposition,nc:DispositionType,true,,A result or outcome of an activity.
+ActivityDocumentAssociation,nc:ActivityDocumentAssociationType,true,,An association between an activity and a document.
+ActivityDueDate,nc:DateType,true,,A date when an activity is expected to be completed.
+ActivityEffectiveDate,nc:DateType,true,,A date when an activity is ready for service or action.
+ActivityEstimatedDuration,niem-xs:duration,true,,An expected amount of time an activity should last.
+ActivityFacilityAssociation,nc:ActivityFacilityAssociationType,true,,An association between an activity and a facility.
+ActivityFrequencyText,nc:TextType,true,,A description of the number of occurrences of an activity over a period of time.
+ActivityIdentification,nc:IdentificationType,true,,An identification that references an activity.
+ActivityInformationAbstracterOrganizationAssociation,nc:ActivityOrganizationAssociationType,true,,An association between an activity and an organization that abstracted information for that activity.
+ActivityInformationClearerOrganizationAssociation,nc:ActivityOrganizationAssociationType,true,,An association between an activity and an organization that cleared information for that activity.
+ActivityInvolvedOrganizationAssociation,nc:ActivityOrganizationAssociationType,true,,An association between an activity and an organization somehow involved in that activity.
+ActivityInvolvementText,nc:TextType,true,nc:ActivityInvolvementAbstract,A description of the involvement of an entity in an activity.
+ActivityItemAssociation,nc:ActivityItemAssociationType,true,,An association between an activity and an item.
+ActivityLocation,nc:LocationType,true,,A location of an activity.
+ActivityName,nc:TextType,true,,A name of an activity.
+ActivityNarrative,nc:CommentType,true,,An account of an activity as reported by an observer.
+ActivityPersonAssociation,nc:ActivityPersonAssociationType,true,,An association between a person and an activity in which a person was or may have been involved.
+ActivityPrescribedDuration,niem-xs:duration,true,,A prescribed period of time allowed or required for an activity.
+ActivityPrimaryOrganizationAssociation,nc:ActivityOrganizationAssociationType,true,,An association between an activity and an organization primarily associated with that activity.
+ActivityReasonText,nc:TextType,true,nc:ActivityReasonAbstract,A reason for an activity.
+ActivityRelationText,nc:TextType,true,nc:ActivityRelationAbstract,A relationship between activities.
+ActivityReportedDate,nc:DateType,true,,A date an activity was reported to some entity.
+ActivityReportingOrganizationAssociation,nc:ActivityOrganizationAssociationType,true,,An association between an activity and an organization that is reporting to that activity.
+ActivityRequestedDate,nc:DateType,true,,A date an activity was requested by an entity.
+ActivityResponsibleOrganizationAssociation,nc:ActivityOrganizationAssociationType,true,,An association between an activity and an organization with responsibility over that activity.
+ActivityScheduleAssociation,nc:ActivityScheduleAssociationType,true,,An association between an activity and its schedule.
+ActivityScheduledDate,nc:DateType,true,,A date when an activity is scheduled.
+ActivitySequenceNumeric,nc:NumericType,true,,A numerical identifier across multiple activities to define the order that they should be scheduled and undertaken.
+ActivitySiteAssociation,nc:ActivitySiteAssociationType,true,,An association between an activity and a site.
+ActivityStatus,nc:StatusType,true,,A status of an activity.
+ActivitySupervisorOrganizationAssociation,nc:ActivityOrganizationAssociationType,true,,An association between an activity and an organization supervising that activity.
+ActivitySupervisorPersonAssociation,nc:ActivityPersonAssociationType,true,,An association between an activity and a person who supervises the activity.
+ActivityVerifiedDate,nc:DateType,true,,A date when an activity is verified.
+Address,nc:AddressType,true,nc:LocationAddressAbstract,"A set of location information, often described by postal information."
+AddressBuildingName,nc:TextType,true,nc:AddressDeliveryPointAbstract,A name of a specific building at an address to distinguish it from other buildings at the same site.
+AddressCategoryCode,nc:AddressCategoryCodeType,true,nc:AddressCategoryAbstract,A kind of address.
+AddressCategoryText,nc:TextType,true,nc:AddressCategoryAbstract,A kind of address.
+AddressCityName,nc:ProperNameTextType,true,,A name of a city or town.
+AddressCountry,nc:CountryType,true,,"A country, territory, dependency, or other such geopolitical subdivision of a location."
+AddressCountyName,nc:ProperNameTextType,true,nc:AddressCountyAbstract,"A name of a county, parish, vicinage, or other such geopolitical subdivision of a state."
+AddressCrossStreet,nc:CrossStreetType,true,nc:LocationAddressAbstract,A location identified by two or more streets which intersect.
+AddressDeliveryPointID,niem-xs:string,true,nc:AddressDeliveryPointAbstract,An identifier of a single place or unit at which mail is delivered.
+AddressDeliveryPointText,nc:TextType,true,nc:AddressDeliveryPointAbstract,A single place or unit at which mail is delivered.
+AddressFullText,nc:TextType,true,,A complete address.
+AddressGrid,nc:AddressGridType,true,nc:LocationAddressAbstract,A location identified by a unit of a grid system overlaid on an area.
+AddressGridID,niem-xs:string,true,,An identifier that references a unique address grid system.
+AddressGridText,nc:TextType,true,,"A unit, quadrant, or other subdivision of an address grid."
+AddressHighway,nc:HighwayType,true,nc:LocationAddressAbstract,A major public road.
+AddressPostalCode,niem-xs:string,true,,An identifier of a post office-assigned zone for an address.
+AddressPostalExtensionCode,niem-xs:string,true,,An identifier of a smaller area within a post office-assigned zone for an address.
+AddressPrivateMailboxText,nc:TextType,true,,A private mailbox within a company.
+AddressRecipientName,nc:TextType,true,,"A name of a person, organization, or other recipient to whom physical mail may be sent."
+AddressRouteName,nc:TextType,true,nc:AddressDeliveryPointAbstract,A name and number of a postal route.
+AddressSecondaryUnitText,nc:TextType,true,,A particular unit within a larger unit or grouping at a location.
+AddressState,nc:StateType,true,,"A state, commonwealth, province, or other such geopolitical subdivision of a country."
+AddressStreet,nc:StreetType,true,nc:AddressDeliveryPointAbstract,"A road, thoroughfare or highway."
+AddressUrbanizationName,nc:TextType,true,,"An urbanization denotes an area, sector, or residential development within a geographic area. Commonly used in Puerto Rican urban areas, it is an important part of the addressing format, as it describes the location of a specific street whose name may occur multiple times within the same ZIP Code."
+AdministrativeID,niem-xs:string,true,,An identifier generated locally within a processing system used to identify sub-records within an entity of interest record.
+Agency,nc:OrganizationType,true,,A division of a governmental or international body.
+Aircraft,nc:AircraftType,true,,A mode of transportation capable of flying in the air.
+AircraftBaseAirport,nc:AirportType,true,,A facility at which an aircraft is usually kept.
+AircraftCallSignIdentification,nc:IdentificationType,true,,"An identification of any combination of characters or pronounceable words, which identifies a communication facility, a command, an authority, an activity, or a unit; used primarily for establishing and maintaining communications."
+AircraftFuselageColorText,nc:TextType,true,nc:AircraftFuselageColorAbstract,A color of the main body of an aircraft.
+AircraftTailIdentification,nc:IdentificationType,true,,An identification of an aircraft.
+AircraftWingColorText,nc:TextType,true,nc:AircraftWingColorAbstract,A color of the wings of an aircraft.
+Airport,nc:AirportType,true,,"A facility where an aircraft may take off, land, be repaired or sheltered, or receive supplies."
+AirportCodeText,nc:TextType,true,nc:AirportCodeAbstract,A code assigned to an airport facility used for identification.
+Amount,niem-xs:decimal,true,,An amount of money.
+AngleMeasure,nc:AngleMeasureType,true,,A measure of an angular value.
+AngularDegreeValue,niem-xs:decimal,true,,A value that specifies a degree of an angular measure.
+AngularMeasure,nc:AngularMeasureType,true,,A measurement of an angle.
+AngularMinuteValue,nc:AngularMinuteType,true,,A value that specifies a minute of a degree. The value comes from a restricted range of 0 (inclusive) to 60 (exclusive).
+AngularRateMeasure,nc:AngularRateMeasureType,true,,A measure of the angular rate of change.
+AngularSecondValue,nc:AngularSecondType,true,,A value that specifies a second of a minute. The value comes from a restricted range of 0 (inclusive) to 60 (exclusive).
+Anomaly,nc:AnomalyType,true,,An out-of-the-ordinary occurrence.
+AnomalyCategoryText,nc:TextType,true,nc:AnomalyCategoryAbstract,A kind of anomaly.
+AnomalyContactInformation,nc:ContactInformationType,true,,A point of contact for further information regarding an anomaly.
+AnomalyDateTime,nc:DateType,true,,A date and time an anomaly occurred.
+AnomalyDescriptionText,nc:TextType,true,,A description of an anomaly.
+AnomalyLocation,nc:LocationType,true,,A location where an anomaly occurred.
+Area,nc:AreaType,true,,A location identified by geographic boundaries.
+AreaCircularRegion,nc:CircularRegionType,true,nc:AreaRegionAbstract,A circular area identified by a center coordinate and a radius.
+AreaDescriptionText,nc:TextType,true,,A description of an area.
+AreaMeasure,nc:AreaMeasureType,true,,A measure of the amount of space covered by a flat surface or piece of land.
+AreaPolygonRegion,nc:PolygonRegionType,true,nc:AreaRegionAbstract,A polygon area identified by a set of coordinates.
+Arrival,nc:ArrivalType,true,,A coming to one location from another.
+ArrivalDate,nc:DateType,true,,A date of arrival.
+ArrivalEstimatedDate,nc:DateType,true,,An estimated date of arrival.
+ArrivalLocation,nc:LocationType,true,,A location of arrival.
+Assessment,nc:AssessmentType,true,,"An evaluation, appraisal, or assessment of something or someone."
+AssessmentAssessor,nc:EntityType,true,,A person who performs an assessment.
+AssessmentComment,nc:CommentType,true,,A comment about the assessment.
+AssessmentFee,nc:ObligationType,true,,An amount of money charged to perform an assessment.
+AssessmentImage,nc:ImageType,true,,A picture of the assessment
+AssessmentOutcomeText,nc:TextType,true,,An outcome of an assessment. Examples of outcomes include a plan of action developed or certain tasks performed.
+AssessmentPerson,nc:PersonType,true,,A person who undergoes an assessment.
+AssessmentProgram,nc:ProgramType,true,,A program a person attends or undergoes in which an assessment is made.
+AssessmentRecommendation,nc:CommentType,true,,A recommendation or result of an assessment.
+AssessmentReferral,nc:ReferralType,true,,An order or direction for an assessment to be performed.
+AssessmentReport,nc:DocumentType,true,,A report that documents an assessment.
+AssessmentScoreText,nc:TextType,true,nc:AssessmentScoreAbstract,An outcome or evaluation score of an assessment.
+AssessmentSummaryText,nc:TextType,true,,A summary about the assessment.
+AssessmentToolDescriptionText,nc:TextType,true,,A description of the assessment tool.
+AssessmentToolName,nc:TextType,true,,A name of the administered assessment tool.
+Association,nc:AssociationType,true,,"An association, connection, relationship, or involvement somehow linking people, things, and/or activities together."
+AssociationDateRange,nc:DateRangeType,true,,A date range in which an association occurs.
+AssociationDescriptionText,nc:TextType,true,,A description of an association.
+Attachment,nc:BinaryType,true,,A binary attachment to a report or document.
+Azimuth360Value,nc:Degree360Type,true,nc:AzimuthAbstract,An orientation of something with respect to True North.
+AzimuthDecimalValue,niem-xs:decimal,true,nc:AzimuthAbstract,An orientation of something with respect to True North.
+Base64BinaryObject,niem-xs:base64Binary,true,nc:BinaryObjectAbstract,A base64 binary encoding of data.
+Bearing,nc:BearingType,true,,A direction in a polar coordinate system.
+BeginTime,niem-xs:time,true,,A start or begin time.
+Binary,nc:BinaryType,true,,A digital representation of an object encoded in a binary format.
+BinaryAvailableIndicator,niem-xs:boolean,true,,True if a binary is available; false if it is not.
+BinaryCaptureDate,nc:DateType,true,,A date on which a binary object is captured or created.
+BinaryCapturer,nc:EntityType,true,,An entity which captured or created a binary object.
+BinaryCategoryText,nc:TextType,true,nc:BinaryCategoryAbstract,A kind of object that has been encoded.
+BinaryDescriptionText,nc:TextType,true,,A description of a binary object.
+BinaryFormatStandardName,nc:TextType,true,,A name of a standard or protocol used to classify binary content.
+BinaryFormatText,nc:TextType,true,nc:BinaryFormatAbstract,A file format or content type of a binary object.
+BinaryHash,nc:BinaryHashType,true,,A hash value representing an object encoded in a binary format.
+BinaryHashCode,niem-xs:string,true,,A binary hash value.
+BinaryHashFunctionCode,nc:BinaryHashFunctionCodeType,true,nc:BinaryHashFunctionAbstract,A hash function used to generate a hash value representing an object encoded in a binary format.
+BinaryHashFunctionText,nc:TextType,true,nc:BinaryHashFunctionAbstract,A hash function used to generate a hash value representing an object encoded in a binary format.
+BinaryID,niem-xs:string,true,,An identifier that references a binary object.
+BinaryLocation,nc:LocationType,true,,A physical location of a binary object.
+BinarySizeValue,nc:NonNegativeDecimalType,true,,A size of a binary object in kilobytes.
+BinaryURI,niem-xs:anyURI,true,,A URL or file reference of a binary object.
+CalendarDate,nc:DateType,true,,A particular date represented within a calendar system.
+Capability,nc:CapabilityType,true,,An ability to complete a task or execute a course of action under specified condition and level of performance.
+CapabilityCategoryText,nc:TextType,true,nc:CapabilityCategoryAbstract,A specific kind of capacity or ability.
+CapabilityDescriptionText,nc:TextType,true,,A description of a capacity or ability.
+CapabilityEndDate,nc:DateType,true,,A date that ends the capability
+CapabilityGeneralCategoryText,nc:TextType,true,nc:CapabilityGeneralCategoryAbstract,A general classification of a kind of capacity or ability.
+CapabilityIdentification,nc:IdentificationType,true,,An identification for a capability.
+CapabilityIsLimitationIndicator,niem-xs:boolean,true,,True if a capability implies an inability to do something; false otherwise.
+CapabilityName,nc:TextType,true,,A name for a capability.
+CapabilityProficiencyText,nc:TextType,true,,A skillfulness in the command of fundamentals deriving from practice and familiarity.
+CapabilityStartDate,nc:DateType,true,,A date for the start of a capability.
+Case,nc:CaseType,true,,An aggregation of information about a set of related activities and events.
+CaseCategoryText,nc:TextType,true,nc:CaseCategoryAbstract,A kind of case.
+CaseDisposition,nc:CaseDispositionType,true,nc:ActivityDisposition,An outcome or processing of a case.
+CaseDispositionDecision,nc:CaseDispositionDecisionType,true,,A case disposition occurring as a result of some decision.
+CaseDispositionDecisionCategoryText,nc:TextType,true,nc:CaseDispositionDecisionCategoryAbstract,A kind of decision made in a case disposition.
+CaseDispositionDecisionText,nc:TextType,true,,A literal language of a decision.
+CaseDispositionFinalDate,nc:DateType,true,,A date that all charges in a case were disposed.
+CaseDocketID,niem-xs:string,true,,An identifier used to reference a case docket.
+CaseFiling,nc:DocumentType,true,,A document or other piece of information filed by someone or something involved in a case.
+CaseGeneralCategoryText,nc:TextType,true,nc:CaseGeneralCategoryAbstract,A broadly defined kind of case.
+CaseResolutionText,nc:TextType,true,,A result of a case.
+CaseSubCategoryText,niem-xs:string,true,nc:CaseSubCategoryAbstract,A more specific classification of a kind of case.
+CaseTitleText,nc:TextType,true,,An official name of a case.
+CaseTrackingID,niem-xs:string,true,,An identifier used to track a case.
+CaseYearDate,niem-xs:gYear,true,,A year a case is opened.
+CaveatIssuingAuthorityText,nc:TextType,true,,A source of the caveat information
+CaveatReferenceDate,nc:DateType,true,,A date of the caveat information.
+CaveatText,nc:TextType,true,,A warning or caution about the information.
+Chemical,nc:SubstanceType,true,,A substance used in or produced by a chemical process.
+CircularRegion,nc:CircularRegionType,true,,A circular area identified by a center coordinate and a radius.
+CircularRegionCenterCoordinate,nc:Location2DGeospatialCoordinateType,true,,A geographic coordinate located at the center of a circular region.
+CircularRegionRadiusLengthMeasure,nc:LengthMeasureType,true,,A distance from the center point to the circumference or boundary of a circular region.
+Comment,nc:CommentType,true,,"A comment, note, or remark."
+CommentAuthorText,nc:TextType,true,,A name or role of the author of a comment.
+CommentCreationDate,nc:DateType,true,,A date a comment was created.
+CommentText,nc:TextType,true,,"A comment, note, or remark providing additional information."
+CommentTitleText,nc:TextType,true,,A name of a comment.
+CommercialFacility,nc:FacilityType,true,,A structure used for business purposes.
+Computer,nc:DeviceType,true,,A device that processes information based on a set of instructions.
+Condition,nc:ConditionType,true,,A requirement or stipulation.
+ConditionDisciplinaryAction,nc:DisciplinaryActionType,true,,A corrective action that is specified as part of a condition.
+ConditionGroupID,niem-xs:string,true,,An identifier of a group of conditions to which this condition belongs.
+ConditionMandatoryIndicator,niem-xs:boolean,true,,True if a condition is strictly required; false otherwise.
+ConditionSetDate,nc:DateType,true,,A date a condition was set.
+ConditionViolatedIndicator,niem-xs:boolean,true,,True if a condition has been violated; false otherwise.
+ConditionViolationDate,nc:DateType,true,,A date a condition was violated.
+ConditionViolationText,nc:TextType,true,nc:ConditionViolationAbstract,A violation of a condition.
+ConfidencePercent,nc:PercentType,true,,A value that indicates belief that content is accurate or trustworthy.
+ConsumptionRateMeasure,nc:ConsumptionRateMeasureType,true,,A measure of a rate of consumption.
+ContactEmailID,niem-xs:string,true,nc:ContactMeansAbstract,An electronic mailing address by which a person or organization may be contacted.
+ContactEntity,nc:EntityType,true,,An entity that may be contacted by using the given contact information.
+ContactEntityDescriptionText,nc:TextType,true,,A description of the entity being contacted.
+ContactInformation,nc:ContactInformationType,true,,A set of details about how to contact a person or an organization.
+ContactInformationAvailabilityCode,nc:ContactInformationAvailabilityCodeType,true,nc:ContactInformationAvailabilityAbstract,A period of time or a situation in which an entity is available to be contacted with the given contact information.
+ContactInformationAvailabilityText,nc:TextType,true,nc:ContactInformationAvailabilityAbstract,A period of time or a situation in which an entity is available to be contacted with the given contact information.
+ContactInformationDescriptionText,nc:TextType,true,,A description of the contact information.
+ContactInstantMessenger,nc:InstantMessengerType,true,nc:ContactMeansAbstract,A user account for an instant messaging program by which a person or organization may be contacted.
+ContactMailingAddress,nc:AddressType,true,nc:ContactMeansAbstract,A postal address by which a person or organization may be contacted.
+ContactRadio,nc:ContactRadioType,true,nc:ContactMeansAbstract,A method of contacting a person or organization by messages over a radio.
+ContactRadioCallSignID,niem-xs:string,true,,An identifier of a person using a radio.
+ContactRadioCategoryText,nc:TextType,true,nc:ContactRadioCategoryAbstract,A kind of wavelength or band of a radio.
+ContactRadioChannelText,nc:TextType,true,,A radio channel or frequency within the band.
+ContactResponder,nc:PersonType,true,,A third party person who answers a call and connects or directs the caller to the intended person.
+ContactTelephoneNumber,nc:TelephoneNumberType,true,nc:ContactMeansAbstract,A telephone number for a telecommunication device by which a person or organization may be contacted.
+ContactWebsiteURI,niem-xs:anyURI,true,nc:ContactMeansAbstract,A website address by which a person or organization may be contacted.
+Container,nc:ItemType,true,,An item that holds something.
+Conveyance,nc:ConveyanceType,true,,A means of transport.
+ConveyanceCargoText,nc:TextType,true,,A cargo or set of goods transported by a conveyance.
+ConveyanceColorPrimaryText,nc:TextType,true,nc:ItemColorPrimaryAbstract,"A single, upper-most, front-most, or majority color of a conveyance."
+ConveyanceColorSecondaryText,nc:TextType,true,nc:ItemColorSecondaryAbstract,A lower-most or rear-most color of a two-tone conveyance or a lesser color of a multi-colored conveyance.
+ConveyanceEngineQuantity,niem-xs:nonNegativeInteger,true,,A number of engines on a conveyance.
+ConveyanceFuelCategoryText,nc:TextType,true,nc:ConveyanceFuelCategoryAbstract,A kind of fuel or motive power used to propel a conveyance.
+ConveyanceMotorizedIndicator,niem-xs:boolean,true,,True if a conveyance is powered by a motor; false otherwise.
+ConveyanceOperator,nc:PersonType,true,,A person who operates or drives a conveyance.
+ConveyancePassengerQuantity,nc:QuantityType,true,,A number of people in a conveyance excluding the driver.
+ConveyanceTowedIndicator,niem-xs:boolean,true,,True if a conveyance is towed; false otherwise.
+ConveyedItem,nc:ItemType,true,,An item that is specifically being conveyed.
+ConveyedPerson,nc:PersonType,true,,A person being conveyed.
+CoordinatingAgency,nc:OrganizationType,true,,"An institution that provides information resources, such as geographic information, field surveys, and telecommunications."
+Country,nc:CountryType,true,,"A country, territory, dependency, or other such geopolitical subdivision of a location."
+CountryCode,nc:CodeType,true,nc:CountryRepresentation,"A country, territory, dependency, or other such geopolitical subdivision of a location."
+CountryName,nc:ProperNameTextType,true,nc:CountryRepresentation,"A name of a country, territory, dependency, or other such geopolitical subdivision of a location."
+CourtCase,nc:CaseType,true,,A court case.
+CoworkerAssociation,nc:PersonAssociationType,true,,An association between people who work together.
+CreatorName,nc:TextType,true,,A name of an entity primarily responsible for generating or producing the information.
+Crisis,nc:CrisisType,true,,A crisis.
+CrisisDescriptionText,nc:TextType,true,,A description of a crisis.
+CrisisIdentification,nc:IdentificationType,true,,An identification of a crisis.
+CrisisImage,nc:ImageType,true,,An image of a crisis.
+CrisisLocation,nc:LocationType,true,,A location of a crisis.
+CrisisName,nc:TextType,true,,A name of a crisis.
+CrisisStatus,nc:StatusType,true,,A status of a crisis.
+CrisisURLID,niem-xs:anyURI,true,,An URL identifier for information about a crisis.
+CrossStreetDescriptionText,nc:TextType,true,,A description of a street intersection.
+CrossStreetRelativeLocation,nc:RelativeLocationType,true,,A location of something relative to a street intersection.
+CurrencyText,nc:TextType,true,nc:CurrencyAbstract,A unit of money or exchange.
+Date,niem-xs:date,true,nc:DateRepresentation,A full date.
+DateMarginOfErrorDuration,niem-xs:duration,true,,A subjective assessment of the uncertainty of an estimated point by bounding an elements value with an estimated margin of error.
+DateRange,nc:DateRangeType,true,nc:DateRepresentation,A time period measured by a starting and ending point.
+DateTime,niem-xs:dateTime,true,nc:DateRepresentation,A full date and time.
+DayDate,niem-xs:gDay,true,nc:DateRepresentation,A day date.
+Decal,nc:DecalType,true,,"A sticker, or a picture, design, or label made to be transferred from specially prepared paper."
+DecalColorText,nc:TextType,true,nc:DecalColorAbstract,A color of a decal.
+DecalID,niem-xs:string,true,,An identifier assigned to a decal in a given year.
+DecalMonthDate,niem-xs:gMonth,true,,A month displayed on a decal.
+DecalPeriodText,nc:TextType,true,nc:DecalPeriodAbstract,A lifespan of a decal for which it is valid.
+DecalYearDate,niem-xs:gYear,true,,A year displayed on a decal.
+Departure,nc:DepartureType,true,,A leaving from one location to another.
+DepartureDate,nc:DateType,true,,A date of departure.
+DepartureEstimatedDate,nc:DateType,true,,An estimated date of departure.
+DepartureLocation,nc:LocationType,true,,A location of departure.
+DescriptionText,nc:TextType,true,,A description of the information.
+DeviceCategoryText,nc:TextType,true,nc:DeviceCategoryAbstract,A kind of communication device.
+DeviceESNIdentification,nc:IdentificationType,true,,An identification number of a device specified as an electronic serial number assigned to every GSM and UMTS cellular phone by the specific manufacturer.
+DeviceElectronicAddress,nc:ElectronicAddressType,true,,An Internet Protocol (IP) address or Uniform Resource Locator (URL) of a device that uniquely identifies a specific site on the Internet or another network.
+DeviceIMEIIdentification,nc:IdentificationType,true,,An identification number of a device specified as an International Mobile Equipment Identity assigned to every mobile phone by the manufacturer.
+DeviceIncomingTelephoneNumber,nc:TelephoneNumberType,true,nc:DeviceReceivedInformationAbstract,A telephone number of an incoming call.
+DeviceIncomingTextMessage,nc:MessageType,true,nc:DeviceReceivedInformationAbstract,A text message received by a device.
+DeviceInformationAssociation,nc:DeviceInformationAssociationType,true,,"An association between a device and a message, website, binary, or other kind of information."
+DeviceOutgoingTelephoneNumber,nc:TelephoneNumberType,true,nc:DeviceSentInformationAbstract,A telephone number that was dialed by a device.
+DeviceOutgoingTextMessage,nc:MessageType,true,nc:DeviceSentInformationAbstract,A text message sent by a device.
+DeviceReceivedEmail,nc:MessageType,true,nc:DeviceReceivedInformationAbstract,An email message received by a device.
+DeviceSentEmail,nc:MessageType,true,nc:DeviceSentInformationAbstract,An email message sent from a device.
+DeviceStoredAudioBinary,nc:BinaryType,true,nc:DeviceStoredInformationAbstract,An audio file stored on a device.
+DeviceStoredBinary,nc:BinaryType,true,nc:DeviceStoredInformationAbstract,A binary file stored on a device.
+DeviceStoredContactInformation,nc:ContactInformationType,true,nc:DeviceStoredInformationAbstract,A piece of contact information stored on a device.
+DeviceStoredDocument,nc:DocumentType,true,nc:DeviceStoredInformationAbstract,A document stored on a device.
+DeviceStoredImage,nc:ImageType,true,nc:DeviceStoredInformationAbstract,An image stored on a device.
+DeviceStoredTelephoneNumber,nc:TelephoneNumberType,true,nc:DeviceStoredInformationAbstract,A telephone number stored in memory on a device.
+DeviceStoredText,nc:TextType,true,nc:DeviceStoredInformationAbstract,A set of text that was stored on or associated with the device.
+DeviceStoredVideoBinary,nc:BinaryType,true,nc:DeviceStoredInformationAbstract,A video file stored on a device.
+DeviceUser,nc:PersonType,true,,A person who uses a device.
+DeviceVisitedWebsiteURI,niem-xs:anyURI,true,nc:DeviceVisitedInformationAbstract,A website visited by a device.
+DirectDialTelephoneNetworkText,nc:TextType,true,,A network on which a shortened telephone number may be used.
+DirectDialTelephoneNumber,nc:DirectDialTelephoneNumberType,true,nc:TelephoneNumberAbstract,"A telephone number consisting of a shortened sequence of numbers that can be used within a local telephone system, such as a particular network or a corporate phone system."
+DirectDialTelephoneNumberID,niem-xs:string,true,,A shortened sequence of numbers that can be used in place of a full telephone number within a local calling system such as a particular network or corporate phone system.
+DisciplinaryAction,nc:DisciplinaryActionType,true,,"An activity assigned to a person for the purpose of self-improvement, punishment, or restitution."
+DisciplinaryActionAssigner,nc:EntityType,true,,An entity which assigns a disciplinary action to a person.
+DisciplinaryActionCommunityService,nc:ActivityType,true,,A recommendation or requirement for a person to perform community service as a disciplinary action.
+DisciplinaryActionCounseling,nc:ActivityType,true,,A recommendation or requirement for a person to attend counseling as a disciplinary action.
+DisciplinaryActionEnforcer,nc:EntityType,true,,An entity responsible for ensuring a person performs the assigned disciplinary action.
+DisciplinaryActionFee,nc:ObligationType,true,,A monetary fine assigned to a person as a disciplinary action.
+DisciplinaryActionPerson,nc:PersonType,true,,A person to whom a disciplinary action is assigned.
+DisciplinaryActionProgram,nc:ProgramType,true,,A recommendation or requirement for a person to attend a program as a disciplinary action.
+DisciplinaryActionRestitution,nc:ObligationType,true,,A requirement for a person to financially or otherwise compensate another person as a disciplinary action.
+Disposition,nc:DispositionType,true,,"A result or outcome that is the product of handling, processing, or finalizing something."
+DispositionCategoryText,nc:TextType,true,nc:DispositionCategoryAbstract,A kind of disposition.
+DispositionDate,nc:DateType,true,,A date a disposition occurred.
+DispositionDescriptionText,nc:TextType,true,,A description of a disposition.
+DispositionEntity,nc:EntityType,true,,An agency responsible for making a disposition decision.
+DispositionInstrument,nc:DocumentType,true,,An official document filed to formally document the disposition of a specific charge.
+DispositionReasonText,nc:TextType,true,nc:DispositionReasonAbstract,A reason for a disposition.
+DispositionReportedAuthorityText,nc:TextType,true,,A name of an authority to which a disposition was reported.
+DispositionText,nc:TextType,true,,A result or outcome of a disposition.
+DistributionText,nc:TextType,true,,A set of allowable recipients of information; dissemination statement or instructions.
+Document,nc:DocumentType,true,,A paper or electronic document.
+DocumentApprovedIndicator,niem-xs:boolean,true,,True if a document has been approved; false otherwise.
+DocumentAssociation,nc:DocumentAssociationType,true,,An association between documents.
+DocumentAuthor,nc:EntityType,true,,An entity primarily responsible for creating the intellectual content of the resource.
+DocumentBinary,nc:BinaryType,true,nc:DocumentContentAbstract,A binary encoding of the content of a document.
+DocumentCategoryDescriptionText,nc:TextType,true,,A description of a kind of information in a document.
+DocumentCategoryID,niem-xs:string,true,nc:DocumentCategoryAbstract,An identifier of a kind of information in a document.
+DocumentCategoryName,nc:TextType,true,nc:DocumentCategoryAbstract,A name of a category of information in a document.
+DocumentCategoryText,nc:TextType,true,nc:DocumentCategoryAbstract,A kind of document; a nature or genre of the content.
+DocumentContentListText,nc:TextType,true,,"A list of the chapters, sections, or other divisions of a document."
+DocumentContributor,nc:EntityType,true,,An entity responsible for making contributions to the content of the resource.
+DocumentCopyrightIndicator,niem-xs:boolean,true,,True if a document is copyrighted; false otherwise.
+DocumentCountry,nc:CountryType,true,,A country being discussed in a document.
+DocumentCoverageAddress,nc:AddressType,true,nc:DocumentCoverageAbstract,An extent or scope of the content of the resource.
+DocumentCoverageDate,nc:DateType,true,nc:DocumentCoverageAbstract,A date relating to an extent or scope of the content of the resource.
+DocumentCoverageText,nc:TextType,true,nc:DocumentCoverageAbstract,A description of the extent or scope of the content of the resource.
+DocumentCreationDate,nc:DateType,true,,A date a document was created.
+DocumentDescriptionText,nc:TextType,true,,A description of the content of a document.
+DocumentDispositionAuthorityName,nc:TextType,true,,A name of an authority designated to handle or process information in a document.
+DocumentDispositionInstructionText,nc:TextType,true,,An instruction on how to handle or process information in a document.
+DocumentDisputedIndicator,niem-xs:boolean,true,,True if the accuracy of a document is disputed; false otherwise.
+DocumentDisputedReasonText,nc:TextType,true,nc:DocumentDisputedReasonAbstract,A reason why the accuracy of a document is disputed.
+DocumentEUDataPrivacyIndicator,niem-xs:boolean,true,,True if the data is protected under the EU Data Protection Regulation 2016-679 and should be treated differently; false otherwise.
+DocumentEffectiveDate,nc:DateType,true,,"A date in which the content or action becomes enforceable, active, or effective."
+DocumentEntrySubmitter,nc:PersonType,true,,A person who contributed an entry in a document.
+DocumentExpirationDate,nc:DateType,true,,A date after which the document is no longer valid. It may indicate a document should be removed from a registry or index.
+DocumentFileControlID,niem-xs:string,true,,An identifier assigned to a document to locate it within a file control system.
+DocumentFileExtensionText,nc:TextType,true,,"A file extension of an electronic document.  The file extension should correspond appropriately with the document format information, if provided."
+DocumentFileName,nc:TextType,true,,A file name of an electronic document.
+DocumentFiledDate,nc:DateType,true,,A date a document was officially filed with an organization or agency.
+DocumentFormatCategoryText,nc:TextType,true,nc:DocumentFormatCategoryAbstract,A kind of classification system used to define the specific format of a binary object or file.
+DocumentFormatText,nc:TextType,true,nc:DocumentFormatAbstract,"A file format, content type (e.g., a MIME type), or physical format of a document."
+DocumentGroupID,niem-xs:string,true,,An identifier of a group to which a document belongs.
+DocumentIdentification,nc:IdentificationType,true,,An identification that references a document.
+DocumentInformationCutOffDate,nc:DateType,true,,A date after which contributions to the content of a document will no longer be accepted.
+DocumentIssuanceLocation,nc:LocationType,true,,A location from which a document was issued.
+DocumentIssueDate,nc:DateType,true,,"A date at which a document was issued and when appropriate, signed or otherwise authenticated."
+DocumentKeywordText,nc:TextType,true,nc:DocumentKeywordAbstract,A significant word or phrase that describes the overall content of a document or its main topic.
+DocumentLanguage,nc:LanguageType,true,,A language of the content of the resource.
+DocumentLastModifiedDate,nc:DateType,true,,A date a document was last changed.
+DocumentLocation,nc:LocationType,true,,A location of a physical document.
+DocumentLocationURI,niem-xs:anyURI,true,,A location of an electronic representation of a document.
+DocumentManagementCyclePeriodText,nc:TextType,true,,A review or update cycle period for a document.
+DocumentMediaCategoryText,nc:TextType,true,nc:DocumentFormatAbstract,"A kind of media type, also known as a MIME type, which indicates the nature and format of a document."
+DocumentOtherRecipient,nc:EntityType,true,,A name of additional addressees.
+DocumentPermanentRecordIndicator,niem-xs:boolean,true,,True if a document is to be kept as a permanent record; false otherwise.
+DocumentPhysicalMediumCategoryText,nc:TextType,true,nc:DocumentPhysicalMediumCategoryAbstract,A kind of class that describes the media format of a document.
+DocumentPhysicalMediumText,nc:TextType,true,,A material or physical carrier for storing a document.
+DocumentPostDate,nc:DateType,true,,A date a document is entered or posted to an information system or network; used when the date of posting is different from the date on which a document was officially filed.
+DocumentPrivacyActIndicator,niem-xs:boolean,true,,True if a document is categorized as containing personal information subject to protection by the Privacy Act; false otherwise.
+DocumentPublicationDate,nc:DateType,true,,A date of the first public dissemination of the content in any media.
+DocumentReceivedDate,nc:DateType,true,,A date a transmitted document was received.
+DocumentRecipient,nc:EntityType,true,,An entity that is a target or intended recipient of a document.
+DocumentRelatedResourceText,nc:TextType,true,,A reference to another document or resource related to the document.
+DocumentRelationText,nc:TextType,true,nc:DocumentRelationAbstract,A relationship between documents.
+DocumentRightsText,nc:TextType,true,,"A right held in and over the resource. Rights are the constraints applied to assure the protection of privacy or intellectual property, and any special restrictions, limitations or warning on using a shared resource."
+DocumentSensitivityText,nc:TextType,true,nc:DocumentSensitivityAbstract,"A characterization of the sensitivity, security, or privacy level of a document."
+DocumentSequenceID,niem-xs:string,true,,An identifier that determines the document order in a set of related documents.
+DocumentSoftware,nc:SoftwareType,true,,A name of a computer application used to process a document.
+DocumentSource,nc:EntityType,true,,An entity that was the source of a document.
+DocumentSourceText,nc:TextType,true,,A source from which the content of a document is derived.
+DocumentStatus,nc:StatusType,true,,A status of a document.
+DocumentSubjectText,nc:TextType,true,nc:DocumentSubjectAbstract,A main topic of a document.
+DocumentSubmissionAmount,nc:AmountType,true,,A fee or price required to submit a document.
+DocumentSubmitter,nc:EntityType,true,,An entity responsible for making the resource available.
+DocumentSummaryText,nc:TextType,true,,"A short description of the subject, content, and key points of a document."
+DocumentSupplementalMarkingText,nc:TextType,true,,A marking made on a document that is not part of the original content and that was added after a document was finalized.
+DocumentText,nc:TextType,true,nc:DocumentContentAbstract,A text or contents of a document.
+DocumentTitleAlternativeText,nc:TextType,true,,A title used as a substitute or alternative to the formal title of a document.
+DocumentTitleText,nc:TextType,true,,A name given to a document.
+DocumentVitalIndicator,niem-xs:boolean,true,,True if a document is categorized as a vital record by the originating agency; false otherwise.
+Drug,nc:DrugType,true,,A legal or illegal substance that can be used as a medicine or a narcotic.
+DrugClassScheduleText,nc:TextType,true,nc:DrugClassScheduleAbstract,A class to which the Drug Enforcement Agency (DEA) has assigned the product under the Controlled Substances Act of 1970.
+DrugCoverageExceptionReasonText,nc:TextType,true,,A reason why a drug may be excluded from coverage by certain third-party programs.
+DrugDaysSupplyQuantity,nc:QuantityType,true,,A number of days a quantity of the drug will cover if used as directed or intended.
+DrugMeasure,nc:SubstanceMeasureType,true,,A measurement of a quantity of drugs.
+DrugStrengthText,nc:TextType,true,,A level of potency of a drug.
+EducationDescriptionText,nc:TextType,true,,A description of a person's educational background.
+EducationInProgressIndicator,niem-xs:boolean,true,,True if a person's formal education is still in progress; false otherwise.
+EducationLevel,nc:EducationLevelType,true,,A highest level of education reached by a person.
+EducationLevelText,nc:TextType,true,nc:EducationLevelRepresentation,A level of education reached by a person.
+EducationQualification,nc:EducationQualificationType,true,,"A degree, certificate, credit, or other educational qualification obtained by a person."
+EducationQualificationDescriptionText,nc:TextType,true,,A description of an educational qualification.
+EducationQualificationExpirationDate,nc:DateType,true,,A date on which an educational qualification becomes no longer valid.
+EducationQualificationInstitution,nc:OrganizationType,true,,"An organization such as a college, school, or certification body which issues a qualification to a person."
+EducationQualificationIssuedDate,nc:DateType,true,,A date on which an educational qualification was issued.
+EducationQualificationLevel,nc:EducationLevelType,true,,A level of education for the given qualification.
+EducationQualificationText,nc:TextType,true,nc:EducationQualificationRepresentation,"A degree, certificate, credit, or other educational qualification obtained by a person."
+EducationStatus,nc:StatusType,true,,A status of a person's education.
+EffectiveDate,nc:DateType,true,,A date that information take effect.
+ElectronicAddress,nc:ElectronicAddressType,true,,"An address, ID, or Uniform Resource Locator (URL) that uniquely identifies a specific site on the Internet or another network."
+ElectronicAddressDescriptionText,nc:TextType,true,,"A description of a network address, such as what the site is used for or a name of an online forum or group that is reached at the address."
+ElectronicEquipment,nc:ItemType,true,,An electronic device.
+ElectronicInstrument,nc:ItemType,true,,An electronic tool or instrument.
+Email,nc:MessageType,true,,An electronic form of communication that can be exchanged asynchronously.
+Employee,nc:PersonType,true,,A person who works for a business or a person.
+EmployeeAssignmentAssociation,nc:EmployeeAssignmentAssociationType,true,,An association between an employee and a position or post for which that employee has been temporarily assigned to for some period of time.
+EmployeeContactInformation,nc:ContactInformationType,true,,A means of contacting a person at work.
+EmployeeFullTimeIndicator,niem-xs:boolean,true,,True if a person has full-time employment; false otherwise.
+EmployeeHoursDailyQuantity,nc:QuantityType,true,,A number of hours spent at workplace or working in a typical work day.
+EmployeeHoursFixedIndicator,niem-xs:boolean,true,,True if the number of hours that employee works each week is fixed; false if the hours are flexible.
+EmployeeHoursMonthlyQuantity,nc:QuantityType,true,,A typical number of hours spent at workplace or working in a typical month.
+EmployeeHoursWeeklyQuantity,nc:QuantityType,true,,A number of hours spent at workplace or working in a typical week.
+EmployeeID,niem-xs:string,true,nc:SystemUserNameAbstract,An identifier for a person in the form of an employee id.
+EmployeeIdentification,nc:IdentificationType,true,,An employment identification number assigned to a person.
+EmployeeOccupationCategoryText,nc:TextType,true,nc:EmployeeOccupationCategoryAbstract,A general kind of job of an employee.
+EmployeeOccupationText,nc:TextType,true,nc:EmployeeOccupationAbstract,A job of an employee.
+EmployeePayHourlyIndicator,niem-xs:boolean,true,,True if a person is paid on an hourly basis; false if a person is salaried.
+EmployeePosition,nc:EmploymentPositionType,true,,"A job, post, or group of duties and responsibilities performed by an employee."
+EmployeeRankText,nc:TextType,true,nc:EmployeeRankAbstract,"A rank, status, or promotion level of a person within an employment organization."
+EmployeeRegistrationIdentification,nc:IdentificationType,true,nc:EmployeeRegistrationAbstract,An identification of a registration of an employee.
+EmployeeSchedule,nc:ScheduleType,true,,A plan for the days and hours that a person will work.
+EmployeeScheduleFixedIndicator,niem-xs:boolean,true,,True if an employee's weekly scheduled hours are fixed; false if the scheduled hours are flexible.
+EmployeeShiftText,nc:TextType,true,nc:EmployeeShiftAbstract,A set of hours or time frame during which a person usually works.
+EmployeeSupervisor,nc:PersonType,true,,A person who oversees and manages an employee.
+EmployeeSupervisorIndicator,niem-xs:boolean,true,,True if the employee is a supervisor; false otherwise.
+Employer,nc:EmployerType,true,,An organization or person that employs a person.
+EmploymentLengthDuration,niem-xs:duration,true,nc:EmploymentLengthAbstract,A duration over which the given employment has lasted.
+EmploymentLocation,nc:LocationType,true,,A location where a person works.
+EmploymentPayRateAmount,nc:AmountType,true,nc:EmployeePayAbstract,A monetary compensation a person receives for employment.
+EmploymentPosition,nc:EmploymentPositionType,true,,"A job, post, or group of duties and responsibilities."
+EmploymentPositionBargainingUnitText,nc:TextType,true,nc:EmploymentPositionBargainingUnitAbstract,A bargaining unit representing an employment position.
+EmploymentPositionBasisCode,nc:EmploymentPositionBasisCodeType,true,nc:EmploymentPositionBasisAbstract,"A nature or duration of the position, such as permanent, non-permanent, or contractor."
+EmploymentPositionBasisText,nc:TextType,true,nc:EmploymentPositionBasisAbstract,"A nature or duration of the position, such as permanent, non-permanent, or contractor."
+EmploymentPositionDepartmentName,nc:TextType,true,,A name of a department or other business unit associated with a job position.
+EmploymentPositionDutyText,nc:TextType,true,,A job duty that will be performed for an employment position.
+EmploymentPositionEssentialIndicator,niem-xs:boolean,true,,True if the employment position is deemed to perform an essential service; false otherwise.
+EmploymentPositionEssentialLanguage,nc:LanguageType,true,,A language required for an employment position.
+EmploymentPositionIdentification,nc:IdentificationType,true,,An identification of an employment position.
+EmploymentPositionLocation,nc:LocationType,true,,A location for an employment position.
+EmploymentPositionName,nc:TextType,true,nc:EmploymentPositionAbstract,A job name or title of an employment position.
+EmploymentPositionOrganizationAssociation,nc:EmploymentPositionOrganizationAssociationType,true,,An association between an employee position and an organization.
+EmploymentPositionRequiredEducationText,nc:TextType,true,nc:EmploymentPositionRequiredEducationAbstract,A kind of educational level or certification required for an employment position.
+EmploymentPositionRequiredJobSkillText,nc:TextType,true,nc:EmploymentPositionRequiredJobSkillAbstract,A job skill that is required for this position.
+EmploymentPositionSupervisoryPosition,nc:EmploymentPositionType,true,,A position responsible for supervising or managing this position.
+EmploymentPositionTemporaryIndicator,niem-xs:boolean,true,,True if the position is temporary in nature; false if it is permanent.
+EmploymentStatus,nc:StatusType,true,,A status of employment for a person.
+EmptyReasonCode,nc:EmptyReasonCodeType,true,nc:EmptyReasonAbstract,A reason why a data value was not provided.
+EmptyReasonDescriptionText,nc:TextType,true,,A description for why a data value was not provided.
+EmptyReasonText,nc:TextType,true,nc:EmptyReasonAbstract,A reason why a data value was not provided.
+EncounterCategoryText,nc:TextType,true,nc:EncounterCategoryAbstract,A kind of encounter.
+EncounterClassification,nc:EncounterClassificationType,true,,A classification of encounter.
+EncounterCommentText,nc:TextType,true,,A comment related to the encounter.
+EndDate,nc:DateType,true,,An end date.
+EndTime,niem-xs:time,true,,An end time.
+Entity,nc:EntityType,true,,"A person, organization, or item."
+EntityContactInformation,nc:ContactInformationType,true,,A set of contact information for an entity.
+EntityDescriptionText,nc:TextType,true,,A description of an entity.
+EntityItem,nc:ItemType,true,nc:EntityRepresentation,An item capable of bearing legal rights and responsibilities.
+EntityLegalIndicator,niem-xs:boolean,true,,True if an entity is capable of bearing legal rights and responsibilities; false otherwise.
+EntityName,nc:TextType,true,,A name of an entity.
+EntityOrganization,nc:OrganizationType,true,nc:EntityRepresentation,An organization capable of bearing legal rights and responsibilities.
+EntityPerson,nc:PersonType,true,nc:EntityRepresentation,A person capable of bearing legal rights and responsibilities.
+Equipment,nc:EquipmentType,true,,A tangible property (other than land or buildings) of more or less durable nature which is useful in carrying on the operations of a business.
+EquipmentIdentification,nc:IdentificationType,true,,An identification of a piece of equipment.
+EquipmentName,niem-xs:string,true,,A name of a piece of equipment.
+ExpirationDate,nc:DateType,true,,A date after which information is no longer valid.
+Facility,nc:FacilityType,true,,"A single or set of buildings, places, or structures that together provide a particular service."
+FacilityAssociation,nc:FacilityAssociationType,true,,An association between facilities.
+FacilityCapacityDescriptionText,nc:TextType,true,,A description of the number of people a facility can manage at a time.
+FacilityCapacityQuantity,niem-xs:nonNegativeInteger,true,,A number of people a facility can manage at a time.
+FacilityCategory,nc:FacilityFunctionType,true,,A category of facility.
+FacilityContactInformation,nc:ContactInformationType,true,,A method of contact for a facility.
+FacilityContainsItem,nc:ItemType,true,,An item contained by a facility.
+FacilityDescriptionText,nc:TextType,true,,A description of a facility.
+FacilityDocumentAssociation,nc:FacilityDocumentAssociationType,true,,An association between a facility and a document.
+FacilityFunctionText,nc:TextType,true,nc:FacilityFunctionAbstract,A purpose or use of a facility.
+FacilityIdentification,nc:IdentificationType,true,,An identification assigned to a facility.
+FacilityImageAssociation,nc:FacilityImageAssociationType,true,,An association between a facility and an image.
+FacilityLocation,nc:LocationType,true,,A location of a facility.
+FacilityMaxOccupancyQuantity,niem-xs:nonNegativeInteger,true,,A maximum number of people that are authorized by permit to be contained in a facility at the same time.
+FacilityMemberCategoryText,nc:TextType,true,,A kind of occupant a facility manages.
+FacilityName,nc:ProperNameTextType,true,,A name of a facility.
+FacilityOperatingSchedule,nc:ScheduleType,true,,"A schedule providing the beginning and ending hours of operation by weekday, for a designated time period."
+FacilityOperationalStatus,nc:StatusType,true,,An operational status of a facility.
+FacilityPersonAssociation,nc:FacilityPersonAssociationType,true,,An association between a facility and a person.
+FacilitySecurityLevelText,nc:TextType,true,nc:FacilitySecurityLevelAbstract,A level of security at which a facility operates.
+FacilitySiteAssociation,nc:FacilitySiteAssociationType,true,,An association between a facility and a site.
+FacilitySiteDiagram,nc:ImageType,true,,A diagram of the layout of a facility.
+FacilitySubFacilityAssociation,nc:FacilitySubFacilityAssociationType,true,,An association between a facility and its sub-facility.
+FacilitySystemIPAddressID,niem-xs:string,true,,An IP address of a computing system that supports a facility's activities.
+FacilitySystemIdentification,nc:SystemIdentificationType,true,,An identification of a computing system that supports a facility's activities.
+FacilityUsage,nc:FacilityFunctionType,true,,A functional usage of a facility.
+Fee,nc:ObligationType,true,,An amount of money charged.
+FinancialAccount,nc:FinancialAccountType,true,,A financial account maintained by a financial institution.
+FinancialAccountCategoryText,nc:TextType,true,,A kind of account or financial service maintained by a financial institution.
+FinancialAccountClosedIndicator,niem-xs:boolean,true,,True if the account was closed or transferred in its entirety during the calendar year; false otherwise.
+FinancialAccountHolder,nc:FinancialAccountHolderType,true,,An entity that holds a financial account.
+FinancialAccountHolderCode,nc:FinancialAccountHolderCodeType,true,,A kind of financial account holder.
+FinancialAccountListedName,nc:TextType,true,,A name of a person or organization appearing on a financial account.
+FinancialAccountNumberCategoryCode,nc:FinancialAccountNumberCategoryCodeType,true,nc:IdentificationCategoryAbstract,A kind of financial account number.
+FinancialAccountNumberID,niem-xs:string,true,,An identifier assigned to a type of financial account.
+FinancialAccountPresentBalanceAmount,nc:AmountType,true,,An account balance at the time of financial compilation.
+FinancialObligationExemptionAmount,nc:AmountType,true,,An amount of an exemption from a payment obligation.
+FingerprintTakenIndicator,niem-xs:boolean,true,,True if a fingerprint biometric was taken; false otherwise.
+FiscalYearDate,nc:FiscalYearDateType,true,nc:DateRepresentation,A year of a twelve month period that does not necessarily correspond to the calendar year.
+FullTelephoneNumber,nc:FullTelephoneNumberType,true,nc:TelephoneNumberAbstract,A full telephone number.
+GenericEntity,nc:GenericEntityType,true,nc:EntityRepresentation,A basic set of information about a person or an organization.
+GeographicCoordinateLatitude,nc:LatitudeCoordinateType,true,,A measurement of the angular distance between a point on the Earth and the Equator.
+GeographicCoordinateLongitude,nc:LongitudeCoordinateType,true,,A measurement of the angular distance between a point on the Earth and the Prime Meridian.
+GeographicDatumText,nc:TextType,true,nc:GeographicDatumAbstract,A spatial reference system.
+HazardousMaterial,nc:SubstanceType,true,,A substance which can cause harm.
+HazmatCodeText,nc:TextType,true,nc:HazmatAbstract,A hazardous material.
+HexBinaryObject,niem-xs:hexBinary,true,nc:BinaryObjectAbstract,A hexadecimal binary encoding of data.
+Highway,nc:HighwayType,true,,A major public road.
+HighwayFullText,nc:TextType,true,,A complete reference to a highway.
+HighwayID,niem-xs:string,true,,An identifier of a highway.
+HighwayName,nc:TextType,true,,A name of a highway.
+HighwayPositionText,nc:TextType,true,,A designation of a specific place on a highway.
+IPv4AddressID,niem-xs:string,true,,"An identifier assigned to a computer or other device connected to a TCP/IP network, based on version 4 of the Internet Protocol."
+IPv6AddressID,niem-xs:string,true,,"An identifier assigned to a computer or other device connected to a TCP/IP network, based on version 6 of the Internet Protocol."
+Identification,nc:IdentificationType,true,,An identification to represent an identity.
+IdentificationCategoryDescriptionText,nc:TextType,true,,A description of a kind of identification.
+IdentificationCategoryText,nc:TextType,true,nc:IdentificationCategoryAbstract,A kind of identification.
+IdentificationEffectiveDate,nc:DateType,true,,A date an identification takes effect.
+IdentificationExpirationDate,nc:DateType,true,,A date after which an identification is no longer valid.
+IdentificationID,niem-xs:string,true,,An identifier.
+IdentificationJurisdiction,nc:JurisdictionType,true,,"An area, region, or unit where a unique identification is issued."
+IdentificationSourceText,nc:TextType,true,,"A person, organization, or locale which issues an identification."
+IdentificationStatus,nc:StatusType,true,,A status of an identification.
+Identity,nc:IdentityType,true,,"A set of known aspects, identifiers, and/or characteristics by which a person is defined or recognized."
+IdentityCharacteristics,nc:PersonType,true,,A set of person characteristics used as an identification.
+IdentityCreationDate,nc:DateType,true,,A date an identity is created.
+IdentityCreationEventText,nc:TextType,true,,An occurrence that leads to the creation of an identity.
+IdentityStolenIndicator,niem-xs:boolean,true,,True if the identity of the associated person is known to have been used by someone else (not the rightful identity holder) for the purpose of committing fraud; false otherwise.
+IdentityTerminationDate,nc:DateType,true,,A date an identity is cancelled or terminated.
+IdentityTerminationEventText,nc:TextType,true,,An occurrence that leads to the termination of an identity.
+Image,nc:ImageType,true,,A picture or visual representation of something.
+ImageHeightValue,niem-xs:nonNegativeInteger,true,,A height of an image in pixels.
+ImageLocation,nc:LocationType,true,,A physical location where an image is stored.
+ImageWidthValue,niem-xs:nonNegativeInteger,true,,A width of an image in pixels.
+Incident,nc:IncidentType,true,,An occurrence or an event that may require a response.
+IncidentDayPeriodText,nc:TextType,true,,A general time of day during which an incident occurred.
+IncidentEvent,nc:ActivityType,true,,An action or occurrence associated with an incident.
+IncidentJurisdictionalOrganization,nc:OrganizationType,true,,An organization or agency who has jurisdiction over an incident.
+IncidentObservationText,nc:TextType,true,,A remark about something noticed with regards to an incident.
+IncidentReportedNarrative,nc:DocumentType,true,,A document containing an account of the events that transpired in an incident.
+IncidentVehicleAssociation,nc:ActivityConveyanceAssociationType,true,,An association between an incident and a vehicle.
+Inclination90PlusMinusValue,nc:Degree90PlusMinusType,true,nc:InclinationAbstract,"An angle of rotation of a thing about its lateral axis, measured in degrees between the longitudinal axis and the horizontal plane; negative values indicate a downward rotation."
+Inclination90Value,nc:Degree90Type,true,nc:InclinationAbstract,An orientation of an object with respect to the horizontal plane.
+InclinationDecimalValue,niem-xs:decimal,true,nc:InclinationAbstract,An orientation of an object with respect to the horizontal plane.
+Injury,nc:InjuryType,true,,A form of harm or damage sustained by a person.
+InjuryCategoryText,nc:TextType,true,nc:InjuryCategoryAbstract,A kind of bodily harm or injury.
+InjuryCauserPerson,nc:PersonType,true,nc:InjuryCauserAbstract,A person who caused an injury.
+InjuryDate,nc:DateType,true,,A date on which an injury occurred.
+InjuryDescriptionText,nc:TextType,true,,A description of an injury.
+InjuryLocationText,nc:TextType,true,nc:InjuryLocationAbstract,A place on the body of a person where an injury occurred.
+InjurySeverityText,nc:TextType,true,nc:InjurySeverityAbstract,A degree of the seriousness or intensity of an injury.
+InjurySustainer,nc:PersonType,true,,A person who receives or sustains an injury.
+InjuryTreatment,nc:TreatmentType,true,,A treatment provided to a person for the care of an injury.
+InstantMessengerScreenID,niem-xs:string,true,,An account identifier used to reference a person or organization within an instant messaging system.
+InstantMessengerServiceName,nc:TextType,true,,A name of an instant messaging service.
+Insurance,nc:InsuranceType,true,,A coverage by a contract whereby one party agrees to indemnify or guarantee another against loss by a specified contingent event or peril.
+InsuranceActiveIndicator,niem-xs:boolean,true,,True if an insurance policy is active; false otherwise.
+InsuranceCancellationDate,nc:DateType,true,,A date an insurance policy is voided or revoked.
+InsuranceCarrierIdentification,nc:IdentificationType,true,,An identification of a company which underwrites an insurance policy.
+InsuranceCarrierName,nc:TextType,true,,A name of a company which underwrites an insurance policy.
+InsuranceCertifiedDate,nc:DateType,true,,A date a person is certified as having the necessary insurance coverage.
+InsuranceCoverageCategoryText,nc:TextType,true,nc:InsuranceCoverageCategoryAbstract,A kind of insurance coverage.
+InsuranceCoveredItem,nc:ItemType,true,,A property item that is covered by an insurance policy.
+InsuranceEffectiveDateRange,nc:DateRangeType,true,,A date range during which an insurance policy coverage is in effect.
+InsurancePersonalIndicator,niem-xs:boolean,true,,True if an insurance coverage is for a personal use; false if it is for commercial or corporate use.
+InsurancePolicyHolder,nc:EntityType,true,,An entity which holds an insurance policy for a property item.
+InsurancePolicyIdentification,nc:IdentificationType,true,,An identification assigned to an insurance policy by an insurance carrier.
+IntangibleItem,nc:IntangibleItemType,true,,An intellectual property item.
+IntellectualItemBusinessAreaText,nc:TextType,true,,A business or functional area in which an intellectual item is useful.
+IntellectualProperty,nc:IntellectualPropertyType,true,,A property that results from original thought or creativity.
+IntellectualPropertyCreationDate,nc:DateType,true,,A date that a piece of intellectual property came into existence.
+IntellectualPropertyCreationEventText,nc:TextType,true,,An event that led to the creation of intellectual property.
+IntellectualPropertyRegistrationDate,nc:DateType,true,,A date when intellectual property rights began for the registered owner.
+IntellectualPropertyRegistrationIdentification,nc:IdentificationType,true,,An identification of a piece of intellectual property.
+IntellectualPropertyTerminationDate,nc:DateType,true,,A date when intellectual property is destroyed and/or property or registration rights cease to exist.
+IntellectualPropertyTerminationEventText,nc:TextType,true,,An event that led to the destruction of a piece of intellectual property and/or the termination of registration rights.
+InternationalTelephoneNumber,nc:InternationalTelephoneNumberType,true,nc:TelephoneNumberAbstract,An international telephone number.
+Item,nc:ItemType,true,,An article or thing.
+ItemActionText,nc:TextType,true,,An action that was taken against a property item.
+ItemAgeMeasure,nc:TimeMeasureType,true,,An age of an item.
+ItemBarCodeIdentification,nc:IdentificationType,true,,A bar code identification assigned to a property item.
+ItemBinary,nc:BinaryType,true,,A binary representation of an item.
+ItemBrandName,nc:ProperNameTextType,true,,A distinctive name that identifies a manufacturer of a property item.
+ItemBuyer,nc:EntityType,true,,A party that bought a property item in a property transaction.
+ItemCategoryText,nc:TextType,true,nc:ItemCategoryAbstract,A kind of property item.
+ItemColorDescriptionText,nc:TextType,true,,A description of the overall color of an item.
+ItemConditionText,nc:TextType,true,nc:ItemConditionAbstract,A state or appearance of an item.
+ItemContainerAssociation,nc:ItemContainerAssociationType,true,,An association between an item and something in which it is held.
+ItemCurrentLocationAssociation,nc:ItemLocationAssociationType,true,,An association between an item and its current location.
+ItemCurrentResaleValue,nc:ItemValueType,true,,An amount of money for which an item could currently be sold.
+ItemDealerIdentification,nc:IdentificationType,true,,An identification assigned to an item by a dealer.
+ItemDescriptionText,nc:TextType,true,,A description of an item.
+ItemDisposition,nc:ItemDispositionType,true,,A result or outcome that happens to an item after it has been handled or processed.
+ItemDispositionLocation,nc:LocationType,true,,A location of a property item after it has been processed.
+ItemDispositionLocationAssociation,nc:ItemLocationAssociationType,true,,An association between an item and disposition location.
+ItemEntityAssociation,nc:ItemEntityAssociationType,true,,An association between an item and an entity.
+ItemFirstSoldYearDate,niem-xs:gYear,true,,A calendar year in which an item was first sold.
+ItemHeightMeasure,nc:LengthMeasureType,true,,A measurement of the height of an item.
+ItemHolderAssociation,nc:ItemEntityAssociationType,true,,An association between an item and the entity holding or storing that item.
+ItemHoldingOrganization,nc:OrganizationType,true,,An organization that is in possession of a property item.
+ItemImage,nc:ImageType,true,,A binary representation of an image of an item.
+ItemInsuranceAssociation,nc:ItemInsuranceAssociationType,true,,An association between an item and its insurance.
+ItemLeaseIndicator,niem-xs:boolean,true,,True if an item is leased; false otherwise.
+ItemLengthMeasure,nc:LengthMeasureType,true,,A measurement of the length of an item.
+ItemLocationAssociation,nc:ItemLocationAssociationType,true,,An association between an item and a location.
+ItemMakeName,nc:ProperNameTextType,true,nc:ItemMakeAbstract,A name of the manufacturer that produced an item.
+ItemModelName,nc:ProperNameTextType,true,,A name of a specific design or kind of item made by a manufacturer.
+ItemModelYearDate,niem-xs:gYear,true,,A year in which an item was manufactured or produced.
+ItemMoverAssociation,nc:ItemEntityAssociationType,true,,An association between an item and an entity that moved that item.
+ItemMovingOrganization,nc:OrganizationType,true,,An organization that moves or relocates a property item.
+ItemName,nc:TextType,true,,A name of an item.
+ItemOtherIdentification,nc:IdentificationType,true,,An identification assigned to an item.
+ItemOwner,nc:EntityType,true,,An entity which owns a property item.
+ItemOwnerAppliedID,niem-xs:string,true,,An identifier applied to an item by the owner.
+ItemOwnerAssociation,nc:ItemEntityAssociationType,true,,An association between an item and its owner.
+ItemOwnerPurchasedValue,nc:ItemValueType,true,,An amount of money a current owner paid to purchase a property item.
+ItemOwnershipCategoryText,nc:TextType,true,nc:ItemOwnershipCategoryAbstract,A kind of ownership of an item.
+ItemPossessionDescriptionText,nc:TextType,true,,A description of how or why a party other than the owner came to possess a property item.
+ItemPossessor,nc:EntityType,true,,An entity other than the owner which has possession of an item.
+ItemPossessorAssociation,nc:ItemEntityAssociationType,true,,An association between an item and the entity in possession of it.
+ItemPurchasePriceValue,nc:ItemValueType,true,,An amount of money a buyer paid a seller for a property item.
+ItemQuantity,nc:QuantityType,true,,A count of the individual units which make up an item.
+ItemRFIdentification,nc:IdentificationType,true,,An identification of an item based on radio waves.
+ItemReceiptIdentification,nc:IdentificationType,true,,An identification issued to an item when taken into possession for official purposes.
+ItemRentalIndicator,niem-xs:boolean,true,,True if an item is rented; false otherwise.
+ItemSalesTaxPercent,nc:PercentType,true,,A tax rate as a percentage used for computing the sales tax on the purchase of an item.
+ItemSeller,nc:EntityType,true,,An entity that sells a property item.
+ItemSerialIdentification,nc:IdentificationType,true,,"An identification inscribed on or attached to a part, collection of parts, or complete unit by the manufacturer."
+ItemSizeDescriptionText,nc:TextType,true,,A description of the size or physical dimensions of an item.
+ItemStateIdentification,nc:IdentificationType,true,,A state-assigned identification for an item.
+ItemStatus,nc:StatusType,true,,A status of an item.
+ItemStyleText,nc:TextType,true,nc:ItemStyleAbstract,A style of a property item.
+ItemTransaction,nc:ItemTransactionType,true,,A transfer of ownership of an item.
+ItemUsageText,nc:TextType,true,,A manner or way in which an item is used.
+ItemValue,nc:ItemValueType,true,,An evaluation of the monetary worth of an item.
+ItemValueAmount,nc:AmountType,true,,A monetary value of an item.
+ItemValueAssigner,nc:EntityType,true,,An entity which assigns a value to an item.
+ItemValueAssigningMethodText,nc:TextType,true,nc:ItemValueAssigningMethodAbstract,A method used to assign a value to an item.
+ItemValueDate,nc:DateType,true,,A date an item value takes effect.
+ItemValueDescriptionText,nc:TextType,true,,A description of the monetary worth of an item.
+ItemValueTaxIncludedIndicator,niem-xs:boolean,true,,True if taxes were included in the item value; false otherwise.
+ItemVisibleID,niem-xs:string,true,,An identifier of an item that is visible on the item itself.
+ItemWeightMeasure,nc:WeightMeasureType,true,,A measurement of the weight of an item.
+ItemWidthMeasure,nc:LengthMeasureType,true,,A measurement of the width of an item.
+Jurisdiction,nc:JurisdictionType,true,,"A geopolitical area in which an organization, person, or object has a specific range of authority."
+JurisdictionDescriptionText,nc:TextType,true,,A description of an area an organization or person has some kind of authoritative capacity or responsibility over.
+JurisdictionIdentification,nc:IdentificationType,true,,An identification of a jurisdiction.
+JurisdictionLocation,nc:LocationType,true,,A location of a jurisdiction.
+JurisdictionRestrictionText,nc:TextType,true,,A restriction or limitation of a jurisdiction.
+JurisdictionText,nc:TextType,true,nc:JurisdictionAbstract,An area in which an organization or person has some kind of authoritative capacity or responsibility over.
+Kit,nc:ItemType,true,,"A set of tools, supplies, instructional matter, or other materials collected for a specific purpose."
+Language,nc:LanguageType,true,,"A method of human communication, either spoken or written, consisting of the use of words in a structured and conventional way."
+LanguageName,nc:TextType,true,nc:LanguageRepresentation,A name of a system of words or symbols used for communication.
+LastUpdatedDate,nc:DateType,true,,A date information was last modified.
+LastVerifiedDate,nc:DateType,true,,A date information was last checked for accuracy.
+LatitudeDegreeValue,nc:LatitudeDegreeType,true,,A value that specifies the degree of a latitude. The value comes from a restricted range between -90 (inclusive) and +90 (inclusive).
+LatitudeMinuteValue,nc:AngularMinuteType,true,,A latitude value that specifies a minute of a degree. The value comes from a restricted range of 0 (inclusive) to 60 (exclusive).
+LatitudeSecondValue,nc:AngularSecondType,true,,A latitude value that specifies a second of a minute. The value comes from a restricted range of 0 (inclusive) to 60 (exclusive).
+LengthMeasure,nc:LengthMeasureType,true,,A measure of a distance or extent.
+Locale,nc:LocaleType,true,,A geopolitical area.
+LocaleCensusBlockID,niem-xs:string,true,,An identifier of the smallest subdivision of an area.
+LocaleCensusTractID,niem-xs:string,true,,An identifier of a designated census tract area.
+LocaleCommunityName,nc:TextType,true,nc:LocaleCommunityAbstract,A name of a specific community.
+LocaleDescriptionText,nc:TextType,true,,A description of a geopolitical area.
+LocaleDistrictIdentification,nc:IdentificationType,true,,An identification for a district in a locale.
+LocaleDistrictName,nc:TextType,true,,A name given to an area defined for administrative or official purposes.
+LocaleEmergencyServicesJurisdictionID,niem-xs:string,true,,An identifier of an emergency services jurisdiction that encompasses a location.
+LocaleEmergencyServicesName,nc:TextType,true,,A name of an organization providing emergency services.
+LocaleFireJurisdictionID,niem-xs:string,true,,An identifier of a fire department jurisdiction.
+LocaleJudicialDistrictName,nc:TextType,true,nc:LocaleJudicialDistrictAbstract,A name of the judicial district.
+LocaleNeighborhoodName,nc:TextType,true,,A name of a neighborhood.
+LocalePoliceBeatText,nc:TextType,true,,A police beat that encompasses a location.
+LocalePoliceGridText,nc:TextType,true,,A police grid coordinate.
+LocalePoliceJurisdictionID,niem-xs:string,true,,An identifier of a police jurisdiction that encompasses a location.
+LocaleRegionName,nc:TextType,true,,A name of a region.
+LocaleSubdivisionName,nc:TextType,true,,A name of a subdivision.
+LocaleZoneName,nc:TextType,true,,A name of a zone.
+Location,nc:LocationType,true,,A geospatial location.
+Location2DGeospatialCoordinate,nc:Location2DGeospatialCoordinateType,true,nc:LocationGeospatialCoordinateAbstract,A location identified by a latitude and longitude.
+Location3DGeospatialCoordinate,nc:Location3DGeospatialCoordinateType,true,nc:LocationGeospatialCoordinateAbstract,"A location identified by latitude, longitude, and height."
+LocationAltitude,nc:LocationHeightMeasureType,true,nc:LocationHeightAbstract,A measurement of the height or position of a location above a certain reference.
+LocationArea,nc:AreaType,true,,A location identified by geographic boundaries.
+LocationBedText,nc:TextType,true,,A bed at a location.
+LocationBuildingText,nc:TextType,true,,A building at a location.
+LocationCategoryText,nc:TextType,true,nc:LocationCategoryAbstract,A kind or functional description of a location.
+LocationContactInformation,nc:ContactInformationType,true,,A set of contact information for a location.
+LocationContactInformationAssociation,nc:LocationContactInformationAssociationType,true,,An association between a location and its contact information.
+LocationContainsOrganizationAssociation,nc:OrganizationLocationAssociationType,true,,An association between a location and an organization at that location.
+LocationDepth,nc:LocationHeightMeasureType,true,nc:LocationHeightAbstract,A measure of the depth of a location relative to a reference.
+LocationDescriptionText,nc:TextType,true,,A description of a location.
+LocationDirectionsText,nc:TextType,true,,A set of directions to a location.
+LocationElevation,nc:LocationHeightMeasureType,true,nc:LocationHeightAbstract,A measure of the distance of a point on the Earth from a reference point.
+LocationEmergencyServicesAssociation,nc:OrganizationLocationAssociationType,true,,An association between a location and its emergency services.
+LocationFloorText,nc:TextType,true,,A floor at a location.
+LocationHeightVerticalDatumText,nc:TextType,true,nc:LocationHeightVerticalDatumAbstract,A vertical datum system used to designate the reference point for a height measurement.
+LocationIdentification,nc:IdentificationType,true,,An identification of a Location.
+LocationLandmarkName,nc:TextType,true,nc:LocationLandmarkAbstract,A name of a landmark.
+LocationLandmarkText,nc:TextType,true,nc:LocationLandmarkAbstract,A distinguishing physical feature at a location.
+LocationLocale,nc:LocaleType,true,,A geopolitical area.
+LocationMapLocation,nc:MapLocationType,true,,A location identified by map or grid coordinates.
+LocationName,nc:ProperNameTextType,true,,A name of a location.
+LocationNeighboringPersonAssociation,nc:PersonLocationAssociationType,true,,An association between a location and a person neighboring that location.
+LocationOrganizationAssociation,nc:OrganizationLocationAssociationType,true,,An association between a location and an organization.
+LocationPart,nc:LocationPartType,true,,"A unit within a facility, building, or structure at a location."
+LocationPartText,nc:TextType,true,,"A name, number, or other information about a unit within a facility, building, or structure at a location."
+LocationRangeDescriptionText,nc:TextType,true,,A description of the boundary or range of a location.
+LocationRelativeLocation,nc:RelativeLocationType,true,,A location identified by its proximity to another location.
+LocationRoomText,nc:TextType,true,,A room at a location.
+LocationSectionText,nc:TextType,true,,"A section, wing, or block at a location."
+LocationSuiteText,nc:TextType,true,,A suite at a location.
+LocationSurroundingAreaDescriptionText,nc:TextType,true,,A description of the immediate area around a location.
+LocationUTMCoordinateValue,nc:UTMCoordinateType,true,nc:LocationGeospatialCoordinateAbstract,"A coordinate from the Universal Transverse Mercator (UTM) Coordinate System, which represents a location with a hemisphere, zone, an easting value, and a northing value."
+LongitudeDegreeValue,nc:LongitudeDegreeType,true,,A value that specifies the degree of a longitude. The value comes from a restricted range between -180 (inclusive) and +180 (inclusive).
+LongitudeMinuteValue,nc:AngularMinuteType,true,,A longitude value that specifies a minute of a degree. The value comes from a restricted range of 0 (inclusive) to 60 (exclusive).
+LongitudeSecondValue,nc:AngularSecondType,true,,A longitude value that specifies a second of a minute. The value comes from a restricted range of 0 (inclusive) to 60 (exclusive).
+MACAddressID,niem-xs:string,true,,An identifier assigned to a hardware device that connects to the Internet; Media Access Control.
+Machinery,nc:ItemType,true,,An assemblage of machines or mechanical apparatuses.
+MailingAddress,nc:AddressType,true,nc:Address,A mailing address for a location. This may or may not be the same as the location's physical address.
+Manifest,nc:ManifestType,true,,"A document containing information about persons, materials, cargo, and equipment on a conveyance."
+ManifestCategoryText,nc:TextType,true,nc:ManifestCategoryAbstract,A kind of manifest.
+ManifestTransmittedDate,nc:DateType,true,,A date the manifest was transmitted.
+MapCoordinateFullText,nc:TextType,true,,A coordinate of a point on a map.
+MapDate,nc:DateType,true,,"A date a map was published, copyrighted or became effective for use."
+MapElevationCoordinateText,nc:TextType,true,,A height or elevation of a point on a map.
+MapHorizontalCoordinateText,nc:TextType,true,,A horizontal location of a point on a map.
+MapLocation,nc:MapLocationType,true,,A location identified by map or grid coordinates.
+MapLocationDescriptionText,nc:TextType,true,,A description of a map location.
+MapName,nc:TextType,true,,A name of a map.
+MapPageID,niem-xs:string,true,,An identifier of a page number in a map.
+MapQuadrantText,nc:TextType,true,,A quadrant or square in a map.
+MapVersionID,niem-xs:string,true,,An identifier of a version of a map.
+MapVerticalCoordinateText,nc:TextType,true,,A vertical location of a point on a map.
+Measure,nc:MeasureType,true,,"A dimension, capacity, or amount of something ascertained by measuring."
+MeasureCommentText,nc:TextType,true,,A comment regarding the measurement value and/or its error estimate.
+MeasureDate,nc:DateType,true,,A date a measurement was made.
+MeasureDecimalRange,nc:DecimalRangeType,true,nc:MeasureRangeAbstract,A decimal measurement range.
+MeasureDecimalValue,niem-xs:decimal,true,nc:MeasurePointAbstract,A decimal measurement value.
+MeasureDecimalValueList,nc:DecimalListType,true,nc:MeasureValueListAbstract,"A list of decimal measurement values, all using the same measurement method/device and of the same units."
+MeasureDescriptionText,nc:TextType,true,,A description of a measure.
+MeasureDoubleRange,nc:DoubleRangeType,true,nc:MeasureRangeAbstract,A double measurement range.
+MeasureDoubleValue,niem-xs:double,true,nc:MeasurePointAbstract,A double measurement value.
+MeasureDoubleValueList,nc:DoubleListType,true,nc:MeasureValueListAbstract,"A list of double measurement values, all using the same measurement method/device and of the same units."
+MeasureErrorText,nc:TextType,true,nc:MeasureErrorAbstract,A textual description of the error in a measurement value.
+MeasureErrorValue,niem-xs:decimal,true,nc:MeasureErrorAbstract,A calculated estimate of the error in a measurement value.
+MeasureEstimatedIndicator,niem-xs:boolean,true,,"True if a measurement has been guessed, or estimated without use of a measuring device or analytical method; false otherwise."
+MeasureIntegerRange,nc:IntegerRangeType,true,nc:MeasureRangeAbstract,An integer measurement range.
+MeasureIntegerValue,niem-xs:integer,true,nc:MeasurePointAbstract,An integer measurement value.
+MeasureIntegerValueList,nc:IntegerListType,true,nc:MeasureValueListAbstract,"A list of integer measurement values, all using the same measurement method/device and of the same units."
+MeasureMethodText,nc:TextType,true,nc:MeasureMethodAbstract,A method used to make a measurement.
+MeasureQualityText,nc:TextType,true,nc:MeasureErrorAbstract,A textual description of the quality of a measurement value.
+MeasureTextList,nc:StringListType,true,nc:MeasureValueListAbstract,"A list of measurement values , all using the same measurement method/device and of the same units."
+MeasureUnitText,nc:TextType,true,nc:MeasureUnitAbstract,A unit that qualifies the measurement value.
+MeasureUnsignedIntegerRange,nc:UnsignedIntegerRangeType,true,nc:MeasureRangeAbstract,An unsigned integer measurement range.
+MeasureUnsignedIntegerValue,niem-xs:unsignedInt,true,nc:MeasurePointAbstract,An unsigned integer measurement value.
+MeasureValueText,nc:TextType,true,nc:MeasureValueAbstract,A textual description of a measurement value.
+Measurer,nc:EntityType,true,,A person or organization who makes a measurement.
+MedicalCondition,nc:MedicalConditionType,true,,"A state of health, on-going or present."
+MedicalConditionCauseText,nc:TextType,true,,A trigger that can initiate the onset of a medical condition.
+MedicalConditionDateRange,nc:DateRangeType,true,,A date range for the start and end of a medical condition.
+MedicalConditionDescriptionText,nc:TextType,true,,A description of a medical condition.
+MedicalConditionDoctor,nc:PersonType,true,,A doctor who treats a person for a medical condition.
+MedicalConditionPresentIndicator,niem-xs:boolean,true,,True if a medical condition currently exists; false otherwise.
+MedicalConditionSeverityText,nc:TextType,true,nc:MedicalConditionSeverityAbstract,A degree to which a medical condition is affecting a person.
+MedicalConditionText,nc:TextType,true,,"A state of health, on-going or present."
+MessageAttachmentBinary,nc:BinaryType,true,nc:MessageAttachmentAbstract,A binary file which is attached to a message.
+MessageAttachmentDocument,nc:DocumentType,true,nc:MessageAttachmentAbstract,A document which is attached to a message.
+MessageAttachmentImage,nc:ImageType,true,nc:MessageAttachmentAbstract,An image file which is attached to a message.
+MessageCategoryFATCACode,nc:MessageCategoryFATCACodeType,true,nc:MessageCategoryAbstract,A kind of message.
+MessageCategoryText,nc:TextType,true,nc:MessageCategoryAbstract,A kind of message category.
+MessageFATCAUsageRestrictionText,nc:TextType,true,nc:MessageFATCAUsageRestrictionAbstract,A set of information about restrictions for use of the information this message contains and the legal framework under which it is given.
+MessageID,niem-xs:string,true,,A message identifier associated with an email or message content.
+MessageReceivedDate,nc:DateType,true,,A date on which a message is received.
+MessageRecipientAddressID,niem-xs:string,true,,An address of a recipient of a message.
+MessageRecipientEntity,nc:EntityType,true,nc:MessageRecipientAbstract,An entity which receives a message.
+MessageRecipientName,nc:TextType,true,nc:MessageRecipientAbstract,A name of an entity which receives a message.
+MessageReferenceID,niem-xs:string,true,,An identifier that references a sender's or otherwise related message.
+MessageSenderAddressID,niem-xs:string,true,,An address of a sender of a message.
+MessageSenderEntity,nc:EntityType,true,nc:MessageSenderAbstract,An entity which sends a message.
+MessageSenderName,nc:TextType,true,nc:MessageSenderAbstract,A name of an entity which sends a message.
+MessageSentDate,nc:DateType,true,,A date on which a message is sent.
+MessageSubjectText,nc:TextType,true,,A subject line or field of a message.
+MessageText,nc:TextType,true,,A body or main content of a message.
+Metadata,nc:MetadataType,true,,Information that further qualifies primary data; data about data.
+MilitaryBranchName,nc:TextType,true,,A name of a military branch in which a person served.
+MilitaryCountry,nc:CountryType,true,,A country in whose military a person served.
+MilitaryDischargeCategoryCode,nc:MilitaryDischargeCategoryCodeType,true,nc:MilitaryDischargeCategoryAbstract,A kind of discharge a person received from military service.
+MilitaryDischargeCategoryText,nc:TextType,true,nc:MilitaryDischargeCategoryAbstract,A kind of discharge a person received from military service.
+MilitaryDischargeDate,nc:DateType,true,,A date a person was released from further military obligations.
+MilitaryDischargeRankText,nc:TextType,true,,A rank at time of a person was discharged from military service.
+MilitaryDisciplinaryAction,nc:DisciplinaryActionType,true,,"An activity assigned to a person by the military for the purpose of self-improvement, punishment, or restitution."
+MilitaryDutiesText,nc:TextType,true,,A description of the duties and duty stations (locations) encompassed within period of military service.
+MilitaryEnlistmentDate,nc:DateType,true,,A date a person enlisted in the military.
+MilitaryExemptionDescriptionText,nc:TextType,true,,A description of why a person was excused from military service.
+MilitaryExperienceIndicator,niem-xs:boolean,true,,True if a person has some form of military experience; false otherwise.
+MilitaryHighRankText,nc:TextType,true,,A highest rank achieved by a person in military service.
+MilitaryInductionDate,nc:DateType,true,,A date a person was inducted (or will be inducted) into active service in a military.
+MilitaryPersonIdentification,nc:IdentificationType,true,,An identification number for a person in the military.
+MilitaryReleaseCategoryText,nc:TextType,true,nc:MilitaryReleaseCategoryAbstract,A kind of release a person received from military service.
+MilitaryReleaseDate,nc:DateType,true,,A date a person was released from active service in a military.
+MilitaryServiceActiveIndicator,niem-xs:boolean,true,,True if a person is currently serving in the military; false otherwise.
+MilitaryServiceTimeMeasure,nc:TimeMeasureType,true,,A quantity of time a person spent in military service.
+MilitaryStatus,nc:StatusType,true,,A status of military service of a person.
+MilitaryWorkSkillText,nc:TextType,true,,A military occupational specialty of a person.
+Mission,nc:MissionType,true,,"A task, together with the purpose, that clearly indicates the action to be taken and the reason therefore."
+MissionCommencementNoEarlierThanDate,nc:DateType,true,,An earliest date and time a mission may start.
+MissionCommencementNoLaterThanDate,nc:DateType,true,,A latest date and time a mission may start.
+MissionID,niem-xs:string,true,,A mission identifier.
+MissionName,niem-xs:string,true,,A name of a mission.
+MissionStagingLocation,nc:LocationType,true,,An element for the resource staging location
+MonthDate,niem-xs:gMonth,true,nc:DateRepresentation,A month.
+NANPTelephoneNumber,nc:NANPTelephoneNumberType,true,nc:TelephoneNumberAbstract,A North American Numbering Plan telephone number.
+Obligation,nc:ObligationType,true,,A thing that is owed to an entity.
+ObligationCategoryText,nc:TextType,true,nc:ObligationCategoryAbstract,A kind of obligation.
+ObligationCompleteIndicator,niem-xs:boolean,true,,True if an obligation has been fulfilled; false otherwise.
+ObligationComplianceIndicator,niem-xs:boolean,true,,True if a person with an obligation is in compliance with the requirements; false otherwise.
+ObligationDateRange,nc:DateRangeType,true,,A date range of an obligation.
+ObligationDueAmount,nc:AmountType,true,nc:ObligationDueAbstract,An amount of a payment obligation that has not been made.
+ObligationDueDate,nc:DateType,true,,A date by which an obligation must be fulfilled.
+ObligationDueDuration,niem-xs:duration,true,nc:ObligationDueAbstract,A quantity of time still required to be spent in order to fulfill an obligation.
+ObligationEntity,nc:EntityType,true,,An entity that must fulfill an obligation.
+ObligationEntityCategoryText,nc:TextType,true,nc:ObligationEntityCategoryAbstract,A kind of entity responsible for fulfilling an obligation.
+ObligationExemption,nc:ObligationExemptionType,true,,A waiving or dismissal of an obligation.
+ObligationExemptionDescriptionText,nc:TextType,true,,A description of an exemption from an obligation.
+ObligationExemptionIndicator,niem-xs:boolean,true,,True if an obligation has been waived or dismissed; false otherwise.
+ObligationPaidAmount,nc:AmountType,true,nc:ObligationPaidAbstract,An amount of a payment obligation that has been made.
+ObligationPaidDate,nc:DateType,true,,A date an obligation was fulfilled.
+ObligationPaidDuration,niem-xs:duration,true,nc:ObligationPaidAbstract,A quantity of time that has been spent towards fulfilling an obligation.
+ObligationPeriodText,nc:TextType,true,nc:ObligationPeriodAbstract,An interval or period at which an obligation is required to be fulfilled.
+ObligationProgressDescriptionText,nc:TextType,true,,A description of the progress that has been made in fulfilling an obligation.
+ObligationRecipient,nc:EntityType,true,,An entity to whom an obligation must be fulfilled.
+ObligationRecurrence,nc:ObligationRecurrenceType,true,,A periodic basis on which an obligation must be met.
+ObligationRequirementDescriptionText,nc:TextType,true,,A description of what is necessary in order to fulfill an obligation.
+ObligationTotalAmount,nc:AmountType,true,nc:ObligationTotalAbstract,A total amount of money to be charged or paid to meet a financial obligation.
+ObligationTotalDuration,niem-xs:duration,true,nc:ObligationTotalAbstract,A quantity of time that must be spent in order to fulfill an obligation.
+OdometerReadingMeasure,nc:LengthMeasureType,true,,A measure of elapsed distance traveled as determined by an odometer.
+Organization,nc:OrganizationType,true,,A unit which conducts some sort of business or operations.
+OrganizationAbbreviationText,nc:TextType,true,,"An abbreviation, acronym, or code for an organization name."
+OrganizationActiveIndicator,niem-xs:boolean,true,,True if an organization is active; false if it is inactive.
+OrganizationActivityText,nc:TextType,true,nc:OrganizationActivityAbstract,An activity that an organization is known or thought to be involved with.
+OrganizationAssociation,nc:OrganizationAssociationType,true,,An association between an organization and another organization.
+OrganizationBranchName,nc:TextType,true,,A name of the chapter or branch by which an organization is known within a larger group of organizations.
+OrganizationCategoryText,nc:TextType,true,nc:OrganizationCategoryAbstract,A kind or functional type of organization.
+OrganizationDayContactInformation,nc:ContactInformationType,true,,A means of contacting an organization during daytime hours.
+OrganizationDescriptionText,nc:TextType,true,,A description of an organization.
+OrganizationDoingBusinessAsName,nc:TextType,true,,A name an organization uses for conducting business.
+OrganizationEmergencyContactInformation,nc:ContactInformationType,true,,A means of contacting an organization in the event of an emergency.
+OrganizationEstablishedDate,nc:DateType,true,,A date an organization was started.
+OrganizationEveningContactInformation,nc:ContactInformationType,true,,A means of contacting an organization during evening or early night hours.
+OrganizationFacilityAssociation,nc:OrganizationFacilityAssociationType,true,,An association between an organization and a facility.
+OrganizationForeignAffiliate,nc:OrganizationType,true,,A foreign organization that has some relationship or association with an organization.
+OrganizationIdentification,nc:IdentificationType,true,,An identification that references an organization.
+OrganizationIncorporatedIndicator,niem-xs:boolean,true,,True if an organization is incorporated; false otherwise.
+OrganizationIncorporationDate,nc:DateType,true,,"A date an organization incorporated (e.g., corporation)."
+OrganizationIncorporationLocation,nc:LocationType,true,,A location where an organization incorporated.
+OrganizationJurisdiction,nc:JurisdictionType,true,,An area of service or jurisdiction an organization has over a region.
+OrganizationLEIIdentification,nc:IdentificationType,true,,"An identification for a Legal Entity Identifier (LEI), to uniquely identify legally distinct entities that engage in financial transactions."
+OrganizationLicenseIdentification,nc:IdentificationType,true,,A license identification for an organization.
+OrganizationLocalIdentification,nc:IdentificationType,true,,An identification assigned at a local level to an organization.
+OrganizationLocation,nc:LocationType,true,,A location of an organization.
+OrganizationName,nc:TextType,true,,A name of an organization.
+OrganizationNameEffectiveDate,nc:DateType,true,,A date the organization name became effective.
+OrganizationNameTerminationDate,nc:DateType,true,,A date the organization name became invalid.
+OrganizationNightContactInformation,nc:ContactInformationType,true,,A means of contacting an organization during late-night hours.
+OrganizationOperatesFacilityAssociation,nc:OrganizationFacilityAssociationType,true,nc:OrganizationFacilityAssociation,An association between a facility and an organization that operates that facility.
+OrganizationOtherIdentification,nc:IdentificationType,true,,An alternate identification assigned to an organization.
+OrganizationParentAffiliate,nc:OrganizationType,true,nc:OrganizationParentAbstract,"An affiliate organization that owns, controls, or operates the organization."
+OrganizationParentAssociation,nc:OrganizationUnitAssociationType,true,,"An association between an organization and an entity that owns, controls, or operates it."
+OrganizationParentOrganization,nc:OrganizationType,true,nc:OrganizationParentAbstract,"An organization that owns, controls, or operates the organization."
+OrganizationPrimaryContactInformation,nc:ContactInformationType,true,,A preferred means of contacting an organization.
+OrganizationPrincipalOfficial,nc:PersonType,true,,A chief or high ranking executive of an organization.
+OrganizationPrincipalOfficialAssociation,nc:PersonOrganizationAssociationType,true,,An association between an organization and its principal official.
+OrganizationServiceHoursText,nc:TextType,true,nc:OrganizationServiceHoursAbstract,A availability of an organization.
+OrganizationSizeText,nc:TextType,true,nc:OrganizationSizeAbstract,A size of an organization.
+OrganizationStatus,nc:StatusType,true,,A status of an organization.
+OrganizationSubUnit,nc:OrganizationType,true,,A division of an organization.
+OrganizationSubUnitName,nc:TextType,true,,A name of a subdivision of an organization.
+OrganizationSubsidiaryAssociation,nc:OrganizationUnitAssociationType,true,,An association between an organization and its subsidiary organization.
+OrganizationSupervisesFacilityAssociation,nc:OrganizationFacilityAssociationType,true,nc:OrganizationFacilityAssociation,An association between a facility and an organization that supervises that facility.
+OrganizationTaxIdentification,nc:IdentificationType,true,,A tax identification assigned to an organization.
+OrganizationTerminationDate,nc:DateType,true,,A date an organization went out of business.
+OrganizationUnit,nc:OrganizationType,true,,A unit of an organization.
+OrganizationUnitName,nc:TextType,true,,A name of a high-level division of an organization.
+OrganizationValidDate,nc:DateType,true,,A date to which the organizational unit is valid.
+Orientation,nc:OrientationType,true,,"A set of angles of rotation about the principle axes (normal, lateral, longitudinal) of a thing, relative to true north and the horizontal plane, measured in degrees."
+ParentFacility,nc:FacilityType,true,,A facility that contains another facility.
+Passport,nc:PassportType,true,,A government-issued document that authenticates the identity and citizenship of a person.
+PassportBookIdentification,nc:IdentificationType,true,,A unique identification assigned to a passport document.
+PassportCategoryCode,nc:PassportCategoryCodeType,true,nc:PassportCategoryAbstract,A kind of passport.
+PassportCategoryText,nc:TextType,true,nc:PassportCategoryAbstract,A kind of passport.
+PassportElectronicIndicator,niem-xs:boolean,true,,True if the passport document is RFID enabled; false otherwise.
+PassportIssuingOrganization,nc:OrganizationType,true,,An organization that issued a passport.
+PassportNumberIdentification,nc:IdentificationType,true,,An identification of a passport.
+PassportStolenLostIndicator,niem-xs:boolean,true,,True if a passport is stolen or lost; false otherwise.
+PassportTransmissionTrackingID,niem-xs:string,true,,An identifier assigned to the electronic record transmitted from Dept. of State.
+PatientMedicalFacility,nc:OrganizationType,true,,A medical facility receiving patient.
+Payment,nc:PaymentType,true,,A monetary payment.
+PaymentAmount,nc:AmountType,true,,An amount of money paid.
+PaymentMethodCode,nc:PaymentMethodCodeType,true,nc:PaymentMethodAbstract,A specific method of payment.
+PaymentMethodText,nc:TextType,true,nc:PaymentMethodAbstract,A specific method of payment.
+Percent,nc:PercentType,true,,"A ratio, proper fraction, or percentage, with 100% represented as the value 100."
+Permit,nc:PermitType,true,,A permit or official document giving a person or entity authorization to do something.
+PermitCategoryText,nc:TextType,true,nc:PermitCategoryAbstract,A kind of permit.
+PermitIdentification,nc:IdentificationType,true,,A permit identification.
+PermitRenewalDate,nc:DateType,true,,A date on which a permit must be renewed.
+PermitStartDate,nc:DateType,true,,A date on which a permit was issued or renewed.
+PermitUsageText,nc:TextType,true,nc:PermitUsageAbstract,A usage allowed by a permit.
+Person,nc:PersonType,true,,A human being.
+PersonAccentText,nc:TextType,true,,A manner of pronunciation; a way of pronouncing words that may indicate the place of origin or social background of the speaker.
+PersonAgeDescriptionText,nc:TextType,true,,A general description of the age of a person.
+PersonAgeMeasure,nc:TimeMeasureType,true,,A measurement of the age of a person.
+PersonAliasIdentityAssociation,nc:PersonIdentityAssociationType,true,,An association between a person and an alias identity used by that person.
+PersonArmedIndicator,niem-xs:boolean,true,,True if a person of interest was armed at the time of encounter; false otherwise.
+PersonAssaultedOfficerIndicator,niem-xs:boolean,true,,True if a person of interest assaulted an enforcement officer during an encounter; false otherwise.
+PersonAssignedUnitAssociation,nc:PersonOrganizationAssociationType,true,,An association between a person and a unit to which that person is assigned.
+PersonAssociation,nc:PersonAssociationType,true,,An association between people.
+PersonBirthDate,nc:DateType,true,,A date a person was born.
+PersonBirthLocation,nc:LocationType,true,,A location where a person was born.
+PersonBloodTypeText,nc:TextType,true,nc:PersonBloodTypeAbstract,A blood group and RH factor of a person.
+PersonBodyXRaysAvailableText,nc:TextType,true,nc:PersonBodyXRaysAvailableAbstract,An X-ray of a body part available for a person.
+PersonBuildText,nc:TextType,true,nc:PersonBuildAbstract,A person's physique or body shape.
+PersonCapability,nc:CapabilityType,true,,A capacity or ability of a person.
+PersonCircumcisionIndicator,niem-xs:boolean,true,,True if a person is circumcised; false otherwise.
+PersonCitizenship,nc:PersonCitizenshipType,true,,"A person's position or status with a country that assigns rights, duties, and privileges because of the birth or naturalization of the person in that country."
+PersonCitizenshipCategoryText,nc:TextType,true,nc:PersonCitizenshipCategoryAbstract,A kind of citizenship granted to a person by a country.
+PersonCitizenshipCountry,nc:CountryType,true,,"A country that assigns rights, duties, and privileges to a person because of the birth or naturalization of the person in that country."
+PersonCitizenshipStatus,nc:StatusType,true,,A status of a person's citizenship in a country.
+PersonComplexionText,nc:TextType,true,nc:PersonComplexionAbstract,An appearance or condition of the skin of a person.
+PersonComprehendsSpokenLanguageIndicator,niem-xs:boolean,true,,True if a person is able to grasp and understand the meaning of a language being spoken; false otherwise.
+PersonContactInformation,nc:ContactInformationType,true,,A means of contacting a person.
+PersonConveyanceAssociation,nc:PersonConveyanceAssociationType,true,,An association between a person and a conveyance.
+PersonCriminalOrganizationAssociation,nc:PersonOrganizationAssociationType,true,,An association between a person and a criminal organization.
+PersonCurrentEmploymentAssociation,nc:EmploymentAssociationType,true,,An association between a person and his or her current employment.
+PersonCurrentLocationAssociation,nc:PersonLocationAssociationType,true,,An association between a person and the current location of that person.
+PersonDeathDate,nc:DateType,true,,A date a person died or was declared legally dead.
+PersonDependentQuantity,nc:QuantityType,true,,A number of people dependent upon a person as their primary means of support.
+PersonDescriptionText,nc:TextType,true,,A description of a person.
+PersonDetainmentLocationAssociation,nc:PersonLocationAssociationType,true,,An association between a person and a location at which that person is being detained.
+PersonDigitalImage,nc:ImageType,true,,A photograph or image of a person in a digital format.
+PersonDigitizedSignatureImage,nc:ImageType,true,,An image of a handwritten signature of a person.
+PersonDisguiseDescriptionText,nc:TextType,true,,A description of something a person wears to conceal or mislead others as to the true appearance or identity of that person.
+PersonDisunion,nc:PersonDisunionType,true,,A legal termination of a Person Union.
+PersonDisunionDecreeIndicator,niem-xs:boolean,true,,"True if a legal document finalizing the Person Disunion exists (for example, a divorce decree); false otherwise."
+PersonDisunionPendingIndicator,niem-xs:boolean,true,,True if the legal proceeding to terminate the Person Union is pending; false otherwise.
+PersonDisunionReasonText,nc:TextType,true,,A reason for the disunion.
+PersonDocumentAssociation,nc:PersonDocumentAssociationType,true,,An association between a person and a document.
+PersonEducation,nc:EducationType,true,,A person's educational background.
+PersonEmergencyContactInformation,nc:ContactInformationType,true,,A means of contacting someone in the event of an emergency.
+PersonEmployedIndicator,niem-xs:boolean,true,,True if a person is employed; false if a person is unemployed.
+PersonEmploymentAssociation,nc:EmploymentAssociationType,true,,An association between an employee and an employer.
+PersonEmploymentLocationAssociation,nc:PersonLocationAssociationType,true,,An association between a person and a location at which that person is employed.
+PersonEncounter,nc:PersonEncounterType,true,,An interface between a person of interest and a representative of the government.
+PersonEthnicityText,nc:TextType,true,nc:PersonEthnicityAbstract,A cultural lineage of a person.
+PersonEyeColorText,nc:TextType,true,nc:PersonEyeColorAbstract,A color of the eyes of a person.
+PersonEyewearText,nc:TextType,true,nc:PersonEyewearAbstract,A description of glasses or other eyewear a person wears.
+PersonFacialHairText,nc:TextType,true,nc:PersonFacialHairAbstract,A kind of facial hair of a person.
+PersonFormerEmploymentAssociation,nc:EmploymentAssociationType,true,,An association between a person and employment held in the past but not currently held.
+PersonFraudulentIdentificationIndicator,niem-xs:boolean,true,,True if any identification document carried by a person of interest is fraudulent; false otherwise.
+PersonFullName,nc:PersonNameTextType,true,,A complete name of a person.
+PersonGeneralAppearanceDescriptionText,nc:TextType,true,,A description of the way a person looks and is presented overall.
+PersonGivenName,nc:PersonNameTextType,true,,A first name of a person.
+PersonHairAppearanceText,nc:TextType,true,,An overall appearance of the hair of a person.
+PersonHairCategoryText,nc:TextType,true,nc:PersonHairCategoryAbstract,"A kind of hair of a person, such as wavy or straight."
+PersonHairColorText,nc:TextType,true,nc:PersonHairColorAbstract,A color of the hair of a person.
+PersonHairLengthText,nc:TextType,true,nc:PersonHairLengthAbstract,A length of hair of a person.
+PersonHairStyleText,nc:TextType,true,nc:PersonHairStyleAbstract,A style or cut of hair worn by a person.
+PersonHandednessText,nc:TextType,true,nc:PersonHandednessAbstract,A hand with which a person is more adept using.
+PersonHeightDescriptionText,nc:TextType,true,,A description of the height of a person.
+PersonHeightMeasure,nc:LengthMeasureType,true,,A measurement of the height of a person.
+PersonHomeContactInformation,nc:ContactInformationType,true,,A means of contacting a person at home.
+PersonHumanResourceIdentification,nc:IdentificationType,true,,A human resources or employment identification assigned to a person.
+PersonIdentityAssociation,nc:PersonIdentityAssociationType,true,,An association between a person and an identity.
+PersonInjury,nc:InjuryType,true,,A form of physical harm or damage sustained by a person.
+PersonIssuedDocumentAssociation,nc:PersonDocumentAssociationType,true,,An association between a person and a document issued to that person.
+PersonJewelryDescriptionText,nc:TextType,true,,A description of adornments a person wears.
+PersonJobTitleText,nc:TextType,true,,A title or label that briefly describes the position or kind of work a person does.
+PersonJuvenileClaimedIndicator,niem-xs:boolean,true,,True if the person of interest claims to be a juvenile; false otherwise.
+PersonJuvenileVerifiedIndicator,niem-xs:boolean,true,,True if the person of interest claim to be a juvenile is confirmed; false otherwise.
+PersonKnownPreviousLocationAssociation,nc:PersonLocationAssociationType,true,,An association between a person and a location at which that person is known to have been previously.
+PersonLanguageEnglishIndicator,niem-xs:boolean,true,,True if a person understands and speaks English; false otherwise.
+PersonLastSeenLocationAssociation,nc:PersonLocationAssociationType,true,,An association between a person and the last known location at which that person was seen.
+PersonLearningDisabilityText,nc:TextType,true,nc:PersonLearningDisabilityAbstract,A disorder of a person which can cause difficulties in learning something.
+PersonLicenseIdentification,nc:IdentificationType,true,,An identification that references a license certification or registration of a person for some purpose.
+PersonLivingIndicator,niem-xs:boolean,true,,True if a person is alive; false if a person is dead.
+PersonLocationAssociation,nc:PersonLocationAssociationType,true,,An association between a person and a location.
+PersonMaidenName,nc:PersonNameTextType,true,,An original last name or surname of a person before changed by marriage.
+PersonMedicalCondition,nc:MedicalConditionType,true,,"A state of health for a person, on-going or present."
+PersonMedicalDescriptionText,nc:TextType,true,,A description of the overall health of a person.
+PersonMedicalFileIndicator,niem-xs:boolean,true,,True if a medical history file is known to exist for a person; false otherwise.
+PersonMedicationRequiredText,nc:TextType,true,,A medication and dosage required for a person.
+PersonMentalStateText,nc:TextType,true,nc:PersonMentalStateAbstract,A mental condition of a person.
+PersonMiddleName,nc:PersonNameTextType,true,,A middle name of a person.
+PersonMilitarySummary,nc:MilitarySummaryType,true,,A service of a person in a military.
+PersonMoodDescriptionText,nc:TextType,true,,A description of a state of feeling of a person.
+PersonName,nc:PersonNameType,true,,A combination of names and/or titles by which a person is known.
+PersonNameCategoryCode,nc:PersonNameCategoryCodeType,true,nc:PersonNameCategoryAbstract,A kind of person name.
+PersonNameCategoryText,nc:TextType,true,nc:PersonNameCategoryAbstract,A kind of person name.
+PersonNamePrefixText,nc:TextType,true,nc:PersonNamePrefixAbstract,A title or honorific used by a person.
+PersonNameSalutationText,nc:TextType,true,,A formal sign or expression of greeting that is appropriate for this person.
+PersonNameSuffixText,nc:TextType,true,,A term appended after the family name that qualifies the name.
+PersonNationalIdentification,nc:IdentificationType,true,,An identification that references a person within a country but is not based on fingerprint.
+PersonNationality,nc:PersonNationalityType,true,,A person's position or status with a country that grants a person citizenship or a country in which a person is deemed a national.
+PersonNationalityCategoryText,nc:TextType,true,nc:PersonNationalityCategoryAbstract,A kind of nationality granted to a person by a country.
+PersonNationalityCountry,nc:CountryType,true,,A country of a person's citizenship or a country in which a person is deemed a national.
+PersonNationalityStatus,nc:StatusType,true,,A status of a person's nationality in a country.
+PersonOfficialGivenName,nc:PersonNameTextType,true,,"A name, out of possibly multiple given names, that a person selects to use as his or her official given name."
+PersonOrganDonorIndicator,niem-xs:boolean,true,,True if a person has given consent to be used as an organ donor upon death; false otherwise.
+PersonOrganDonorText,nc:TextType,true,nc:PersonOrganDonorAbstract,An organ a person is willing to donate upon death.
+PersonOrganizationAffiliationAssociation,nc:PersonOrganizationAssociationType,true,,"An association based on membership, ties, or another kind of affiliation between a person and an organization."
+PersonOrganizationAssociation,nc:PersonOrganizationAssociationType,true,,An association between a person and an organization.
+PersonOtherIdentification,nc:IdentificationType,true,,An identification with a kind that is not explicitly defined in the standard that refers to a person within a certain domain.
+PersonPassportIdentification,nc:IdentificationType,true,,An identification of a passport issued to a person.
+PersonPhysicalDisabilityText,nc:TextType,true,,A physical disability of a person.
+PersonPhysicalFeature,nc:PhysicalFeatureType,true,,A prominent or easily identifiable aspect of a person.
+PersonPossessCreditCardIndicator,niem-xs:boolean,true,,True if a person of interest indicates possession of any credit cards; false otherwise.
+PersonPreferredName,nc:TextType,true,,A name by which this person prefers to be known.
+PersonPrimaryLanguage,nc:PersonLanguageType,true,,A capacity of a person for a language with which that person has the strongest familiarity.
+PersonPrimaryWorkerAssociation,nc:PersonWorkerAssociationType,true,,An association between a person and a primary worker assigned to that person.
+PersonRaceText,nc:TextType,true,nc:PersonRaceAbstract,A classification of a person based on factors such as geographical locations and genetics.
+PersonReadsLanguageIndicator,niem-xs:boolean,true,,True if a person is able to read a language; false otherwise.
+PersonReferralWorkerAssociation,nc:PersonWorkerAssociationType,true,,An association between a person and a referral worker assigned to that person.
+PersonReligionText,nc:TextType,true,nc:PersonReligionAbstract,A religion to which a person subscribes or believes; a categorization of spiritual beliefs.
+PersonResidenceAssociation,nc:PersonResidenceAssociationType,true,,An association between a person and a location where that person lives.
+PersonResidentText,nc:TextType,true,nc:PersonResidentAbstract,"A manner of residence a person has in an area such as a city, town, or community."
+PersonResidesAtFacilityAssociation,nc:FacilityPersonAssociationType,true,nc:FacilityPersonAssociation,An association between a person and a facility at which that person lives.
+PersonSSNIdentification,nc:IdentificationType,true,,A unique identification reference to a living person; assigned by the United States Social Security Administration.
+PersonSecondaryLanguage,nc:PersonLanguageType,true,,A capacity of a person for a language with which that person is not completely fluent.
+PersonSecurityClearanceText,nc:TextType,true,nc:PersonSecurityClearanceAbstract,A formal authorization granting a person access to classified or restricted information.
+PersonSexText,nc:TextType,true,nc:PersonSexAbstract,A gender or sex of a person.
+PersonSexualOrientationText,nc:TextType,true,nc:PersonSexualOrientationAbstract,A target gender of the sexual interest of a person.
+PersonSkinToneText,nc:TextType,true,nc:PersonSkinToneAbstract,A color or tone of the skin of a person.
+PersonSpeaksLanguageIndicator,niem-xs:boolean,true,,True if a person is able to speak a language; false otherwise.
+PersonSpeechDescriptionText,nc:TextType,true,,A description of a pattern of speech with which a person speaks.
+PersonStateIdentification,nc:IdentificationType,true,,An identification of a person based on a state-issued ID card.
+PersonSurName,nc:PersonNameTextType,true,,A last name or family name of a person.
+PersonSurNamePrefixText,nc:TextType,true,,"A prefix that precedes this person's family name such as Van, Von."
+PersonTaxIdentification,nc:IdentificationType,true,,An identification used to refer to a specific person within the tax system of a country.
+PersonTemporaryAssignedUnitAssociation,nc:PersonOrganizationAssociationType,true,,An association between a person and a temporarily assigned unit.
+PersonUSCitizenIndicator,niem-xs:boolean,true,,True if a person is a citizen of the United States; false otherwise.
+PersonUnemploymentStatus,nc:StatusType,true,,A status of a person's period of unemployment.
+PersonUnionAssociation,nc:PersonUnionAssociationType,true,,An association between two persons who are in a state of union with each other.
+PersonUnionCategoryCode,nc:PersonUnionCategoryCodeType,true,nc:PersonUnionCategoryAbstract,A kind of union between two people.
+PersonUnionCategoryText,nc:TextType,true,nc:PersonUnionCategoryAbstract,A kind of union between two people.
+PersonUnionCertificateIndicator,niem-xs:boolean,true,,True if a document certifying the Person Union exists; false otherwise.
+PersonUnionLocation,nc:LocationType,true,,A location where the Person Union occurred.
+PersonUnionSeparation,nc:PersonUnionSeparationType,true,,A separation of the parties in a Person Union.
+PersonUnionStatusCode,nc:PersonUnionStatusCodeType,true,nc:PersonUnionStatusAbstract,A legal status of a union between two people.
+PersonUnionStatusText,nc:TextType,true,nc:PersonUnionStatusAbstract,A legal status of a union between two people.
+PersonVisionPrescriptionText,nc:TextType,true,,A prescription a person needs for corrective lenses or contacts.
+PersonWeightDescriptionText,nc:TextType,true,,A description of the weight of a person.
+PersonWeightMeasure,nc:WeightMeasureType,true,,A measurement of the weight of a person.
+PersonWorker,nc:PersonType,true,,A person assigned to do work for or on behalf of a person.
+PersonWorkerAssociation,nc:PersonWorkerAssociationType,true,,An association between a person and a person assigned to do work for or on behalf of that person.
+PersonWorksAtFacilityAssociation,nc:FacilityPersonAssociationType,true,nc:FacilityPersonAssociation,An association between a person and a facility at which that person works.
+PersonWritesLanguageIndicator,niem-xs:boolean,true,,True if a person is able to write a language; false otherwise.
+PersonXRayImage,nc:ImageType,true,,An X-Ray image of a person or part of a person.
+PhysicalAddress,nc:AddressType,true,nc:Address,A physical address for a location. This may or may not be the same as the location's mailing address.
+PhysicalFeature,nc:PhysicalFeatureType,true,,A prominent or easily identifiable aspect of something or someone.
+PhysicalFeatureCategoryText,nc:TextType,true,nc:PhysicalFeatureCategoryAbstract,A specific kind of physical feature.
+PhysicalFeatureDescriptionText,nc:TextType,true,,A description of a physical feature.
+PhysicalFeatureGeneralCategoryText,nc:TextType,true,nc:PhysicalFeatureGeneralCategoryAbstract,A general kind of physical feature.
+PhysicalFeatureImage,nc:ImageType,true,,A digital image of a physical feature.
+PhysicalFeatureLocationText,nc:TextType,true,,A location on a person's body of a physical feature.
+PlanActivationDecisionText,nc:TextType,true,,A description of the activation decision for an action plan.
+PlanApprovalDate,nc:DateType,true,,A date of approval for a plan.
+PlanApprovalEntity,nc:EntityType,true,,An entity that approves a plan.
+PlanAssignedPerson,nc:PersonType,true,,A person responsible for the implementation of a plan.
+PlanComment,nc:CommentType,true,,A comment relating to a plan.
+PlanCreatedDate,nc:DateType,true,,A date on which a plan was created.
+PlanDateRange,nc:DateRangeType,true,,A date range for which a plan covers.
+PlanEstimatedFulfillmentDate,nc:DateType,true,,A date on which the actions of a plan are estimated to be completed.
+PlanIdentification,nc:IdentificationType,true,,An identification of a plan.
+PlanName,nc:TextType,true,,A name or title of a plan.
+PlanOperationalObjectiveText,nc:TextType,true,,An operational objective for a plan.
+PlanPurposeText,nc:TextType,true,,A purpose for a plan.
+PlanReleaseDate,nc:DateType,true,,A release date for a plan.
+PlanReport,nc:ReportType,true,,A report that represents or shares information about a plan.
+PlanRevisionReleaseDate,nc:DateType,true,,A date the next revision of a plan is scheduled to be published.
+PlanTargetOutcomeText,nc:TextType,true,,A target outcome after a plan is activated.
+PlanTask,nc:TaskType,true,,"A function, assignment, or task that is part of a plan."
+PlanUpdatedDate,nc:DateType,true,,A date of last change to a plan.
+PolygonNodeLocation,nc:LocationType,true,,A location of a vertex of a polygon region.
+PreviousActivity,nc:ActivityType,true,,An activity that occurred previously.
+PreviousActivityAssociation,nc:PreviousActivityAssociationType,true,,An association between an activity and a preceding activity.
+PrimaryDocument,nc:DocumentType,true,,A main or primary document.
+ProbabilityPercent,nc:PercentType,true,,A decimal value that indicates computed likelihood that what the content is true or accurate. This value is based on a calculation of probability of occurrence or truth.
+Program,nc:ProgramType,true,,"A set of projects, activities, or services intended to meet a need."
+ProgramAction,nc:ActivityType,true,,A project or service of a program.
+ProgramAdministrator,nc:EntityType,true,,An entity that runs a program.
+ProgramCapacityQuantity,niem-xs:nonNegativeInteger,true,,A maximum number of people that can be enrolled in a program at a time.
+ProgramCondition,nc:ConditionType,true,,A condition that must be met in order for a person to remain in a program.
+ProgramFacility,nc:FacilityType,true,,A place where a program is located.
+ProgramPerson,nc:PersonType,true,,A person who attends a program.
+ProgramPubliclyRunIndicator,niem-xs:boolean,true,,True if a program is run in the public sector; false if the program is run privately.
+ProgramPurposeText,nc:TextType,true,,A purpose or reason for a program.
+ProgramReferral,nc:ReferralType,true,,A recommendation or mandate for a person to attend a program.
+ProgramRelease,nc:ReleaseType,true,,A manner by which a person left a program.
+ProgramResidentialIndicator,niem-xs:boolean,true,,True if a person resides at a program facility; false otherwise.
+ProgramSupervisedIndicator,niem-xs:boolean,true,,True if a person will be officially supervised through the duration of a program; false otherwise.
+ProgramSupervisor,nc:EntityType,true,,An entity that oversees and manages a program.
+Progress,nc:ProgressType,true,,A set of changes or advancements which bring someone closer to completing something.
+ProgressComplianceIndicator,niem-xs:boolean,true,,True if a reported progress is acceptable according to the terms set; false otherwise.
+ProgressComplianceText,nc:TextType,true,nc:ProgressComplianceAbstract,A description of the compliance or non-compliance of a person with an activity.
+ProgressPaymentAmount,nc:AmountType,true,,An amount of money paid towards completion of a requirement.
+ProgressTimeQuantityText,nc:TextType,true,,A quantity of time spent towards completion of a requirement.
+PublicService,nc:PublicServiceType,true,,"A set of deeds and acts performed by or on behalf of a public agency for the benefit of a citizen, a business or another public agency."
+PublicServiceAvailabilitySchedule,nc:ScheduleType,true,,A time frame in which a public service is available.
+PublicServiceCategoryText,nc:TextType,true,nc:PublicServiceCategoryAbstract,A kind of public service.
+PublicServiceChannelText,nc:TextType,true,nc:PublicServiceChannelAbstract,A particular end or object through which the service may be available.
+PublicServiceDescriptionText,nc:TextType,true,,A description of the public service.
+PublicServiceInputResourceDocument,nc:DocumentType,true,,A resource required by the service in order to operate.
+PublicServiceLanguage,nc:LanguageType,true,,A language in which the service is available.
+PublicServiceLocation,nc:LocationType,true,,A physical location at which a user may interact with a public service.
+PublicServiceName,nc:TextType,true,,A name of a public service.
+PublicServiceOutputResourceDocument,nc:DocumentType,true,,A resource produced by a public service.
+PublicServiceRelatedLocation,nc:LocationType,true,,A location or place related to an available public service.
+PublicServiceRelatedService,nc:PublicServiceType,true,,"A public service related to this service, but not required."
+PublicServiceRequiredService,nc:PublicServiceType,true,,A public service that is required by this service.
+PublicServiceWebsiteURI,niem-xs:anyURI,true,,A web page through which a public service may be available.
+Publication,nc:PublicationType,true,,"A collection of written, printed, illustrated, or blank sheets, made of paper, parchment, or other material, usually fastened together to hinge at one side."
+PublicationAuthorText,nc:TextType,true,,A person who originates or gives existence to a publication.
+PublicationDate,nc:DateType,true,,A date of a publication
+PublicationISBNID,niem-xs:string,true,,"A unique, numerical, commercial book identifier."
+PublicationISSNID,niem-xs:string,true,,"A unique, numerical, commercial periodical publication identifier."
+PublicationLibraryClassificationIdentification,nc:IdentificationType,true,,"A unique identification of a publication assigned by a library to classify, organize, and track publications, e.g. Dewey Decimal System Number."
+PublicationPageText,nc:TextType,true,,A data element for page or page numbers on which a publication is appeared in a periodical
+PublicationPublisherText,nc:TextType,true,,An owner of the copyright for the publication.
+PublicationSubjectText,nc:TextType,true,,An area of knowledge.
+PublicationSubscriberPersonAssociation,nc:ItemEntityAssociationType,true,,"A relationship between a person and a publication they subscribe to, or have read or are reading."
+PublicationTitleText,nc:TextType,true,,A name given to a publication.
+PublisherName,nc:TextType,true,,A name of an entity responsible for the publication of the information.
+QualityComment,nc:CommentType,true,,"A remark, explanation, or observation regarding the accuracy or trustworthiness of the information."
+QuarterID,nc:QuarterIDType,true,nc:DateRepresentation,An identifier of a three-month period in a calendar or fiscal year.
+RangeMaximumDecimalValue,niem-xs:decimal,true,,A maximum value of a range.
+RangeMaximumDoubleValue,niem-xs:double,true,,A maximum value of a range.
+RangeMaximumIntegerValue,niem-xs:integer,true,,A maximum value of a range.
+RangeMaximumUnsignedIntegerValue,niem-xs:unsignedInt,true,,A maximum value of a range.
+RangeMinimumDecimalValue,niem-xs:decimal,true,,A minimum value of a range.
+RangeMinimumDoubleValue,niem-xs:double,true,,A minimum value of a range.
+RangeMinimumIntegerValue,niem-xs:integer,true,,A minimum value of a range.
+RangeMinimumUnsignedIntegerValue,niem-xs:unsignedInt,true,,A minimum value of a range.
+RealEstate,nc:RealEstateType,true,,A piece of land and any permanent structures and natural resources on it.
+RealEstateAcreageText,nc:TextType,true,,An area of land measured in acres.
+RealEstateAttachedFacility,nc:FacilityType,true,,A permanent structure attached or affixed to real estate.
+RealEstateBoundaryDescriptionText,nc:TextType,true,,A description of the boundary or real property limits of a piece of real estate.
+Recommendation,nc:RecommendationType,true,,A suggestion or proposal as to the best course of action.
+RecommendationCategoryText,nc:TextType,true,nc:RecommendationCategoryAbstract,A kind of recommendation.
+RecommendationComment,nc:CommentType,true,,A comment about the recommendation.
+RecommendationDate,nc:DateType,true,,A date on which a recommendation is made.
+RecommendationDescriptionText,nc:TextType,true,,A description of a recommendation.
+RecommendationEntity,nc:EntityType,true,,A person or organization who makes a recommendation.
+RecommendationSubjectText,nc:TextType,true,,A subject of a recommendation.
+RecommendationText,nc:TextType,true,,A recommendation.
+Referral,nc:ReferralType,true,,"A recommendation of a person to an activity, program, or product."
+ReferralActivity,nc:ActivityType,true,,An activity or program to which a person is directed to attend or perform.
+ReferralEntity,nc:EntityType,true,,An entity to which a person has been referred.
+ReferralIssuer,nc:EntityType,true,,"An entity which recommends a person to an activity, program, or product."
+ReferralItem,nc:ItemType,true,,A property item to which a person has been directed.
+ReferralMandatoryIndicator,niem-xs:boolean,true,,True if a referral is required; false if a referral is optional.
+ReferralPerson,nc:PersonType,true,,A person who is being directed to a relevant service or product.
+ReferralSupervisor,nc:EntityType,true,,An entity which is responsible for ensuring that a person follows a referral.
+RelatedActivity,nc:ActivityType,true,,An activity having some relationship or association to another activity.
+RelatedActivityAssociation,nc:RelatedActivityAssociationType,true,,An association between an activity and a related activity.
+RelatedCaseAssociation,nc:RelatedActivityAssociationType,true,,An association between related cases.
+RelativeLocation,nc:RelativeLocationType,true,,A location identified by its proximity to another location.
+RelativeLocationDescriptionText,nc:TextType,true,,A description of how to reach a location from a certain starting point.
+RelativeLocationDirectionCode,nc:DirectionCodeType,true,nc:RelativeLocationDirectionAbstract,A relative compass direction of a location or movement from a starting point.
+RelativeLocationDirectionText,nc:TextType,true,nc:RelativeLocationDirectionAbstract,A relative direction of a location or movement from a starting point.
+RelativeLocationDistanceMeasure,nc:LengthMeasureType,true,,A measurement of the distance of a location from a starting point.
+RelativeLocationHeadingValue,nc:RelativeLocationHeadingType,true,,A heading of a direction from a starting point.
+RelativeLocationReferencePoint,nc:LocationType,true,,A starting point used as a basis to determine the location of another point.
+Release,nc:ReleaseType,true,,"A freeing or discharge of someone or something from an activity, supervision, or obligation."
+ReleaseDate,nc:DateType,true,,A date the information was first released for dissemination.
+ReleaseFromLocation,nc:LocationType,true,,A location from which someone or something is released.
+ReleaseIssuer,nc:EntityType,true,,An entity that authorizes a release.
+ReleaseItem,nc:ItemType,true,,An item that is released from holding.
+ReleasePerson,nc:PersonType,true,,A person who is released from confinement or an obligation.
+ReleaseRecipient,nc:EntityType,true,,An entity which receives custody or supervisory authority over someone or something.
+ReleaseSupervisor,nc:EntityType,true,,An entity responsible for overseeing the release of someone or something from custody.
+ReleaseToLocation,nc:LocationType,true,,A location to which someone or something is released.
+Report,nc:ReportType,true,,"An account given of a particular matter, especially in the form of an official document, after thorough investigation or consideration by an appointed person or body."
+ReportAssignee,nc:PersonType,true,,A person responsible for generating or developing a document.
+ReportCoverageDateRange,nc:DateRangeType,true,,A period of time covered by a document.
+ReportDueDate,nc:DateType,true,,A due date for the next report.
+ReportFrequencyText,nc:TextType,true,nc:ReportFrequencyAbstract,A frequency or period for which a recurring report is published.
+ReportID,niem-xs:string,true,,An identifier for a report.
+ReportTemplateCategoryText,nc:TextType,true,nc:ReportTemplateCategoryAbstract,A kind of template for a report.
+ReportedDate,nc:DateType,true,,"A date information was observed, measured, identified, or became known."
+ReportingOrganization,nc:OrganizationType,true,nc:ReportingOrganizationAbstract,An organization that provided the information.
+ReportingOrganizationText,nc:TextType,true,nc:ReportingOrganizationAbstract,"A name, identifier, or reference of an organization that provided the information."
+ReportingPerson,nc:PersonType,true,nc:ReportingPersonAbstract,A person who provided the information.
+ReportingPersonRoleText,nc:TextType,true,nc:ReportingPersonRoleAbstract,"A type, responsibility, or role of a person who provided the information."
+ReportingPersonText,nc:TextType,true,nc:ReportingPersonAbstract,"A name, identifier, or reference of a person who provided the information."
+RepositoryID,niem-xs:string,true,,An identifier assigned to the repository from which the information originated.
+Request,nc:RequestType,true,,A formal message requesting something that is submitted to an authority.
+RequestCategoryText,nc:TextType,true,nc:RequestCategoryAbstract,A kind of request.
+RequestContactInformation,nc:ContactInformationType,true,,A set of contact information for a point of contact for the request.
+RequestDate,nc:DateType,true,,A date on which a request was made.
+RequestDecisionDate,nc:DateType,true,,A date on which a decision was recorded for a request.
+RequestDecisionText,nc:TextType,true,,A decision that was made over a request.
+RequestDescriptionText,nc:TextType,true,,A description of a request.
+RequestIdentification,nc:IdentificationType,true,,An identification of a request.
+RequestStatus,nc:StatusType,true,,A status of a request.
+RequestText,nc:TextType,true,,A request message.
+ResidenceDescriptionText,nc:TextType,true,,A general description of a place in which a person lives.
+ResidenceOccupancyCategoryText,nc:TextType,true,nc:ResidenceOccupancyCategoryAbstract,A kind of occupancy of a residence.
+ResidencePaymentAmount,nc:AmountType,true,,An amount of money a person pays each payment period to live at a residence.
+ResidencePaymentPeriodText,nc:TextType,true,nc:ResidencePaymentPeriodAbstract,An interval or period for which a person is required to make regular residence payments.
+ResidentialFacility,nc:FacilityType,true,,A structure in which a person lives.
+RiskReductionFacility,nc:FacilityType,true,,A facility to which a person may be remanded in order to lower the probability of undesirable outcomes.
+RiskReductionProgram,nc:ProgramType,true,,A program designed to lower the probability of undesirable outcomes.
+RoleOfDocument,nc:DocumentType,true,,A document of whom the role object is a function.
+RoleOfItem,nc:ItemType,true,nc:RoleOfAbstract,An entity of whom the role object is a function.
+RoleOfOrganization,nc:OrganizationType,true,nc:RoleOfAbstract,An organization of whom the role object is a function.
+RoleOfPerson,nc:PersonType,true,nc:RoleOfAbstract,A person of whom the role object is a function.
+RollValue,nc:Degree180PlusMinusType,true,,"An angle of rotation of a thing about its longitudinal axis, measured in degrees between the lateral axis and the horizontal plane; negative values indicate the left side is rotated downward."
+SIMCard,nc:DeviceType,true,,A smart card that identifies a mobile telephone service subscriber.
+Schedule,nc:ScheduleType,true,,A schedule providing the beginning and ending times of operation or availability for a designated period of time.
+ScheduleActivityText,nc:TextType,true,,An activity planned to occur on a certain date and time.
+ScheduleDate,nc:DateType,true,nc:ScheduleDayAbstract,A date for which an activity is scheduled.
+ScheduleDay,nc:ScheduleDayType,true,,A plan or agenda for the activities of a day or dates.
+ScheduleDayEndTime,niem-xs:time,true,,A time at which an activity is scheduled to end.
+ScheduleDayOfWeekCode,nc:DayOfWeekCodeType,true,nc:ScheduleDayAbstract,A day of the week with the given schedule information.
+ScheduleDayStartTime,niem-xs:time,true,,A time at which an activity is scheduled to begin.
+ScheduleDayStatus,nc:StatusType,true,,A schedule status for a particular day.
+ScheduleDescriptionText,nc:TextType,true,,A description of the schedule.
+ScheduleEffectiveDateRange,nc:DateRangeType,true,,A date range over which a schedule will be valid.
+ScheduleExceptionsDescriptionText,nc:TextType,true,,"A description of special exceptions to the given schedule, such as holiday hours or closings."
+ScheduleNonStopIndicator,niem-xs:boolean,true,,"True if the schedule applies 24 hours a day, 7 days a week; false otherwise."
+SchedulePerson,nc:PersonType,true,,A person for whom an activity is scheduled.
+ScheduleStatus,nc:StatusType,true,,An overall status for the schedule.
+ScheduleTimeRange,nc:TimeRangeType,true,,A time range for the schedule.
+SecondaryDocument,nc:DocumentType,true,,A secondary or related document.
+Securities,nc:SecuritiesType,true,,A financial instrument showing ownership or credit.
+SecuritiesCollectionDateRange,nc:DateRangeType,true,,A date range during which an owner may collect returns from a security.
+SecuritiesDateSeriesText,nc:TextType,true,nc:SecuritiesDateSeriesAbstract,A security date or series year.
+SecuritiesDenominationText,nc:TextType,true,nc:SecuritiesDenominationAbstract,A value within a series of values reflecting the worth of a security note.
+SecuritiesIssuer,nc:EntityType,true,,An entity which issued a security to a person.
+SensitivityText,nc:TextType,true,nc:SensitivityAbstract,A sensitivity level of the information.
+SeparationCategoryCode,nc:SeparationCategoryCodeType,true,nc:SeparationCategoryAbstract,A code that identifies the type of separation between the parties in a Person Union.
+SeparationCategoryText,nc:TextType,true,nc:SeparationCategoryAbstract,A kind of separation of the parties in a Person Union.
+SeparationDateRange,nc:DateRangeType,true,,A date range during which the parties in a Person Union were separated.
+ServiceDeliveryNGO,nc:OrganizationType,true,,An institution that provides aid directly to individuals.
+Site,nc:SiteType,true,,A specific place or position.
+SiteLocation,nc:LocationType,true,,A location of a site.
+SiteMobileDescriptionText,nc:TextType,true,,A description of a site that is mobile and does not have a fixed location.
+SiteMobileIndicator,niem-xs:boolean,true,,True if a site is mobile; false otherwise.
+SiteOwnerEntity,nc:EntityType,true,,An owner of a site.
+SiteSpecialInformationText,nc:TextType,true,,A comment or other information about a site that may be of importance to a responder.
+Software,nc:SoftwareType,true,,A computer application used to process data.
+SoftwareComponent,nc:SoftwareComponentType,true,,A component of software.
+SoftwareComponentVersionID,niem-xs:string,true,,A version identifier for a software component.
+SoftwareDescriptionText,nc:TextType,true,,A description of software.
+SoftwareName,nc:TextType,true,,A name of a computer application used to process data.
+SoftwareVendorName,nc:TextType,true,,A name of an organization that makes and sells software.
+SoftwareVersionText,nc:TextType,true,,A version of a computer application.
+SourceContactPerson,nc:PersonType,true,nc:SourceContactPersonAbstract,A person who can answer questions about the information.
+SourceContactPersonText,nc:TextType,true,nc:SourceContactPersonAbstract,A person who can answer questions about the information.
+SourceIDText,nc:TextType,true,,A number or string set by a data provider so that information that is sent can be retraced back to its source.
+SourceText,nc:TextType,true,,"A name, identifier, or reference of a resource from which the information was taken."
+SpeedMeasure,nc:SpeedMeasureType,true,,A measure of a speed or rate of motion.
+StartDate,nc:DateType,true,,A date on which something begins.
+StateCode,nc:CodeType,true,nc:StateRepresentation,"A state, commonwealth, province, or other such geopolitical subdivision of a country."
+StateName,nc:ProperNameTextType,true,nc:StateRepresentation,"A name of a state, commonwealth, province, or other such geopolitical subdivision of a country."
+Status,nc:StatusType,true,,A state of something or someone.
+StatusCommentText,nc:TextType,true,,A comment regarding a status.
+StatusDate,nc:DateType,true,,"A date a status was set, effected, or reported."
+StatusDescriptionText,nc:TextType,true,,A description of a status or condition of something or someone.
+StatusIssuerIdentification,nc:IdentificationType,true,,An identification of a person or organization which assigns a status.
+StatusIssuerText,nc:TextType,true,,"A name, identifier, or other reference of a person or organization which assigns a status."
+StatusText,nc:TextType,true,nc:StatusAbstract,A status or condition of something or someone.
+StrangerAssociation,nc:PersonAssociationType,true,,An association between people who do not know each other.
+StreetCategoryText,nc:TextType,true,nc:StreetCategoryAbstract,A kind of street.
+StreetDirectionalText,nc:TextType,true,nc:StreetDirectionalRepresentation,A direction that in a street name.
+StreetExtensionText,nc:TextType,true,,An additional part of a street reference that follows the street category and post directional.
+StreetFullText,nc:TextType,true,,A complete reference for a street.
+StreetName,nc:ProperNameTextType,true,,A name of a street.
+StreetNumberText,nc:TextType,true,,A number that identifies a particular unit or location within a street.
+StreetPostdirectional,nc:StreetDirectionalType,true,,A direction that appears after a street name.
+StreetPredirectional,nc:StreetDirectionalType,true,,A direction that appears before a street name.
+SubFacility,nc:FacilityType,true,,A facility within another facility.
+Substance,nc:SubstanceType,true,,A matter or substance of which something consists.
+SubstanceCategoryText,nc:TextType,true,nc:SubstanceCategoryAbstract,A kind of substance.
+SubstanceCompositionDescriptionText,nc:TextType,true,,A description of the ingredients or makeup of a substance.
+SubstanceContainerDescriptionText,nc:TextType,true,,A description of a container used to hold a substance.
+SubstanceFormText,nc:TextType,true,nc:SubstanceFormAbstract,A physical state or form in which a substance appears.
+SubstanceFoundDescriptionText,nc:TextType,true,,A description of where a substance was found.
+SubstanceMeasure,nc:SubstanceMeasureType,true,,A measure of the amount of something.
+SubstanceQuantityMeasure,nc:SubstanceMeasureType,true,,A quantity of a substance being described.
+Supervision,nc:SupervisionType,true,,"A process of overseeing, supervising, or keeping track in some capacity of a person."
+SupervisionCurrentIndicator,niem-xs:boolean,true,,True if a subject is currently under supervision; false otherwise.
+SupervisionCustodyStatus,nc:StatusType,true,,A status of the custody of a person under supervision.
+SupervisionFacility,nc:FacilityType,true,,A facility at which a subject is being supervised.
+SupervisionMandatoryIndicator,niem-xs:boolean,true,,True if a supervision of a person is required; false if a supervision is optional.
+SupervisionPerson,nc:PersonType,true,,A person who is being supervised.
+SupervisionPersonStatus,nc:StatusType,true,,A status of a person under supervision.
+SupervisionRelease,nc:ReleaseType,true,,A complete and unrestricted release of a subject from a supervision.
+SupervisionSupervisor,nc:EntityType,true,,An entity that supervises a person.
+SystemAuditEvent,nc:SystemAuditEventType,true,,A set of system event data for audit reporting purposes.
+SystemName,nc:TextType,true,,A name of the kind or the source of a system identifier.
+SystemOperatingModeName,nc:TextType,true,nc:SystemOperatingModeAbstract,A name of the operating mode of a system.
+Task,nc:TaskType,true,,A clearly defined action or activity specifically assigned to an individual or organization that must be done as it is imposed by an appropriate authority.
+TaskAssignedDate,nc:DateType,true,,A date that a task was assigned.
+TaskAssignedEntity,nc:EntityType,true,,An entity assigned to complete a task.
+TaskCompletedIndicator,niem-xs:boolean,true,,True if a task has been completed; false otherwise.
+TaskCompletedPercent,nc:PercentType,true,,A percent representing the amount of the task that has been completed.
+TaskDescriptionText,niem-xs:string,true,,A description of the task in detail.
+TaskDueDate,nc:DateType,true,,A date on which a task is due to be completed.
+TaskEndDate,nc:DateType,true,,A date for the actual end of a task.
+TaskID,niem-xs:string,true,,An identifier for a task.
+TaskLocation,nc:LocationType,true,,A location at which a task will occur.
+TaskName,niem-xs:string,true,,A name of a task.
+TaskOutcomeDescriptionText,nc:TextType,true,,A description of an outcome of a task.
+TaskStartDate,nc:DateType,true,,A date for the start of a task.
+TaskStatus,nc:StatusType,true,,A status of the task.
+TaskSuccessCriteriaText,nc:TextType,true,,A description of what needs to be done to successfully complete a task.
+TelecommunicationDevice,nc:DeviceType,true,,A device used for communication over a distance.
+TelecommunicationDeviceSIMCardAssociation,nc:TelecommunicationDeviceSIMCardAssociationType,true,,An association between a telecommunication device and a SIM card.
+TelephoneAreaCodeID,niem-xs:string,true,,"A dialing code for a state or province for phone numbers in the USA, Canada, Mexico, and the Caribbean."
+TelephoneCountryCodeID,niem-xs:string,true,,An international dialing code for a country.
+TelephoneExchangeID,niem-xs:string,true,,A portion of a telephone number that usually represents a central telephone switch.
+TelephoneLineID,niem-xs:string,true,,A portion of a telephone number that identifies the individual circuit within an exchange.
+TelephoneNumber,nc:TelephoneNumberType,true,,A telephone number for a telecommunication device.
+TelephoneNumberCategoryText,nc:TextType,true,nc:TelephoneNumberCategoryAbstract,A kind of telephone number.
+TelephoneNumberDescriptionText,nc:TextType,true,,A description of a telephone number.
+TelephoneNumberFullID,niem-xs:string,true,,A complete telephone number.
+TelephoneNumberID,niem-xs:string,true,,A telephone number.
+TelephoneSuffixID,niem-xs:string,true,,An additional sequence of numbers to be entered after a call connects to be directed to the appropriate place.
+TemperatureMeasure,nc:TemperatureMeasureType,true,,A measure of a temperature.
+TimeMeasure,nc:TimeMeasureType,true,,A measure of an amount of time.
+TowingCompany,nc:OrganizationType,true,,A company that tows a vehicle.
+TransportationAssociation,nc:TransportationAssociationType,true,,An association between a conveyance and the people and/or goods it transported.
+Treatment,nc:TreatmentType,true,,A treatment of a person for a mental or physical condition.
+TreatmentProvider,nc:EntityType,true,,An entity that provides a treatment.
+TreatmentText,nc:TextType,true,,A treatment that was provided or could be provisioned.
+URLID,niem-xs:anyURI,true,,An identifier representing a universal resource locator (URL).
+UTMCoordinateValue,nc:UTMCoordinateType,true,,"A coordinate from the Universal Transverse Mercator (UTM) Coordinate System, which represents a location with a hemisphere, zone, an easting value, and a northing value."
+UserLogonID,niem-xs:string,true,nc:SystemUserNameAbstract,An identifier for a system user in the form of a person's system access (logon) id.
+UserPersonName,nc:PersonNameType,true,nc:SystemUserNameAbstract,"A person's actual name, used as an identifier for a system user."
+Vehicle,nc:VehicleType,true,,"A conveyance designed to carry an operator, passengers and/or cargo, over land."
+VehicleAxleQuantity,niem-xs:nonNegativeInteger,true,,"A count of common axles of rotation of one or more wheels of a vehicle, whether power driven or freely rotating."
+VehicleCMVIndicator,niem-xs:boolean,true,,True if a vehicle is a commercial motor vehicle; false otherwise.
+VehicleColorInteriorText,nc:TextType,true,nc:VehicleColorInteriorAbstract,A color of the interior of a vehicle.
+VehicleCurrentWeightMeasure,nc:WeightMeasureType,true,,"An observed, estimated, or measured weight of the conveyance."
+VehicleDoorQuantity,niem-xs:nonNegativeInteger,true,,A number of doors on a vehicle.
+VehicleGarageLocationAssociation,nc:ItemLocationAssociationType,true,,An association between a vehicle and its garage location.
+VehicleGrossLadenSumWeightMeasure,nc:WeightMeasureType,true,,A sum of values specified by the manufacturer(s) for a truck tractor or trailer for the units that make up a combination.
+VehicleGrossLadenUnitWeightMeasure,nc:WeightMeasureType,true,,"A value specified by the manufacturer for a single unit truck, truck tractor, or trailer."
+VehicleIdentification,nc:IdentificationType,true,,A unique identification for a specific vehicle.
+VehicleMSRPAmount,nc:AmountType,true,,A manufacturer's suggested retail price of a vehicle; a price at which a manufacturer recommends a vehicle be sold.
+VehicleMaximumLoadWeightMeasure,nc:WeightMeasureType,true,,"A maximum load weight intended for the vehicle to transport, assigned at the point of manufacture."
+VehicleOdometerReadingMeasure,nc:LengthMeasureType,true,,A reading of a vehicle odometer to the nearest mile or kilometer.
+VehiclePassengerSafeQuantity,niem-xs:nonNegativeInteger,true,,A total number of people a vehicle is designed to safely transport.
+VehicleSeatingQuantity,niem-xs:nonNegativeInteger,true,,A total number of seats available in a vehicle.
+VehicleTowerAssociation,nc:ItemEntityAssociationType,true,,An association between a vehicle and the entity that towed it.
+VehicleTransmissionCategoryText,nc:TextType,true,nc:VehicleTransmissionCategoryAbstract,A kind of transmission unit in a vehicle.
+VehicleUnladenWeightMeasure,nc:WeightMeasureType,true,,"A weight of a vehicle fully equipped for service, not including the weight of the payload."
+VehicleUseText,nc:TextType,true,nc:ConveyanceUseAbstract,A manner or way in which a vehicle is used.
+VelocityMeasure,nc:VelocityMeasureType,true,,A measure of the rate of change of position along a straight line with respect to time.
+Vessel,nc:VesselType,true,,A mode of transportation capable of transport by water.
+VesselHullIdentification,nc:IdentificationType,true,,An identification found on the main body or frame of a vessel.
+VesselHullMaterialText,nc:TextType,true,nc:VesselHullMaterialAbstract,A substance used as the primary construction material of the main body or frame of a vessel.
+VesselHullShapeText,nc:TextType,true,nc:VesselHullShapeAbstract,A shape of the main body or frame of a vessel.
+VesselPropulsionText,nc:TextType,true,nc:VesselPropulsionAbstract,A mode by which a vessel is designed to move through the water.
+VesselTrailer,nc:VehicleType,true,,A device pulled by a vehicle for the purpose of transporting a vessel over land.
+VolumeMeasure,nc:VolumeMeasureType,true,,A measure of an amount of space.
+Weapon,nc:WeaponType,true,,A property item used as in instrument of attack or defense.
+WeaponInvolvedInActivity,nc:ActivityType,true,,An activity in which a weapon was involved.
+WeaponUsageText,nc:TextType,true,nc:WeaponUsageAbstract,A way or manner in which a weapon was used.
+WeaponUser,nc:PersonType,true,,A person who uses a weapon.
+WeightMeasure,nc:WeightMeasureType,true,,A measure of a weight.
+YearDate,niem-xs:gYear,true,nc:DateRepresentation,A year.
+YearMonthDate,niem-xs:gYearMonth,true,nc:DateRepresentation,A year and month.
+ZuluDateTime,nc:ZuluDateTimeType,true,nc:DateRepresentation,A date and time with no offset from Coordinated Universal Time (UTC).

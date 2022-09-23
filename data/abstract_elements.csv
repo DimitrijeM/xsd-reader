@@ -1,0 +1,430 @@
+name,annotation_documentation,is_abstract
+ActivityAugmentationPoint,An augmentation point for ActivityType.,true
+ActivityCategoryAbstract,A data concept for a kind of activity.,true
+ActivityConveyanceAssociationAugmentationPoint,An augmentation point for ActivityConveyanceAssociationType.,true
+ActivityDocumentAssociationAugmentationPoint,An augmentation point for ActivityDocumentAssociationType.,true
+ActivityFacilityAssociationAugmentationPoint,An augmentation point for ActivityFacilityAssociationType.,true
+ActivityInvolvementAbstract,A data concept for a description of the involvement of an entity in an activity.,true
+ActivityItemAssociationAugmentationPoint,An augmentation point for ActivityItemAssociationType.,true
+ActivityOrganizationAssociationAugmentationPoint,An augmentation point for ActivityOrganizationAssociationType.,true
+ActivityPersonAssociationAugmentationPoint,An augmentation point for ActivityPersonAssociationType.,true
+ActivityReasonAbstract,A data concept for a reason for an activity.,true
+ActivityRelationAbstract,A data concept for a relationship between activities.,true
+ActivityScheduleAssociationAugmentationPoint,An augmentation point for ActivityScheduleAssociationType.,true
+ActivitySiteAssociationAugmentationPoint,An augmentation point for nc:ActivitySiteAssociationType.,true
+AddressAugmentationPoint,An augmentation point for AddressType.,true
+AddressCategoryAbstract,A data concept for a kind of address.,true
+AddressCountyAbstract,"A data concept for a county, parish, vicinage, or other such geopolitical subdivision of a state.",true
+AddressDeliveryPointAbstract,A data concept for a single place or unit at which mail is delivered.,true
+AddressGridAugmentationPoint,An augmentation point for AddressGridType.,true
+AircraftAugmentationPoint,An augmentation point for AircraftType.,true
+AircraftCategoryAbstract,A data concept for categorizing aircraft based upon intended use or operating limitations.,true
+AircraftFuselageColorAbstract,A data concept for a primary color of the main body of an aircraft.,true
+AircraftMakeAbstract,A data concept for a manufacturer of an aircraft.,true
+AircraftModelAbstract,A data concept for a specific design or kind of aircraft made by a manufacturer.,true
+AircraftStyleAbstract,A data concept for a style of an aircraft.,true
+AircraftWingColorAbstract,A data concept for a primary color of the wings on an aircraft.,true
+AirportAugmentationPoint,An augmentation point for AirportType.,true
+AirportCodeAbstract,A data concept for a code assigned to an airport used for identification.,true
+AmountAugmentationPoint,An augmentation point for AmountType.,true
+AngleMeasureAugmentationPoint,An augmentation point for type nc:AngleMeasureType,true
+AngleUnitAbstract,A data concept for a unit of measure of an angle value.,true
+AngularMeasureAugmentationPoint,An augmentation point for AngularMeasureType.,true
+AngularRateMeasureAugmentationPoint,An augmentation point for type nc:AngularRateMeasureType,true
+AngularRateUnitAbstract,A data concept for a unit of measure of an angular rate of change.,true
+AnomalyAugmentationPoint,An augmentation point for AnomalyType.,true
+AnomalyCategoryAbstract,A data concept for a type or kind of anomaly.,true
+AreaAugmentationPoint,An augmentation point for AreaType.,true
+AreaGeographicAbstract,A data concept for a local or map-specific geographically-based code used to describe an area.,true
+AreaMeasureAugmentationPoint,An augmentation point for type nc:AreaMeasureType,true
+AreaMeasureUnitAbstract,A data concept for a unit of measure for area.,true
+AreaRegionAbstract,A data concept for a location identified by geographic boundaries.,true
+ArrivalAugmentationPoint,An augmentation point for type nc:ArrivalType,true
+AssessmentAugmentationPoint,An augmentation point for AssessmentType.,true
+AssessmentCategoryAbstract,A data concept for a kind of assessment.,true
+AssessmentScoreAbstract,A data concept for an outcome or evaluation score of an assessment.,true
+AssociationAugmentationPoint,An augmentation point for AssociationType.,true
+AzimuthAbstract,A data concept for an orientation of something with respect to True North.,true
+BearingAugmentationPoint,An augmentation point for BearingType.,true
+BinaryAugmentationPoint,An augmentation point for BinaryType.,true
+BinaryCategoryAbstract,A data concept for a kind of binary object.,true
+BinaryFormatAbstract,A data concept for a file format or content type of a binary object.,true
+BinaryHashAugmentationPoint,An augmentation point for type nc:BinaryHashType,true
+BinaryHashFunctionAbstract,A data concept for a hash function used to generate a hash value representing an object encoded in a binary format.,true
+BinaryObjectAbstract,A data concept for a binary encoding of data.,true
+CapabilityAugmentationPoint,An augmentation point for CapabilityType.,true
+CapabilityCategoryAbstract,A data concept for a specific kind of capacity or ability.,true
+CapabilityGeneralCategoryAbstract,A data concept for a general classification of a kind of capacity or ability.,true
+CaseAugmentationPoint,An augmentation point for CaseType.,true
+CaseCategoryAbstract,A data concept for a kind of case.,true
+CaseDispositionAugmentationPoint,An augmentation point for CaseDispositionType.,true
+CaseDispositionDecisionAugmentationPoint,An augmentation point for CaseDispositionDecisionType.,true
+CaseDispositionDecisionCategoryAbstract,A data concept for a kind of decision made in a case disposition.,true
+CaseGeneralCategoryAbstract,A data concept for a broadly defined kind of case.,true
+CaseSubCategoryAbstract,A data concept for a more specific classification of a kind of case.,true
+CaveatAugmentationPoint,An augmentation point for CaveatType.,true
+CircularRegionAugmentationPoint,An augmentation point for CircularRegionType.,true
+CommentAugmentationPoint,An augmentation point for CommentType.,true
+ConditionAugmentationPoint,An augmentation point for ConditionType.,true
+ConditionViolationAbstract,A data concept for a violation of a condition.,true
+ConsumptionRateMeasureAugmentationPoint,An augmentation point for type nc:ConsumptionRateMeasureType,true
+ConsumptionRateUnitAbstract,A data concept for a unit of measure of a rate of consumption value.,true
+ContactInformationAugmentationPoint,An augmentation point for ContactInformationType.,true
+ContactInformationAvailabilityAbstract,A data concept for a period of time or a situation in which an entity is available to be contacted with the given contact information.,true
+ContactInformationCategoryAbstract,A data concept for a kind of contact information.,true
+ContactMeansAbstract,A data concept for a means of contacting someone.,true
+ContactRadioAugmentationPoint,An augmentation point for ContactRadioType.,true
+ContactRadioCategoryAbstract,A data concept for a kind of wavelength or band of a radio.,true
+ConveyanceAugmentationPoint,An augmentation point for ConveyanceType.,true
+ConveyanceCategoryAbstract,A data concept for a kind of conveyance.,true
+ConveyanceFuelCategoryAbstract,A data concept for a kind of fuel or motive power used to propel a conveyance.,true
+ConveyanceUseAbstract,A data concept for a manner or way in which a conveyance is used.,true
+CountryAugmentationPoint,An augmentation point for type nc:CountryType,true
+CountryRepresentation,A data concept for a representation of a country.,true
+CrisisAugmentationPoint,An augmentation point for type nc:CrisisType,true
+CrossStreetAugmentationPoint,An augmentation point for CrossStreetType.,true
+CurrencyAbstract,A data concept for a unit of money or exchange.,true
+DateAccuracyAbstract,A data concept for a subjective assessment that indicates belief that date content is exact or accurate.,true
+DateAugmentationPoint,An augmentation point for DateType.,true
+DateRangeAugmentationPoint,An augmentation point for DateRangeType.,true
+DateRepresentation,A data concept for a representation of a date.,true
+DecalAugmentationPoint,An augmentation point for DecalType.,true
+DecalColorAbstract,A data concept for a color of a decal.,true
+DecalPeriodAbstract,A data concept for a lifespan of a decal for which it is valid.,true
+DecimalRangeAugmentationPoint,An augmentation point for DecimalRangeType.,true
+DepartureAugmentationPoint,An augmentation point for type nc:DepartureType,true
+DeviceAugmentationPoint,An augmentation point for nc:DeviceType.,true
+DeviceCategoryAbstract,A data concept for a kind of communication device.,true
+DeviceInformationAssociationAugmentationPoint,An augmentation point for nc:DeviceInformationAssociationType.,true
+DeviceReceivedInformationAbstract,"A data concept for a call, message, file, communication, or other kind of information received by a device.",true
+DeviceSentInformationAbstract,"A data concept for a call, message, file, communication, or other kind of information sent from a device.",true
+DeviceStoredInformationAbstract,"A data concept for a call, message, file, communication, or other kind of information stored on a device.",true
+DeviceVisitedInformationAbstract,A data concept for a website or other kind of information visited or accessed by a device.,true
+DirectDialTelephoneNumberAugmentationPoint,An augmentation point for DirectDialTelephoneNumberType.,true
+DisciplinaryActionAugmentationPoint,An augmentation point for DisciplinaryActionType.,true
+DispositionAugmentationPoint,An augmentation point for DispositionType.,true
+DispositionCategoryAbstract,A data concept for a kind of disposition.,true
+DispositionReasonAbstract,A data concept for a reason for a disposition.,true
+DocumentAssociationAugmentationPoint,An augmentation point for DocumentAssociationType.,true
+DocumentAugmentationPoint,An augmentation point for DocumentType.,true
+DocumentCategoryAbstract,A data concept for a kind of document.,true
+DocumentContentAbstract,A data concept for the content of a document.,true
+DocumentCoverageAbstract,A data concept for an extent or scope of the content of the resource.,true
+DocumentDisputedReasonAbstract,A data concept for a reason why the accuracy of a document is disputed.,true
+DocumentFormatAbstract,"A data concept for a file format, content type (e.g., a MIME type), or physical format of a document.",true
+DocumentFormatCategoryAbstract,A data concept for a kind of classification system used to define the specific format of a binary object or file.,true
+DocumentIntelligenceCategoryAbstract,A data concept for a nature or genre of the resource.,true
+DocumentKeywordAbstract,A data concept for a significant word or phrase that describes the overall content of a document or its main topic.,true
+DocumentPhysicalMediumCategoryAbstract,A data concept for a material or physical carrier for storing a document.,true
+DocumentRelationAbstract,A data concept for a relationship between documents.,true
+DocumentSensitivityAbstract,"A data concept for a characterization of the sensitivity, security, or privacy level of a document.",true
+DocumentStatusCategoryAbstract,A data concept for a kind of status of a document.,true
+DocumentSubjectAbstract,A data concept for a subject code systems used and the appropriate subject code assigned to the document.,true
+DoubleRangeAugmentationPoint,An augmentation point for DoubleRangeType.,true
+DrugAugmentationPoint,An augmentation point for DrugType.,true
+DrugClassScheduleAbstract,A data concept for a class to which the Drug Enforcement Agency has assigned the product under the Controlled Substances A data concept for act of 1970.,true
+EducationAugmentationPoint,An augmentation point for type nc:EducationType,true
+EducationLevelAugmentationPoint,An augmentation point for type nc:EducationLevelType,true
+EducationLevelRepresentation,A data concept for a representation of a level of education reached by a person.,true
+EducationQualificationAugmentationPoint,An augmentation point for type nc:EducationQualificationType,true
+EducationQualificationRepresentation,"A data concept for a representation of a degree, certificate, credit, or other educational qualification obtained by a person.",true
+ElectronicAddressAugmentationPoint,An augmentation point for ElectronicAddressType.,true
+EmployeeAssignmentAssociationAugmentationPoint,An augmentation point for type nc:EmployeeAssignmentAssociationType,true
+EmployeeOccupationAbstract,A data concept for a job of an employee.,true
+EmployeeOccupationCategoryAbstract,A data concept for a general kind of job of an employee.,true
+EmployeePayAbstract,A data concept for a monetary compensation a person receives for employment.,true
+EmployeeRankAbstract,"A data concept for a rank, status, or promotion level of a person within an employment organization.",true
+EmployeeRegistrationAbstract,A data concept for a registration of an employee.,true
+EmployeeShiftAbstract,A data concept for a set of hours or time frame during which a person usually works.,true
+EmployerAugmentationPoint,An augmentation point for type nc:EmployerType,true
+EmploymentAssociationAugmentationPoint,An augmentation point for EmploymentAssociationType.,true
+EmploymentLengthAbstract,A data concept for an amount of time an employment as lasted.,true
+EmploymentPositionAbstract,A data concept for a job name or title of an employment position.,true
+EmploymentPositionAugmentationPoint,An augmentation point for type nc:EmploymentPositionType,true
+EmploymentPositionBargainingExclusionAbstract,A data concept identifying a kind of position excluded from a bargaining unit.,true
+EmploymentPositionBargainingUnitAbstract,A data concept for a bargaining unit representing an employment position.,true
+EmploymentPositionBasisAbstract,"A data concept for a nature or duration of the position, such as permanent, non-permanent, or contractor.",true
+EmploymentPositionOrganizationAssociationAugmentationPoint,An augmentation point for type nc:EmploymentPositionOrganizationAssociationType,true
+EmploymentPositionRequiredEducationAbstract,A data concept for a kind of educational level or certification required for an employment position.,true
+EmploymentPositionRequiredJobSkillAbstract,A data concept for a job skill that is required for this position.,true
+EmploymentPositionSecurityClearanceLevelAbstract,A data concept for a security clearance level required for an employment position.,true
+EmptyReasonAbstract,A data concept for a reason why a data value was not provided.,true
+EncounterCategoryAbstract,A data concept for a kind of encounter.,true
+EncounterClassificationAugmentationPoint,An augmentation point for EncounterClassificationType.,true
+EntityAugmentationPoint,An augmentation point for EntityType.,true
+EntityRepresentation,A data concept for a representation of an entity.,true
+EquipmentAugmentationPoint,An augmentation point for EquipmentType.,true
+FacilityAssociationAugmentationPoint,An augmentation point for FacilityAssociationType.,true
+FacilityAugmentationPoint,An augmentation point for FacilityType.,true
+FacilityDocumentAssociationAugmentationPoint,An augmentation point for FacilityDocumentAssociationType.,true
+FacilityFunctionAbstract,A data concept for a purpose or use of a facility.,true
+FacilityFunctionAugmentationPoint,An augmentation point for type nc:FacilityFunctionType,true
+FacilityImageAssociationAugmentationPoint,An augmentation point for FacilityImageAssociationType.,true
+FacilityPersonAssociationAugmentationPoint,An augmentation point for FacilityPersonAssociationType.,true
+FacilitySecurityLevelAbstract,A data concept for a level of security at which a facility operates.,true
+FacilitySiteAssociationAugmentationPoint,An augmentation point for nc:FacilitySiteAssociationType.,true
+FacilitySubFacilityAssociationAugmentationPoint,An augmentation point for FacilitySubFacilityAssociationType.,true
+FinancialAccountAugmentationPoint,An augmentation point for FinancialAccountType.,true
+FinancialAccountHolderAugmentationPoint,An augmentation point for type nc:FinancialAccountHolderType,true
+FullTelephoneNumberAugmentationPoint,An augmentation point for FullTelephoneNumberType.,true
+GenericEntityAugmentationPoint,An augmentation point for type nc:GenericEntityType,true
+GeographicDatumAbstract,A data concept for a spatial reference system.,true
+HazmatAbstract,A data concept for a hazardous material.,true
+HighwayAugmentationPoint,An augmentation point for HighwayType.,true
+IdentificationAugmentationPoint,An augmentation point for IdentificationType.,true
+IdentificationCategoryAbstract,A data concept for a kind of identification.,true
+IdentityAugmentationPoint,An augmentation point for IdentityType.,true
+ImageAugmentationPoint,An augmentation point for ImageType.,true
+IncidentAugmentationPoint,An augmentation point for IncidentType.,true
+InclinationAbstract,A data concept for an orientation of an object with respect to the horizontal plane.,true
+InjuryAugmentationPoint,An augmentation point for InjuryType.,true
+InjuryCategoryAbstract,A data concept for a kind of bodily harm or injury.,true
+InjuryCauserAbstract,A data concept for a causer of an injury.,true
+InjuryLocationAbstract,A data concept for a place on the body of a person where an injury occurred.,true
+InjurySeverityAbstract,A data concept for a severity of an injury received by a person involved into a Traffic Accident.,true
+InstantMessengerAugmentationPoint,An augmentation point for InstantMessengerType.,true
+InsuranceAugmentationPoint,An augmentation point for InsuranceType.,true
+InsuranceCoverageCategoryAbstract,A data concept for a kind of insurance coverage.,true
+IntangibleItemAugmentationPoint,An augmentation point for IntangibleItemType.,true
+IntangibleItemCategoryAbstract,A data concept for a kind of intangible item.,true
+IntegerRangeAugmentationPoint,An augmentation point for IntegerRangeType.,true
+IntellectualPropertyAugmentationPoint,An augmentation point for IntellectualPropertyType.,true
+InternationalTelephoneNumberAugmentationPoint,An augmentation point for InternationalTelephoneNumberType.,true
+ItemAugmentationPoint,An augmentation point for ItemType.,true
+ItemCategoryAbstract,A data concept for a kind of item.,true
+ItemColorPrimaryAbstract,A data concept for a primary color of an item.,true
+ItemColorSecondaryAbstract,A data concept for a secondary color of an item.,true
+ItemConditionAbstract,A data concept for a state or appearance of an item.,true
+ItemContainerAssociationAugmentationPoint,An augmentation point for ItemContainerAssociationType.,true
+ItemDispositionAbstract,A data concept for an indication of what happened to a property item.,true
+ItemDispositionAugmentationPoint,An augmentation point for ItemDispositionType.,true
+ItemEntityAssociationAugmentationPoint,An augmentation point for ItemEntityAssociationType.,true
+ItemInsuranceAssociationAugmentationPoint,An augmentation point for ItemInsuranceAssociationType.,true
+ItemLocationAssociationAugmentationPoint,An augmentation point for ItemLocationAssociationType.,true
+ItemMakeAbstract,A data concept for a manufacturer that produced an item.,true
+ItemOwnershipCategoryAbstract,A data concept for a kind of ownership of an item.,true
+ItemStyleAbstract,A data concept for a style of an item.,true
+ItemTransactionAugmentationPoint,An augmentation point for ItemTransactionType.,true
+ItemValueAssigningMethodAbstract,A data concept for a method used to assign the value of an item.,true
+ItemValueAugmentationPoint,An augmentation point for ItemValueType.,true
+JurisdictionAbstract,"A data concept for an area, state, region, or other geographic unit over which some kind of authority exists.",true
+JurisdictionAugmentationPoint,An augmentation point for JurisdictionType.,true
+LanguageAugmentationPoint,An augmentation point for type nc:LanguageType,true
+LanguageRepresentation,A data concept for a representation of a system of words or symbols used for communication.,true
+LatitudeCoordinateAugmentationPoint,An augmentation point for LatitudeCoordinateType.,true
+LengthMeasureAugmentationPoint,An augmentation point for type nc:LengthMeasureType,true
+LengthUnitAbstract,A data concept for a unit of measure for length.,true
+LocaleAugmentationPoint,An augmentation point for LocaleType.,true
+LocaleCommunityAbstract,A data concept for a specific community.,true
+LocaleJudicialDistrictAbstract,A data concept for a judicial district.,true
+Location2DGeospatialCoordinateAugmentationPoint,An augmentation point for Location2DGeospatialCoordinateType.,true
+Location3DGeospatialCoordinateAugmentationPoint,An augmentation point for Location3DGeospatialCoordinateType.,true
+LocationAddressAbstract,"A data concept for a set of information, such as postal information, used to describe a location.",true
+LocationAugmentationPoint,An augmentation point for LocationType.,true
+LocationCategoryAbstract,A data concept for a kind or functional description of a location.,true
+LocationContactInformationAssociationAugmentationPoint,An augmentation point for LocationContactInformationAssociationType.,true
+LocationGeospatialCoordinateAbstract,A data concept for a geospatial location.,true
+LocationHeightAbstract,A data concept for a measure of the height of a location.,true
+LocationHeightMeasureAugmentationPoint,An augmentation point for LocationHeightMeasureType.,true
+LocationHeightVerticalDatumAbstract,A data concept for a vertical datum system used to designate the reference point for a height measurement.,true
+LocationLandmarkAbstract,A data concept for a distinguishing physical feature at a location.,true
+LocationPartAugmentationPoint,An augmentation point for LocationPartType.,true
+LongitudeCoordinateAugmentationPoint,An augmentation point for LongitudeCoordinateType.,true
+ManifestAugmentationPoint,An augmentation point for ManifestType.,true
+ManifestCategoryAbstract,A data concept for a kind of manifest document.,true
+MapLocationAugmentationPoint,An augmentation point for MapLocationType.,true
+MeasureAugmentationPoint,An augmentation point for MeasureType.,true
+MeasureErrorAbstract,A data concept for an estimate of the error or quality of a measurement value.,true
+MeasureMethodAbstract,A data concept for a method used to make a measurement.,true
+MeasurePointAbstract,A data concept for a measurement value.,true
+MeasureRangeAbstract,A data concept for a measurement specified by a minimum and maximum value.,true
+MeasureUnitAbstract,A data concept for a unit of measure of a measurement value.,true
+MeasureValueAbstract,A data concept for a measurement value.,true
+MeasureValueListAbstract,A data concept for a list of measurement values.,true
+MedicalConditionAugmentationPoint,An augmentation point for MedicalConditionType.,true
+MedicalConditionSeverityAbstract,A data concept for a degree to which a medical condition is affecting a person.,true
+MessageAttachmentAbstract,A data concept for a file which is sent along with a message.,true
+MessageAugmentationPoint,An augmentation point for MessageType.,true
+MessageCategoryAbstract,A data concept for a kind of message category.,true
+MessageFATCAUsageRestrictionAbstract,A data concept for a set of information about restrictions for use of the information this message contains and the legal framework under which it is given.,true
+MessageRecipientAbstract,A data concept for a recipient of a message.,true
+MessageSenderAbstract,A data concept for a sender of a message.,true
+MilitaryDischargeCategoryAbstract,A data concept for a kind of discharge a person received from military service.,true
+MilitaryReleaseCategoryAbstract,A data concept for a kind of release a person received from military service.,true
+MilitarySummaryAugmentationPoint,An augmentation point for MilitarySummaryType.,true
+MissionAugmentationPoint,An augmentation point for MissionType,true
+NANPTelephoneNumberAugmentationPoint,An augmentation point for NANPTelephoneNumberType.,true
+ObligationAugmentationPoint,An augmentation point for ObligationType.,true
+ObligationCategoryAbstract,A data concept for a kind of obligation.,true
+ObligationDueAbstract,A data concept for an amount of money or quantity of time still required to be spent in order to fulfill an obligation.,true
+ObligationEntityCategoryAbstract,A data concept for a kind of entity responsible for fulfilling an obligation.,true
+ObligationExemptionAugmentationPoint,An augmentation point for ObligationExemptionType.,true
+ObligationPaidAbstract,A data concept for an amount of money or quantity of time that has been spent towards fulfilling an obligation.,true
+ObligationPeriodAbstract,A data concept for an interval or period at which an obligation is required to be fulfilled.,true
+ObligationRecurrenceAugmentationPoint,An augmentation point for ObligationRecurrenceType.,true
+ObligationTotalAbstract,A data concept for an amount of money or quantity of time that must be spent in order to fulfill an obligation.,true
+OrganizationActivityAbstract,A data concept for an activity that an organization is known or thought to be involved with.,true
+OrganizationAssociationAugmentationPoint,An augmentation point for OrganizationAssociationType.,true
+OrganizationAugmentationPoint,An augmentation point for OrganizationType.,true
+OrganizationCategoryAbstract,A data concept for a kind or functional type of organization.,true
+OrganizationFacilityAssociationAugmentationPoint,An augmentation point for nc:OrganizationFacilityAssociationType.,true
+OrganizationLocationAssociationAugmentationPoint,An augmentation point for OrganizationLocationAssociationType.,true
+OrganizationParentAbstract,"A data concept for an entity that owns, controls, or operates the organization.",true
+OrganizationServiceHoursAbstract,A data concept for an availability of an organization.,true
+OrganizationSizeAbstract,A data concept for a size of an organization.,true
+OrganizationUnitAssociationAugmentationPoint,An augmentation point for OrganizationUnitAssociationType.,true
+OrientationAugmentationPoint,An augmentation point for OrientationType,true
+PassportAugmentationPoint,An augmentation point for PassportType.,true
+PassportCategoryAbstract,A data concept for a kind of passport.,true
+PaymentAugmentationPoint,An augmentation point for type nc:PaymentType,true
+PaymentMethodAbstract,A data concept for a specific method of payment.,true
+PermitAugmentationPoint,An augmentation point for PermitType,true
+PermitCategoryAbstract,A data concept for a kind of permit.,true
+PermitUsageAbstract,A data concept for a usage allowed by a permit.,true
+PersonAssociationAugmentationPoint,An augmentation point for PersonAssociationType.,true
+PersonAugmentationPoint,An augmentation point for PersonType.,true
+PersonBloodTypeAbstract,A data concept for a blood group and RH factor of a person.,true
+PersonBodyXRaysAvailableAbstract,A data concept for the availability of an X-ray for a specific body part for a person.,true
+PersonBuildAbstract,A data concept for a person's physique or body shape.,true
+PersonCitizenshipAugmentationPoint,An augmentation point for type nc:PersonCitizenshipType,true
+PersonCitizenshipCategoryAbstract,A data concept for a kind of citizenship granted to a person by a country.,true
+PersonComplexionAbstract,A data concept for an appearance or condition of the skin of a person.,true
+PersonConveyanceAssociationAugmentationPoint,An augmentation point for PersonConveyanceAssociationType.,true
+PersonDentalCharacteristicAbstract,A data concept for a dental characteristic of a person.,true
+PersonDisunionAugmentationPoint,An augmentation point for PersonDisunionType.,true
+PersonDocumentAssociationAugmentationPoint,An augmentation point for PersonDocumentAssociationType.,true
+PersonEncounterAugmentationPoint,An augmentation point for PersonEncounterType.,true
+PersonEthnicityAbstract,A data concept for a cultural lineage of a person.,true
+PersonEyeColorAbstract,A data concept for a color of the eyes of a person.,true
+PersonEyewearAbstract,A data concept for a kind of glasses or other eyewear.,true
+PersonFacialHairAbstract,A data concept for a kind of facial hair.,true
+PersonHairCategoryAbstract,"A data concept for a kind of hair of a person, such as wavy or straight.",true
+PersonHairColorAbstract,A data concept for a color of the hair of a person.,true
+PersonHairLengthAbstract,A data concept for a length of hair of a person.,true
+PersonHairStyleAbstract,A data concept for a style or cut of hair worn by a person.,true
+PersonHandednessAbstract,A data concept for a hand with which a person is more adept using.,true
+PersonIdentityAssociationAugmentationPoint,An augmentation point for PersonIdentityAssociationType.,true
+PersonLanguageAugmentationPoint,An augmentation point for PersonLanguageType.,true
+PersonLearningDisabilityAbstract,A data concept for a disorder of a person which can cause difficulties in learning something.,true
+PersonLocationAssociationAugmentationPoint,An augmentation point for PersonLocationAssociationType.,true
+PersonMentalStateAbstract,A data concept for a mental condition of a person.,true
+PersonNameAugmentationPoint,An augmentation point for PersonNameType.,true
+PersonNameCategoryAbstract,A data concept for a kind of person name.,true
+PersonNamePrefixAbstract,A data concept for a title or honorific used by a person.,true
+PersonNationalityAugmentationPoint,An augmentation point for type nc:PersonNationalityType,true
+PersonNationalityCategoryAbstract,A data concept for a kind of nationality granted to a person by a country.,true
+PersonOrganDonorAbstract,A data concept for an organ a person is willing to donate upon death.,true
+PersonOrganizationAssociationAugmentationPoint,An augmentation point for PersonOrganizationAssociationType.,true
+PersonRaceAbstract,A data concept for a classification of a person based on factors such as geographical locations and genetics.,true
+PersonReligionAbstract,A data concept for a religion to which a person subscribes or believes; a categorization of spiritual beliefs.,true
+PersonResidenceAssociationAugmentationPoint,An augmentation point for PersonResidenceAssociationType.,true
+PersonResidentAbstract,"A data concept for a manner of residence a person has in a city, town, community, or other area..",true
+PersonSecurityClearanceAbstract,A data concept for a formal authorization granting a person access to classified or restricted information.,true
+PersonSexAbstract,A data concept for a gender or sex of a person.,true
+PersonSexualOrientationAbstract,A data concept for a target gender of the sexual interest of a person.,true
+PersonSkinToneAbstract,A data concept for a color or tone of the skin of a person.,true
+PersonUnionAssociationAugmentationPoint,An augmentation point for PersonUnionAssociationType.,true
+PersonUnionCategoryAbstract,A data concept for a kind of union between two people.,true
+PersonUnionSeparationAugmentationPoint,An augmentation point for PersonUnionSeparationType.,true
+PersonUnionStatusAbstract,A data concept for a legal status of a union between two people.,true
+PersonWorkPlaceAbstract,A data concept for a work address or structure of a person.,true
+PersonWorkerAssociationAugmentationPoint,An augmentation point for PersonWorkerAssociationType.,true
+PhysicalFeatureAugmentationPoint,An augmentation point for PhysicalFeatureType.,true
+PhysicalFeatureCategoryAbstract,A data concept for a specific kind of physical feature.,true
+PhysicalFeatureGeneralCategoryAbstract,A data concept for a general kind of physical feature.,true
+PlanAugmentationPoint,An augmentation point for type nc:PlanType,true
+PolygonRegionAugmentationPoint,An augmentation point for PolygonRegionType.,true
+PreviousActivityAssociationAugmentationPoint,An augmentation point for nc:PreviousActivityAssociationType.,true
+ProgramAugmentationPoint,An augmentation point for ProgramType.,true
+ProgressAugmentationPoint,An augmentation point for ProgressType.,true
+ProgressComplianceAbstract,A data concept for a description of the compliance or non-compliance of a person with an activity.,true
+PublicServiceAugmentationPoint,An augmentation point for type nc:PublicServiceType,true
+PublicServiceCategoryAbstract,A data concept for a different public services category.,true
+PublicServiceChannelAbstract,A data concept for a particular end or object through which the service may be available.,true
+PublicationAugmentationPoint,An augmentation point for PublicationType.,true
+RealEstateAugmentationPoint,An augmentation point for RealEstateType.,true
+RecommendationAugmentationPoint,An augmentation point for RecommendationType,true
+RecommendationCategoryAbstract,A data concept for a kind of recommendation.,true
+ReferralAugmentationPoint,An augmentation point for ReferralType.,true
+RelatedActivityAssociationAugmentationPoint,An augmentation point for RelatedActivityAssociationType.,true
+RelativeLocationAugmentationPoint,An augmentation point for RelativeLocationType.,true
+RelativeLocationDirectionAbstract,A data concept for a relative location or movement from a starting point.,true
+ReleaseAugmentationPoint,An augmentation point for ReleaseType.,true
+ReportAugmentationPoint,An augmentation point for ReportType.,true
+ReportFrequencyAbstract,A data concept for a frequency or period for which a recurring report is published.,true
+ReportTemplateCategoryAbstract,A data concept for a kind of template for a report.,true
+ReportingOrganizationAbstract,A data concept for an organization that provided the information.,true
+ReportingPersonAbstract,A data concept for a person who provided the information.,true
+ReportingPersonRoleAbstract,"A data concept for a type, responsibility, or role of a person who provided the information.",true
+RequestAugmentationPoint,An augmentation point for RequestType.,true
+RequestCategoryAbstract,A data concept for a kind of request.,true
+ResidenceOccupancyCategoryAbstract,A data concept for a kind of occupancy of a residence.,true
+ResidencePaymentPeriodAbstract,A data concept for a kind of occupancy of a residence.,true
+RoleOfAbstract,"A data concept for a property of a role object. This specifies the base object, of which the role object is a function.",true
+ScheduleAugmentationPoint,An augmentation point for ScheduleType.,true
+ScheduleDayAbstract,A data concept for a day or days with the given schedule information.,true
+ScheduleDayAugmentationPoint,An augmentation point for ScheduleDayType.,true
+ScheduleWeekAbstract,A data concept for weekly information about a schedule.,true
+SecuritiesAugmentationPoint,An augmentation point for SecuritiesType.,true
+SecuritiesCategoryAbstract,A data concept for a kind of security.,true
+SecuritiesDateSeriesAbstract,A data concept for a security date or series year.,true
+SecuritiesDenominationAbstract,A data concept for a value within a series of values reflecting the worth of a security note.,true
+SensitivityAbstract,A data concept for a sensitivity level of the information.,true
+SeparationCategoryAbstract,A data concept for a description of the separation of the parties in a Person Union began.,true
+SiteAugmentationPoint,An augmentation point for nc:SiteType.,true
+SoftwareAugmentationPoint,An augmentation point for type nc:SoftwareType,true
+SoftwareComponentAugmentationPoint,An augmentation point for type nc:SoftwareComponentType,true
+SourceContactPersonAbstract,A data concept for a person who can answer questions about the information.,true
+SpeedMeasureAugmentationPoint,An augmentation point for type nc:SpeedMeasureType,true
+SpeedUnitAbstract,A data concept for a unit of measure for speed.,true
+StateAugmentationPoint,An augmentation point for type nc:StateType,true
+StateRepresentation,"A data concept for a representation of a state, commonwealth, province, or other such geopolitical subdivision of a country.",true
+StatusAbstract,A data concept for a status or condition of something or someone.,true
+StatusAugmentationPoint,An augmentation point for StatusType.,true
+StreetAugmentationPoint,An augmentation point for StreetType.,true
+StreetCategoryAbstract,A data concept for a kind of street.,true
+StreetDirectionalAugmentationPoint,An augmentation point for type nc:StreetDirectionalType,true
+StreetDirectionalRepresentation,A data concept for a representation of a direction that appears in a street name.,true
+SubstanceAbstract,A data concept for a name of a substance.,true
+SubstanceAugmentationPoint,An augmentation point for SubstanceType.,true
+SubstanceCategoryAbstract,A data concept for a kind of substance.,true
+SubstanceFormAbstract,A data concept for a physical state or form in which a substance appears.,true
+SubstanceMeasureAugmentationPoint,An augmentation point for type nc:SubstanceMeasureType,true
+SubstanceUnitAbstract,A data concept for a unit of measure for an amount of substance.,true
+SupervisionAugmentationPoint,An augmentation point for SupervisionType.,true
+SystemAuditEventAugmentationPoint,An augmentation point for SystemAuditEventType.,true
+SystemIdentificationAugmentationPoint,An augmentation point for SystemIdentificationType.,true
+SystemOperatingModeAbstract,A data concept for the operating mode of a system.,true
+SystemUserNameAbstract,A data concept for a user name associated with a system audit event.,true
+TaskAugmentationPoint,An augmentation point for type nc:TaskType,true
+TaskFunctionAbstract,"A data concept for a function, assignment, or task that is part of a plan.",true
+TelecommunicationDeviceSIMCardAssociationAugmentationPoint,An augmentation point for TelecommunicationDeviceSIMCardAssociationType.,true
+TelephoneNumberAbstract,A data concept for a telephone number.,true
+TelephoneNumberAugmentationPoint,An augmentation point for TelephoneNumberType.,true
+TelephoneNumberCategoryAbstract,A data concept for a kind of telephone number.,true
+TemperatureMeasureAugmentationPoint,An augmentation point for type nc:TemperatureMeasureType,true
+TemperatureUnitAbstract,A data concept for a unit of measure for temperature.,true
+TimeMeasureAugmentationPoint,An augmentation point for type nc:TimeMeasureType,true
+TimeRangeAugmentationPoint,An augmentation point for TimeRangeType.,true
+TimeUnitAbstract,A data concept for a unit of measure for amount of time.,true
+TransportationAssociationAugmentationPoint,An augmentation point for TransportationAssociationType.,true
+TreatmentAugmentationPoint,An augmentation point for nc:TreatmentType.,true
+UnsignedIntegerRangeAugmentationPoint,An augmentation point for UnsignedIntegerRangeType.,true
+VehicleAugmentationPoint,An augmentation point for VehicleType.,true
+VehicleColorInteriorAbstract,A data concept for a color of the interior of a vehicle.,true
+VehicleMakeAbstract,A data concept for a manufacturer of a vehicle.,true
+VehicleModelAbstract,A data concept for a specific design or class of vehicle made by a manufacturer.,true
+VehicleTransmissionCategoryAbstract,A data concept for a kind of transmission unit in a vehicle.,true
+VelocityMeasureAugmentationPoint,An augmentation point for VelocityMeasureType.,true
+VesselAugmentationPoint,An augmentation point for VesselType.,true
+VesselCategoryAbstract,A data concept for a kind of vessel.,true
+VesselHullMaterialAbstract,A data concept for a substance used as the primary construction material of the main body or frame of a vessel.,true
+VesselHullShapeAbstract,A data concept for a shape of the main body or frame of a vessel.,true
+VesselMakeAbstract,A data concept for a manufacturer of a vessel.,true
+VesselPropulsionAbstract,A data concept for a mode by which a vessel is designed to move through the water.,true
+VolumeMeasureAugmentationPoint,An augmentation point for type nc:VolumeMeasureType,true
+VolumeUnitAbstract,A data concept for a unit of measure for volume.,true
+WeaponAugmentationPoint,An augmentation point for WeaponType.,true
+WeaponUsageAbstract,A data concept for a way or manner in which a weapon was used.,true
+WeightMeasureAugmentationPoint,An augmentation point for type nc:WeightMeasureType,true
+WeightUnitAbstract,A data concept for a unit of measure for weight.,true

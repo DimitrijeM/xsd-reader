@@ -1,0 +1,673 @@
+type,name
+nc:ActivityConveyanceAssociationType,['ActivityConveyanceAssociation' 'IncidentVehicleAssociation']
+nc:ActivityDocumentAssociationType,['ActivityDocumentAssociation']
+nc:ActivityFacilityAssociationType,['ActivityFacilityAssociation']
+nc:ActivityItemAssociationType,['ActivityItemAssociation']
+nc:ActivityOrganizationAssociationType,"['ActivityAdministratorOrganizationAssociation'
+ 'ActivityBillRecipientOrganizationAssociation'
+ 'ActivityInformationAbstracterOrganizationAssociation'
+ 'ActivityInformationClearerOrganizationAssociation'
+ 'ActivityInvolvedOrganizationAssociation'
+ 'ActivityPrimaryOrganizationAssociation'
+ 'ActivityReportingOrganizationAssociation'
+ 'ActivityResponsibleOrganizationAssociation'
+ 'ActivitySupervisorOrganizationAssociation']"
+nc:ActivityPersonAssociationType,"['ActivityAdministratorPersonAssociation'
+ 'ActivityBillRecipientPersonAssociation' 'ActivityPersonAssociation'
+ 'ActivitySupervisorPersonAssociation']"
+nc:ActivityScheduleAssociationType,['ActivityScheduleAssociation']
+nc:ActivitySiteAssociationType,['ActivitySiteAssociation']
+nc:ActivityType,"['Activity' 'DisciplinaryActionCommunityService'
+ 'DisciplinaryActionCounseling' 'IncidentEvent' 'PreviousActivity'
+ 'ProgramAction' 'ReferralActivity' 'RelatedActivity'
+ 'WeaponInvolvedInActivity']"
+nc:AddressCategoryCodeType,['AddressCategoryCode']
+nc:AddressGridType,['AddressGrid']
+nc:AddressType,"['Address' 'ContactMailingAddress' 'DocumentCoverageAddress'
+ 'MailingAddress' 'PhysicalAddress']"
+nc:AircraftType,['Aircraft']
+nc:AirportType,['AircraftBaseAirport' 'Airport']
+nc:AmountType,"['DocumentSubmissionAmount' 'EmploymentPayRateAmount'
+ 'FinancialAccountPresentBalanceAmount'
+ 'FinancialObligationExemptionAmount' 'ItemValueAmount'
+ 'ObligationDueAmount' 'ObligationPaidAmount' 'ObligationTotalAmount'
+ 'PaymentAmount' 'ProgressPaymentAmount' 'ResidencePaymentAmount'
+ 'VehicleMSRPAmount']"
+nc:AngleMeasureType,['AngleMeasure']
+nc:AngularMeasureType,['AngularMeasure']
+nc:AngularMinuteType,['AngularMinuteValue' 'LatitudeMinuteValue' 'LongitudeMinuteValue']
+nc:AngularRateMeasureType,['AngularRateMeasure']
+nc:AngularSecondType,['AngularSecondValue' 'LatitudeSecondValue' 'LongitudeSecondValue']
+nc:AnomalyType,['Anomaly']
+nc:AreaMeasureType,['AreaMeasure']
+nc:AreaType,['Area' 'LocationArea']
+nc:ArrivalType,['Arrival']
+nc:AssessmentType,['Assessment']
+nc:AssociationType,['Association']
+nc:BearingType,['Bearing']
+nc:BinaryHashFunctionCodeType,['BinaryHashFunctionCode']
+nc:BinaryHashType,['BinaryHash']
+nc:BinaryType,"['Attachment' 'Binary' 'DeviceStoredAudioBinary' 'DeviceStoredBinary'
+ 'DeviceStoredVideoBinary' 'DocumentBinary' 'ItemBinary'
+ 'MessageAttachmentBinary']"
+nc:CapabilityType,['Capability' 'PersonCapability']
+nc:CaseDispositionDecisionType,['CaseDispositionDecision']
+nc:CaseDispositionType,['CaseDisposition']
+nc:CaseType,['Case' 'CourtCase']
+nc:CircularRegionType,['AreaCircularRegion' 'CircularRegion']
+nc:CodeType,['CountryCode' 'StateCode']
+nc:CommentType,"['ActivityComment' 'ActivityNarrative' 'AssessmentComment'
+ 'AssessmentRecommendation' 'Comment' 'PlanComment' 'QualityComment'
+ 'RecommendationComment']"
+nc:ConditionType,['Condition' 'ProgramCondition']
+nc:ConsumptionRateMeasureType,['ConsumptionRateMeasure']
+nc:ContactInformationAvailabilityCodeType,['ContactInformationAvailabilityCode']
+nc:ContactInformationType,"['AnomalyContactInformation' 'ContactInformation'
+ 'DeviceStoredContactInformation' 'EmployeeContactInformation'
+ 'EntityContactInformation' 'FacilityContactInformation'
+ 'LocationContactInformation' 'OrganizationDayContactInformation'
+ 'OrganizationEmergencyContactInformation'
+ 'OrganizationEveningContactInformation'
+ 'OrganizationNightContactInformation'
+ 'OrganizationPrimaryContactInformation' 'PersonContactInformation'
+ 'PersonEmergencyContactInformation' 'PersonHomeContactInformation'
+ 'RequestContactInformation']"
+nc:ContactRadioType,['ContactRadio']
+nc:ConveyanceType,['Conveyance']
+nc:CountryType,"['AddressCountry' 'Country' 'DocumentCountry' 'MilitaryCountry'
+ 'PersonCitizenshipCountry' 'PersonNationalityCountry']"
+nc:CrisisType,['Crisis']
+nc:CrossStreetType,['AddressCrossStreet']
+nc:DateRangeType,"['AssociationDateRange' 'DateRange' 'InsuranceEffectiveDateRange'
+ 'MedicalConditionDateRange' 'ObligationDateRange' 'PlanDateRange'
+ 'ReportCoverageDateRange' 'ScheduleEffectiveDateRange'
+ 'SecuritiesCollectionDateRange' 'SeparationDateRange']"
+nc:DateType,"['ActivityAssignedDate' 'ActivityDate' 'ActivityDueDate'
+ 'ActivityEffectiveDate' 'ActivityReportedDate' 'ActivityRequestedDate'
+ 'ActivityScheduledDate' 'ActivityVerifiedDate' 'AnomalyDateTime'
+ 'ArrivalDate' 'ArrivalEstimatedDate' 'BinaryCaptureDate' 'CalendarDate'
+ 'CapabilityEndDate' 'CapabilityStartDate' 'CaseDispositionFinalDate'
+ 'CaveatReferenceDate' 'CommentCreationDate' 'ConditionSetDate'
+ 'ConditionViolationDate' 'DepartureDate' 'DepartureEstimatedDate'
+ 'DispositionDate' 'DocumentCoverageDate' 'DocumentCreationDate'
+ 'DocumentEffectiveDate' 'DocumentExpirationDate' 'DocumentFiledDate'
+ 'DocumentInformationCutOffDate' 'DocumentIssueDate'
+ 'DocumentLastModifiedDate' 'DocumentPostDate' 'DocumentPublicationDate'
+ 'DocumentReceivedDate' 'EducationQualificationExpirationDate'
+ 'EducationQualificationIssuedDate' 'EffectiveDate' 'EndDate'
+ 'ExpirationDate' 'IdentificationEffectiveDate'
+ 'IdentificationExpirationDate' 'IdentityCreationDate'
+ 'IdentityTerminationDate' 'InjuryDate' 'InsuranceCancellationDate'
+ 'InsuranceCertifiedDate' 'IntellectualPropertyCreationDate'
+ 'IntellectualPropertyRegistrationDate'
+ 'IntellectualPropertyTerminationDate' 'ItemValueDate' 'LastUpdatedDate'
+ 'LastVerifiedDate' 'ManifestTransmittedDate' 'MapDate' 'MeasureDate'
+ 'MessageReceivedDate' 'MessageSentDate' 'MilitaryDischargeDate'
+ 'MilitaryEnlistmentDate' 'MilitaryInductionDate' 'MilitaryReleaseDate'
+ 'MissionCommencementNoEarlierThanDate'
+ 'MissionCommencementNoLaterThanDate' 'ObligationDueDate'
+ 'ObligationPaidDate' 'OrganizationEstablishedDate'
+ 'OrganizationIncorporationDate' 'OrganizationNameEffectiveDate'
+ 'OrganizationNameTerminationDate' 'OrganizationTerminationDate'
+ 'OrganizationValidDate' 'PermitRenewalDate' 'PermitStartDate'
+ 'PersonBirthDate' 'PersonDeathDate' 'PlanApprovalDate' 'PlanCreatedDate'
+ 'PlanEstimatedFulfillmentDate' 'PlanReleaseDate'
+ 'PlanRevisionReleaseDate' 'PlanUpdatedDate' 'PublicationDate'
+ 'RecommendationDate' 'ReleaseDate' 'ReportDueDate' 'ReportedDate'
+ 'RequestDate' 'RequestDecisionDate' 'ScheduleDate' 'StartDate'
+ 'StatusDate' 'TaskAssignedDate' 'TaskDueDate' 'TaskEndDate'
+ 'TaskStartDate']"
+nc:DayOfWeekCodeType,['ScheduleDayOfWeekCode']
+nc:DecalType,['Decal']
+nc:DecimalListType,['MeasureDecimalValueList']
+nc:DecimalRangeType,['MeasureDecimalRange']
+nc:Degree180PlusMinusType,['RollValue']
+nc:Degree360Type,['Azimuth360Value']
+nc:Degree90PlusMinusType,['Inclination90PlusMinusValue']
+nc:Degree90Type,['Inclination90Value']
+nc:DepartureType,['Departure']
+nc:DeviceInformationAssociationType,['DeviceInformationAssociation']
+nc:DeviceType,['Computer' 'SIMCard' 'TelecommunicationDevice']
+nc:DirectDialTelephoneNumberType,['DirectDialTelephoneNumber']
+nc:DirectionCodeType,['RelativeLocationDirectionCode']
+nc:DisciplinaryActionType,"['ConditionDisciplinaryAction' 'DisciplinaryAction'
+ 'MilitaryDisciplinaryAction']"
+nc:DispositionType,['ActivityDisposition' 'Disposition']
+nc:DocumentAssociationType,['DocumentAssociation']
+nc:DocumentType,"['AssessmentReport' 'CaseFiling' 'DeviceStoredDocument'
+ 'DispositionInstrument' 'Document' 'IncidentReportedNarrative'
+ 'MessageAttachmentDocument' 'PrimaryDocument'
+ 'PublicServiceInputResourceDocument'
+ 'PublicServiceOutputResourceDocument' 'RoleOfDocument'
+ 'SecondaryDocument']"
+nc:DoubleListType,['MeasureDoubleValueList']
+nc:DoubleRangeType,['MeasureDoubleRange']
+nc:DrugType,['Drug']
+nc:EducationLevelType,['EducationLevel' 'EducationQualificationLevel']
+nc:EducationQualificationType,['EducationQualification']
+nc:EducationType,['PersonEducation']
+nc:ElectronicAddressType,['DeviceElectronicAddress' 'ElectronicAddress']
+nc:EmployeeAssignmentAssociationType,['EmployeeAssignmentAssociation']
+nc:EmployerType,['Employer']
+nc:EmploymentAssociationType,"['PersonCurrentEmploymentAssociation' 'PersonEmploymentAssociation'
+ 'PersonFormerEmploymentAssociation']"
+nc:EmploymentPositionBasisCodeType,['EmploymentPositionBasisCode']
+nc:EmploymentPositionOrganizationAssociationType,['EmploymentPositionOrganizationAssociation']
+nc:EmploymentPositionType,"['EmployeePosition' 'EmploymentPosition'
+ 'EmploymentPositionSupervisoryPosition']"
+nc:EmptyReasonCodeType,['EmptyReasonCode']
+nc:EncounterClassificationType,['EncounterClassification']
+nc:EntityType,"['ActivityContactEntity' 'AssessmentAssessor' 'BinaryCapturer'
+ 'ContactEntity' 'DisciplinaryActionAssigner' 'DisciplinaryActionEnforcer'
+ 'DispositionEntity' 'DocumentAuthor' 'DocumentContributor'
+ 'DocumentOtherRecipient' 'DocumentRecipient' 'DocumentSource'
+ 'DocumentSubmitter' 'Entity' 'InsurancePolicyHolder' 'ItemBuyer'
+ 'ItemOwner' 'ItemPossessor' 'ItemSeller' 'ItemValueAssigner' 'Measurer'
+ 'MessageRecipientEntity' 'MessageSenderEntity' 'ObligationEntity'
+ 'ObligationRecipient' 'PlanApprovalEntity' 'ProgramAdministrator'
+ 'ProgramSupervisor' 'RecommendationEntity' 'ReferralEntity'
+ 'ReferralIssuer' 'ReferralSupervisor' 'ReleaseIssuer' 'ReleaseRecipient'
+ 'ReleaseSupervisor' 'SecuritiesIssuer' 'SiteOwnerEntity'
+ 'SupervisionSupervisor' 'TaskAssignedEntity' 'TreatmentProvider']"
+nc:EquipmentType,['Equipment']
+nc:FacilityAssociationType,['FacilityAssociation']
+nc:FacilityDocumentAssociationType,['FacilityDocumentAssociation']
+nc:FacilityFunctionType,['FacilityCategory' 'FacilityUsage']
+nc:FacilityImageAssociationType,['FacilityImageAssociation']
+nc:FacilityPersonAssociationType,"['FacilityPersonAssociation' 'PersonResidesAtFacilityAssociation'
+ 'PersonWorksAtFacilityAssociation']"
+nc:FacilitySiteAssociationType,['FacilitySiteAssociation']
+nc:FacilitySubFacilityAssociationType,['FacilitySubFacilityAssociation']
+nc:FacilityType,"['CommercialFacility' 'Facility' 'ParentFacility' 'ProgramFacility'
+ 'RealEstateAttachedFacility' 'ResidentialFacility'
+ 'RiskReductionFacility' 'SubFacility' 'SupervisionFacility']"
+nc:FinancialAccountHolderCodeType,['FinancialAccountHolderCode']
+nc:FinancialAccountHolderType,['FinancialAccountHolder']
+nc:FinancialAccountNumberCategoryCodeType,['FinancialAccountNumberCategoryCode']
+nc:FinancialAccountType,['FinancialAccount']
+nc:FiscalYearDateType,['FiscalYearDate']
+nc:FullTelephoneNumberType,['FullTelephoneNumber']
+nc:GenericEntityType,['GenericEntity']
+nc:HighwayType,['AddressHighway' 'Highway']
+nc:IdentificationType,"['ActivityIdentification' 'AircraftCallSignIdentification'
+ 'AircraftTailIdentification' 'CapabilityIdentification'
+ 'CrisisIdentification' 'DeviceESNIdentification'
+ 'DeviceIMEIIdentification' 'DocumentIdentification'
+ 'EmployeeIdentification' 'EmployeeRegistrationIdentification'
+ 'EmploymentPositionIdentification' 'EquipmentIdentification'
+ 'FacilityIdentification' 'Identification'
+ 'InsuranceCarrierIdentification' 'InsurancePolicyIdentification'
+ 'IntellectualPropertyRegistrationIdentification'
+ 'ItemBarCodeIdentification' 'ItemDealerIdentification'
+ 'ItemOtherIdentification' 'ItemRFIdentification'
+ 'ItemReceiptIdentification' 'ItemSerialIdentification'
+ 'ItemStateIdentification' 'JurisdictionIdentification'
+ 'LocaleDistrictIdentification' 'LocationIdentification'
+ 'MilitaryPersonIdentification' 'OrganizationIdentification'
+ 'OrganizationLEIIdentification' 'OrganizationLicenseIdentification'
+ 'OrganizationLocalIdentification' 'OrganizationOtherIdentification'
+ 'OrganizationTaxIdentification' 'PassportBookIdentification'
+ 'PassportNumberIdentification' 'PermitIdentification'
+ 'PersonHumanResourceIdentification' 'PersonLicenseIdentification'
+ 'PersonNationalIdentification' 'PersonOtherIdentification'
+ 'PersonPassportIdentification' 'PersonSSNIdentification'
+ 'PersonStateIdentification' 'PersonTaxIdentification'
+ 'PlanIdentification' 'PublicationLibraryClassificationIdentification'
+ 'RequestIdentification' 'StatusIssuerIdentification'
+ 'VehicleIdentification' 'VesselHullIdentification']"
+nc:IdentityType,['Identity']
+nc:ImageType,"['AssessmentImage' 'CrisisImage' 'DeviceStoredImage' 'FacilitySiteDiagram'
+ 'Image' 'ItemImage' 'MessageAttachmentImage' 'PersonDigitalImage'
+ 'PersonDigitizedSignatureImage' 'PersonXRayImage' 'PhysicalFeatureImage']"
+nc:IncidentType,['Incident']
+nc:InjuryType,['Injury' 'PersonInjury']
+nc:InstantMessengerType,['ContactInstantMessenger']
+nc:InsuranceType,['Insurance']
+nc:IntangibleItemType,['IntangibleItem']
+nc:IntegerListType,['MeasureIntegerValueList']
+nc:IntegerRangeType,['MeasureIntegerRange']
+nc:IntellectualPropertyType,['IntellectualProperty']
+nc:InternationalTelephoneNumberType,['InternationalTelephoneNumber']
+nc:ItemContainerAssociationType,['ItemContainerAssociation']
+nc:ItemDispositionType,['ItemDisposition']
+nc:ItemEntityAssociationType,"['ItemEntityAssociation' 'ItemHolderAssociation' 'ItemMoverAssociation'
+ 'ItemOwnerAssociation' 'ItemPossessorAssociation'
+ 'PublicationSubscriberPersonAssociation' 'VehicleTowerAssociation']"
+nc:ItemInsuranceAssociationType,['ItemInsuranceAssociation']
+nc:ItemLocationAssociationType,"['ItemCurrentLocationAssociation' 'ItemDispositionLocationAssociation'
+ 'ItemLocationAssociation' 'VehicleGarageLocationAssociation']"
+nc:ItemTransactionType,['ItemTransaction']
+nc:ItemType,"['Container' 'ConveyedItem' 'ElectronicEquipment' 'ElectronicInstrument'
+ 'EntityItem' 'FacilityContainsItem' 'InsuranceCoveredItem' 'Item' 'Kit'
+ 'Machinery' 'ReferralItem' 'ReleaseItem' 'RoleOfItem']"
+nc:ItemValueType,"['ItemCurrentResaleValue' 'ItemOwnerPurchasedValue'
+ 'ItemPurchasePriceValue' 'ItemValue']"
+nc:JurisdictionType,['IdentificationJurisdiction' 'Jurisdiction' 'OrganizationJurisdiction']
+nc:LanguageType,"['DocumentLanguage' 'EmploymentPositionEssentialLanguage' 'Language'
+ 'PublicServiceLanguage']"
+nc:LatitudeCoordinateType,['GeographicCoordinateLatitude']
+nc:LatitudeDegreeType,['LatitudeDegreeValue']
+nc:LengthMeasureType,"['CircularRegionRadiusLengthMeasure' 'ItemHeightMeasure'
+ 'ItemLengthMeasure' 'ItemWidthMeasure' 'LengthMeasure'
+ 'OdometerReadingMeasure' 'PersonHeightMeasure'
+ 'RelativeLocationDistanceMeasure' 'VehicleOdometerReadingMeasure']"
+nc:LocaleType,['Locale' 'LocationLocale']
+nc:Location2DGeospatialCoordinateType,['CircularRegionCenterCoordinate' 'Location2DGeospatialCoordinate']
+nc:Location3DGeospatialCoordinateType,['Location3DGeospatialCoordinate']
+nc:LocationContactInformationAssociationType,['LocationContactInformationAssociation']
+nc:LocationHeightMeasureType,['LocationAltitude' 'LocationDepth' 'LocationElevation']
+nc:LocationPartType,['LocationPart']
+nc:LocationType,"['ActivityLocation' 'AnomalyLocation' 'ArrivalLocation' 'BinaryLocation'
+ 'CrisisLocation' 'DepartureLocation' 'DocumentIssuanceLocation'
+ 'DocumentLocation' 'EmploymentLocation' 'EmploymentPositionLocation'
+ 'FacilityLocation' 'ImageLocation' 'ItemDispositionLocation'
+ 'JurisdictionLocation' 'Location' 'MissionStagingLocation'
+ 'OrganizationIncorporationLocation' 'OrganizationLocation'
+ 'PersonBirthLocation' 'PersonUnionLocation' 'PolygonNodeLocation'
+ 'PublicServiceLocation' 'PublicServiceRelatedLocation'
+ 'RelativeLocationReferencePoint' 'ReleaseFromLocation'
+ 'ReleaseToLocation' 'SiteLocation' 'TaskLocation']"
+nc:LongitudeCoordinateType,['GeographicCoordinateLongitude']
+nc:LongitudeDegreeType,['LongitudeDegreeValue']
+nc:ManifestType,['Manifest']
+nc:MapLocationType,['LocationMapLocation' 'MapLocation']
+nc:MeasureType,['Measure']
+nc:MedicalConditionType,['MedicalCondition' 'PersonMedicalCondition']
+nc:MessageCategoryFATCACodeType,['MessageCategoryFATCACode']
+nc:MessageType,"['DeviceIncomingTextMessage' 'DeviceOutgoingTextMessage'
+ 'DeviceReceivedEmail' 'DeviceSentEmail' 'Email']"
+nc:MetadataType,['Metadata']
+nc:MilitaryDischargeCategoryCodeType,['MilitaryDischargeCategoryCode']
+nc:MilitarySummaryType,['PersonMilitarySummary']
+nc:MissionType,['Mission']
+nc:NANPTelephoneNumberType,['NANPTelephoneNumber']
+nc:NonNegativeDecimalType,['BinarySizeValue']
+nc:NumericType,['ActivitySequenceNumeric']
+nc:ObligationExemptionType,['ObligationExemption']
+nc:ObligationRecurrenceType,['ObligationRecurrence']
+nc:ObligationType,"['AssessmentFee' 'DisciplinaryActionFee' 'DisciplinaryActionRestitution'
+ 'Fee' 'Obligation']"
+nc:OrganizationAssociationType,['OrganizationAssociation']
+nc:OrganizationFacilityAssociationType,"['OrganizationFacilityAssociation'
+ 'OrganizationOperatesFacilityAssociation'
+ 'OrganizationSupervisesFacilityAssociation']"
+nc:OrganizationLocationAssociationType,"['LocationContainsOrganizationAssociation'
+ 'LocationEmergencyServicesAssociation' 'LocationOrganizationAssociation']"
+nc:OrganizationType,"['Agency' 'CoordinatingAgency' 'EducationQualificationInstitution'
+ 'EntityOrganization' 'IncidentJurisdictionalOrganization'
+ 'ItemHoldingOrganization' 'ItemMovingOrganization' 'Organization'
+ 'OrganizationForeignAffiliate' 'OrganizationParentAffiliate'
+ 'OrganizationParentOrganization' 'OrganizationSubUnit' 'OrganizationUnit'
+ 'PassportIssuingOrganization' 'PatientMedicalFacility'
+ 'ReportingOrganization' 'RoleOfOrganization' 'ServiceDeliveryNGO'
+ 'TowingCompany']"
+nc:OrganizationUnitAssociationType,['OrganizationParentAssociation' 'OrganizationSubsidiaryAssociation']
+nc:OrientationType,['Orientation']
+nc:PassportCategoryCodeType,['PassportCategoryCode']
+nc:PassportType,['Passport']
+nc:PaymentMethodCodeType,['PaymentMethodCode']
+nc:PaymentType,['Payment']
+nc:PercentType,"['ConfidencePercent' 'ItemSalesTaxPercent' 'Percent' 'ProbabilityPercent'
+ 'TaskCompletedPercent']"
+nc:PermitType,['Permit']
+nc:PersonAssociationType,"['AcquaintanceAssociation' 'CoworkerAssociation' 'PersonAssociation'
+ 'StrangerAssociation']"
+nc:PersonCitizenshipType,['PersonCitizenship']
+nc:PersonConveyanceAssociationType,['PersonConveyanceAssociation']
+nc:PersonDisunionType,['PersonDisunion']
+nc:PersonDocumentAssociationType,['PersonDocumentAssociation' 'PersonIssuedDocumentAssociation']
+nc:PersonEncounterType,['PersonEncounter']
+nc:PersonIdentityAssociationType,['PersonAliasIdentityAssociation' 'PersonIdentityAssociation']
+nc:PersonLanguageType,['PersonPrimaryLanguage' 'PersonSecondaryLanguage']
+nc:PersonLocationAssociationType,"['LocationNeighboringPersonAssociation' 'PersonCurrentLocationAssociation'
+ 'PersonDetainmentLocationAssociation'
+ 'PersonEmploymentLocationAssociation'
+ 'PersonKnownPreviousLocationAssociation'
+ 'PersonLastSeenLocationAssociation' 'PersonLocationAssociation']"
+nc:PersonNameCategoryCodeType,['PersonNameCategoryCode']
+nc:PersonNameTextType,"['PersonFullName' 'PersonGivenName' 'PersonMaidenName' 'PersonMiddleName'
+ 'PersonOfficialGivenName' 'PersonSurName']"
+nc:PersonNameType,['PersonName' 'UserPersonName']
+nc:PersonNationalityType,['PersonNationality']
+nc:PersonOrganizationAssociationType,"['OrganizationPrincipalOfficialAssociation'
+ 'PersonAssignedUnitAssociation' 'PersonCriminalOrganizationAssociation'
+ 'PersonOrganizationAffiliationAssociation'
+ 'PersonOrganizationAssociation' 'PersonTemporaryAssignedUnitAssociation']"
+nc:PersonResidenceAssociationType,['PersonResidenceAssociation']
+nc:PersonType,"['AssessmentPerson' 'ContactResponder' 'ConveyanceOperator'
+ 'ConveyedPerson' 'DeviceUser' 'DisciplinaryActionPerson'
+ 'DocumentEntrySubmitter' 'Employee' 'EmployeeSupervisor' 'EntityPerson'
+ 'IdentityCharacteristics' 'InjuryCauserPerson' 'InjurySustainer'
+ 'MedicalConditionDoctor' 'OrganizationPrincipalOfficial' 'Person'
+ 'PersonWorker' 'PlanAssignedPerson' 'ProgramPerson' 'ReferralPerson'
+ 'ReleasePerson' 'ReportAssignee' 'ReportingPerson' 'RoleOfPerson'
+ 'SchedulePerson' 'SourceContactPerson' 'SupervisionPerson' 'WeaponUser']"
+nc:PersonUnionAssociationType,['PersonUnionAssociation']
+nc:PersonUnionCategoryCodeType,['PersonUnionCategoryCode']
+nc:PersonUnionSeparationType,['PersonUnionSeparation']
+nc:PersonUnionStatusCodeType,['PersonUnionStatusCode']
+nc:PersonWorkerAssociationType,"['PersonPrimaryWorkerAssociation' 'PersonReferralWorkerAssociation'
+ 'PersonWorkerAssociation']"
+nc:PhysicalFeatureType,['PersonPhysicalFeature' 'PhysicalFeature']
+nc:PolygonRegionType,['AreaPolygonRegion']
+nc:PreviousActivityAssociationType,['PreviousActivityAssociation']
+nc:ProgramType,"['AssessmentProgram' 'DisciplinaryActionProgram' 'Program'
+ 'RiskReductionProgram']"
+nc:ProgressType,['Progress']
+nc:ProperNameTextType,"['AddressCityName' 'AddressCountyName' 'CountryName' 'FacilityName'
+ 'ItemBrandName' 'ItemMakeName' 'ItemModelName' 'LocationName' 'StateName'
+ 'StreetName']"
+nc:PublicServiceType,"['PublicService' 'PublicServiceRelatedService'
+ 'PublicServiceRequiredService']"
+nc:PublicationType,['Publication']
+nc:QuantityType,"['ActivityCapacityQuantity' 'ConveyancePassengerQuantity'
+ 'DrugDaysSupplyQuantity' 'EmployeeHoursDailyQuantity'
+ 'EmployeeHoursMonthlyQuantity' 'EmployeeHoursWeeklyQuantity'
+ 'ItemQuantity' 'PersonDependentQuantity']"
+nc:QuarterIDType,['QuarterID']
+nc:RealEstateType,['RealEstate']
+nc:RecommendationType,['Recommendation']
+nc:ReferralType,['AssessmentReferral' 'ProgramReferral' 'Referral']
+nc:RelatedActivityAssociationType,['RelatedActivityAssociation' 'RelatedCaseAssociation']
+nc:RelativeLocationHeadingType,['RelativeLocationHeadingValue']
+nc:RelativeLocationType,"['CrossStreetRelativeLocation' 'LocationRelativeLocation'
+ 'RelativeLocation']"
+nc:ReleaseType,['ProgramRelease' 'Release' 'SupervisionRelease']
+nc:ReportType,['PlanReport' 'Report']
+nc:RequestType,['Request']
+nc:ScheduleDayType,['ScheduleDay']
+nc:ScheduleType,"['EmployeeSchedule' 'FacilityOperatingSchedule'
+ 'PublicServiceAvailabilitySchedule' 'Schedule']"
+nc:SecuritiesType,['Securities']
+nc:SeparationCategoryCodeType,['SeparationCategoryCode']
+nc:SiteType,['Site']
+nc:SoftwareComponentType,['SoftwareComponent']
+nc:SoftwareType,['DocumentSoftware' 'Software']
+nc:SpeedMeasureType,['SpeedMeasure']
+nc:StateType,['AddressState']
+nc:StatusType,"['ActivityStatus' 'CrisisStatus' 'DocumentStatus' 'EducationStatus'
+ 'EmploymentStatus' 'FacilityOperationalStatus' 'IdentificationStatus'
+ 'ItemStatus' 'MilitaryStatus' 'OrganizationStatus'
+ 'PersonCitizenshipStatus' 'PersonNationalityStatus'
+ 'PersonUnemploymentStatus' 'RequestStatus' 'ScheduleDayStatus'
+ 'ScheduleStatus' 'Status' 'SupervisionCustodyStatus'
+ 'SupervisionPersonStatus' 'TaskStatus']"
+nc:StreetDirectionalType,['StreetPostdirectional' 'StreetPredirectional']
+nc:StreetType,['AddressStreet']
+nc:StringListType,['MeasureTextList']
+nc:SubstanceMeasureType,['DrugMeasure' 'SubstanceMeasure' 'SubstanceQuantityMeasure']
+nc:SubstanceType,['Chemical' 'HazardousMaterial' 'Substance']
+nc:SupervisionType,['Supervision']
+nc:SystemAuditEventType,['SystemAuditEvent']
+nc:SystemIdentificationType,['FacilitySystemIdentification']
+nc:TaskType,['PlanTask' 'Task']
+nc:TelecommunicationDeviceSIMCardAssociationType,['TelecommunicationDeviceSIMCardAssociation']
+nc:TelephoneNumberType,"['ContactTelephoneNumber' 'DeviceIncomingTelephoneNumber'
+ 'DeviceOutgoingTelephoneNumber' 'DeviceStoredTelephoneNumber'
+ 'TelephoneNumber']"
+nc:TemperatureMeasureType,['TemperatureMeasure']
+nc:TextType,"['ActivityCategoryText' 'ActivityDescriptionText' 'ActivityFrequencyText'
+ 'ActivityInvolvementText' 'ActivityName' 'ActivityReasonText'
+ 'ActivityRelationText' 'AddressBuildingName' 'AddressCategoryText'
+ 'AddressDeliveryPointText' 'AddressFullText' 'AddressGridText'
+ 'AddressPrivateMailboxText' 'AddressRecipientName' 'AddressRouteName'
+ 'AddressSecondaryUnitText' 'AddressUrbanizationName'
+ 'AircraftFuselageColorText' 'AircraftWingColorText' 'AirportCodeText'
+ 'AnomalyCategoryText' 'AnomalyDescriptionText' 'AreaDescriptionText'
+ 'AssessmentOutcomeText' 'AssessmentScoreText' 'AssessmentSummaryText'
+ 'AssessmentToolDescriptionText' 'AssessmentToolName'
+ 'AssociationDescriptionText' 'BinaryCategoryText' 'BinaryDescriptionText'
+ 'BinaryFormatStandardName' 'BinaryFormatText' 'BinaryHashFunctionText'
+ 'CapabilityCategoryText' 'CapabilityDescriptionText'
+ 'CapabilityGeneralCategoryText' 'CapabilityName'
+ 'CapabilityProficiencyText' 'CaseCategoryText'
+ 'CaseDispositionDecisionCategoryText' 'CaseDispositionDecisionText'
+ 'CaseGeneralCategoryText' 'CaseResolutionText' 'CaseTitleText'
+ 'CaveatIssuingAuthorityText' 'CaveatText' 'CommentAuthorText'
+ 'CommentText' 'CommentTitleText' 'ConditionViolationText'
+ 'ContactEntityDescriptionText' 'ContactInformationAvailabilityText'
+ 'ContactInformationDescriptionText' 'ContactRadioCategoryText'
+ 'ContactRadioChannelText' 'ConveyanceCargoText'
+ 'ConveyanceColorPrimaryText' 'ConveyanceColorSecondaryText'
+ 'ConveyanceFuelCategoryText' 'CreatorName' 'CrisisDescriptionText'
+ 'CrisisName' 'CrossStreetDescriptionText' 'CurrencyText' 'DecalColorText'
+ 'DecalPeriodText' 'DescriptionText' 'DeviceCategoryText'
+ 'DeviceStoredText' 'DirectDialTelephoneNetworkText'
+ 'DispositionCategoryText' 'DispositionDescriptionText'
+ 'DispositionReasonText' 'DispositionReportedAuthorityText'
+ 'DispositionText' 'DistributionText' 'DocumentCategoryDescriptionText'
+ 'DocumentCategoryName' 'DocumentCategoryText' 'DocumentContentListText'
+ 'DocumentCoverageText' 'DocumentDescriptionText'
+ 'DocumentDispositionAuthorityName' 'DocumentDispositionInstructionText'
+ 'DocumentDisputedReasonText' 'DocumentFileExtensionText'
+ 'DocumentFileName' 'DocumentFormatCategoryText' 'DocumentFormatText'
+ 'DocumentKeywordText' 'DocumentManagementCyclePeriodText'
+ 'DocumentMediaCategoryText' 'DocumentPhysicalMediumCategoryText'
+ 'DocumentPhysicalMediumText' 'DocumentRelatedResourceText'
+ 'DocumentRelationText' 'DocumentRightsText' 'DocumentSensitivityText'
+ 'DocumentSourceText' 'DocumentSubjectText' 'DocumentSummaryText'
+ 'DocumentSupplementalMarkingText' 'DocumentText'
+ 'DocumentTitleAlternativeText' 'DocumentTitleText'
+ 'DrugClassScheduleText' 'DrugCoverageExceptionReasonText'
+ 'DrugStrengthText' 'EducationDescriptionText' 'EducationLevelText'
+ 'EducationQualificationDescriptionText' 'EducationQualificationText'
+ 'ElectronicAddressDescriptionText' 'EmployeeOccupationCategoryText'
+ 'EmployeeOccupationText' 'EmployeeRankText' 'EmployeeShiftText'
+ 'EmploymentPositionBargainingUnitText' 'EmploymentPositionBasisText'
+ 'EmploymentPositionDepartmentName' 'EmploymentPositionDutyText'
+ 'EmploymentPositionName' 'EmploymentPositionRequiredEducationText'
+ 'EmploymentPositionRequiredJobSkillText' 'EmptyReasonDescriptionText'
+ 'EmptyReasonText' 'EncounterCategoryText' 'EncounterCommentText'
+ 'EntityDescriptionText' 'EntityName' 'FacilityCapacityDescriptionText'
+ 'FacilityDescriptionText' 'FacilityFunctionText'
+ 'FacilityMemberCategoryText' 'FacilitySecurityLevelText'
+ 'FinancialAccountCategoryText' 'FinancialAccountListedName'
+ 'GeographicDatumText' 'HazmatCodeText' 'HighwayFullText' 'HighwayName'
+ 'HighwayPositionText' 'IdentificationCategoryDescriptionText'
+ 'IdentificationCategoryText' 'IdentificationSourceText'
+ 'IdentityCreationEventText' 'IdentityTerminationEventText'
+ 'IncidentDayPeriodText' 'IncidentObservationText' 'InjuryCategoryText'
+ 'InjuryDescriptionText' 'InjuryLocationText' 'InjurySeverityText'
+ 'InstantMessengerServiceName' 'InsuranceCarrierName'
+ 'InsuranceCoverageCategoryText' 'IntellectualItemBusinessAreaText'
+ 'IntellectualPropertyCreationEventText'
+ 'IntellectualPropertyTerminationEventText' 'ItemActionText'
+ 'ItemCategoryText' 'ItemColorDescriptionText' 'ItemConditionText'
+ 'ItemDescriptionText' 'ItemName' 'ItemOwnershipCategoryText'
+ 'ItemPossessionDescriptionText' 'ItemSizeDescriptionText' 'ItemStyleText'
+ 'ItemUsageText' 'ItemValueAssigningMethodText' 'ItemValueDescriptionText'
+ 'JurisdictionDescriptionText' 'JurisdictionRestrictionText'
+ 'JurisdictionText' 'LanguageName' 'LocaleCommunityName'
+ 'LocaleDescriptionText' 'LocaleDistrictName'
+ 'LocaleEmergencyServicesName' 'LocaleJudicialDistrictName'
+ 'LocaleNeighborhoodName' 'LocalePoliceBeatText' 'LocalePoliceGridText'
+ 'LocaleRegionName' 'LocaleSubdivisionName' 'LocaleZoneName'
+ 'LocationBedText' 'LocationBuildingText' 'LocationCategoryText'
+ 'LocationDescriptionText' 'LocationDirectionsText' 'LocationFloorText'
+ 'LocationHeightVerticalDatumText' 'LocationLandmarkName'
+ 'LocationLandmarkText' 'LocationPartText' 'LocationRangeDescriptionText'
+ 'LocationRoomText' 'LocationSectionText' 'LocationSuiteText'
+ 'LocationSurroundingAreaDescriptionText' 'ManifestCategoryText'
+ 'MapCoordinateFullText' 'MapElevationCoordinateText'
+ 'MapHorizontalCoordinateText' 'MapLocationDescriptionText' 'MapName'
+ 'MapQuadrantText' 'MapVerticalCoordinateText' 'MeasureCommentText'
+ 'MeasureDescriptionText' 'MeasureErrorText' 'MeasureMethodText'
+ 'MeasureQualityText' 'MeasureUnitText' 'MeasureValueText'
+ 'MedicalConditionCauseText' 'MedicalConditionDescriptionText'
+ 'MedicalConditionSeverityText' 'MedicalConditionText'
+ 'MessageCategoryText' 'MessageFATCAUsageRestrictionText'
+ 'MessageRecipientName' 'MessageSenderName' 'MessageSubjectText'
+ 'MessageText' 'MilitaryBranchName' 'MilitaryDischargeCategoryText'
+ 'MilitaryDischargeRankText' 'MilitaryDutiesText'
+ 'MilitaryExemptionDescriptionText' 'MilitaryHighRankText'
+ 'MilitaryReleaseCategoryText' 'MilitaryWorkSkillText'
+ 'ObligationCategoryText' 'ObligationEntityCategoryText'
+ 'ObligationExemptionDescriptionText' 'ObligationPeriodText'
+ 'ObligationProgressDescriptionText'
+ 'ObligationRequirementDescriptionText' 'OrganizationAbbreviationText'
+ 'OrganizationActivityText' 'OrganizationBranchName'
+ 'OrganizationCategoryText' 'OrganizationDescriptionText'
+ 'OrganizationDoingBusinessAsName' 'OrganizationName'
+ 'OrganizationServiceHoursText' 'OrganizationSizeText'
+ 'OrganizationSubUnitName' 'OrganizationUnitName' 'PassportCategoryText'
+ 'PaymentMethodText' 'PermitCategoryText' 'PermitUsageText'
+ 'PersonAccentText' 'PersonAgeDescriptionText' 'PersonBloodTypeText'
+ 'PersonBodyXRaysAvailableText' 'PersonBuildText'
+ 'PersonCitizenshipCategoryText' 'PersonComplexionText'
+ 'PersonDescriptionText' 'PersonDisguiseDescriptionText'
+ 'PersonDisunionReasonText' 'PersonEthnicityText' 'PersonEyeColorText'
+ 'PersonEyewearText' 'PersonFacialHairText'
+ 'PersonGeneralAppearanceDescriptionText' 'PersonHairAppearanceText'
+ 'PersonHairCategoryText' 'PersonHairColorText' 'PersonHairLengthText'
+ 'PersonHairStyleText' 'PersonHandednessText'
+ 'PersonHeightDescriptionText' 'PersonJewelryDescriptionText'
+ 'PersonJobTitleText' 'PersonLearningDisabilityText'
+ 'PersonMedicalDescriptionText' 'PersonMedicationRequiredText'
+ 'PersonMentalStateText' 'PersonMoodDescriptionText'
+ 'PersonNameCategoryText' 'PersonNamePrefixText'
+ 'PersonNameSalutationText' 'PersonNameSuffixText'
+ 'PersonNationalityCategoryText' 'PersonOrganDonorText'
+ 'PersonPhysicalDisabilityText' 'PersonPreferredName' 'PersonRaceText'
+ 'PersonReligionText' 'PersonResidentText' 'PersonSecurityClearanceText'
+ 'PersonSexText' 'PersonSexualOrientationText' 'PersonSkinToneText'
+ 'PersonSpeechDescriptionText' 'PersonSurNamePrefixText'
+ 'PersonUnionCategoryText' 'PersonUnionStatusText'
+ 'PersonVisionPrescriptionText' 'PersonWeightDescriptionText'
+ 'PhysicalFeatureCategoryText' 'PhysicalFeatureDescriptionText'
+ 'PhysicalFeatureGeneralCategoryText' 'PhysicalFeatureLocationText'
+ 'PlanActivationDecisionText' 'PlanName' 'PlanOperationalObjectiveText'
+ 'PlanPurposeText' 'PlanTargetOutcomeText' 'ProgramPurposeText'
+ 'ProgressComplianceText' 'ProgressTimeQuantityText'
+ 'PublicServiceCategoryText' 'PublicServiceChannelText'
+ 'PublicServiceDescriptionText' 'PublicServiceName'
+ 'PublicationAuthorText' 'PublicationPageText' 'PublicationPublisherText'
+ 'PublicationSubjectText' 'PublicationTitleText' 'PublisherName'
+ 'RealEstateAcreageText' 'RealEstateBoundaryDescriptionText'
+ 'RecommendationCategoryText' 'RecommendationDescriptionText'
+ 'RecommendationSubjectText' 'RecommendationText'
+ 'RelativeLocationDescriptionText' 'RelativeLocationDirectionText'
+ 'ReportFrequencyText' 'ReportTemplateCategoryText'
+ 'ReportingOrganizationText' 'ReportingPersonRoleText'
+ 'ReportingPersonText' 'RequestCategoryText' 'RequestDecisionText'
+ 'RequestDescriptionText' 'RequestText' 'ResidenceDescriptionText'
+ 'ResidenceOccupancyCategoryText' 'ResidencePaymentPeriodText'
+ 'ScheduleActivityText' 'ScheduleDescriptionText'
+ 'ScheduleExceptionsDescriptionText' 'SecuritiesDateSeriesText'
+ 'SecuritiesDenominationText' 'SensitivityText' 'SeparationCategoryText'
+ 'SiteMobileDescriptionText' 'SiteSpecialInformationText'
+ 'SoftwareDescriptionText' 'SoftwareName' 'SoftwareVendorName'
+ 'SoftwareVersionText' 'SourceContactPersonText' 'SourceIDText'
+ 'SourceText' 'StatusCommentText' 'StatusDescriptionText'
+ 'StatusIssuerText' 'StatusText' 'StreetCategoryText'
+ 'StreetDirectionalText' 'StreetExtensionText' 'StreetFullText'
+ 'StreetNumberText' 'SubstanceCategoryText'
+ 'SubstanceCompositionDescriptionText' 'SubstanceContainerDescriptionText'
+ 'SubstanceFormText' 'SubstanceFoundDescriptionText' 'SystemName'
+ 'SystemOperatingModeName' 'TaskOutcomeDescriptionText'
+ 'TaskSuccessCriteriaText' 'TelephoneNumberCategoryText'
+ 'TelephoneNumberDescriptionText' 'TreatmentText'
+ 'VehicleColorInteriorText' 'VehicleTransmissionCategoryText'
+ 'VehicleUseText' 'VesselHullMaterialText' 'VesselHullShapeText'
+ 'VesselPropulsionText' 'WeaponUsageText']"
+nc:TimeMeasureType,"['ItemAgeMeasure' 'MilitaryServiceTimeMeasure' 'PersonAgeMeasure'
+ 'TimeMeasure']"
+nc:TimeRangeType,['ScheduleTimeRange']
+nc:TransportationAssociationType,['TransportationAssociation']
+nc:TreatmentType,['InjuryTreatment' 'Treatment']
+nc:UTMCoordinateType,['LocationUTMCoordinateValue' 'UTMCoordinateValue']
+nc:UnsignedIntegerRangeType,['MeasureUnsignedIntegerRange']
+nc:VehicleType,['Vehicle' 'VesselTrailer']
+nc:VelocityMeasureType,['VelocityMeasure']
+nc:VesselType,['Vessel']
+nc:VolumeMeasureType,['VolumeMeasure']
+nc:WeaponType,['Weapon']
+nc:WeightMeasureType,"['ItemWeightMeasure' 'PersonWeightMeasure' 'VehicleCurrentWeightMeasure'
+ 'VehicleGrossLadenSumWeightMeasure' 'VehicleGrossLadenUnitWeightMeasure'
+ 'VehicleMaximumLoadWeightMeasure' 'VehicleUnladenWeightMeasure'
+ 'WeightMeasure']"
+nc:ZuluDateTimeType,['ZuluDateTime']
+niem-xs:anyURI,"['BinaryURI' 'ContactWebsiteURI' 'CrisisURLID' 'DeviceVisitedWebsiteURI'
+ 'DocumentLocationURI' 'PublicServiceWebsiteURI' 'URLID']"
+niem-xs:base64Binary,['Base64BinaryObject']
+niem-xs:boolean,"['ActivityApprovedIndicator' 'ActivityCompletedIndicator'
+ 'BinaryAvailableIndicator' 'CapabilityIsLimitationIndicator'
+ 'ConditionMandatoryIndicator' 'ConditionViolatedIndicator'
+ 'ConveyanceMotorizedIndicator' 'ConveyanceTowedIndicator'
+ 'DocumentApprovedIndicator' 'DocumentCopyrightIndicator'
+ 'DocumentDisputedIndicator' 'DocumentEUDataPrivacyIndicator'
+ 'DocumentPermanentRecordIndicator' 'DocumentPrivacyActIndicator'
+ 'DocumentVitalIndicator' 'EducationInProgressIndicator'
+ 'EmployeeFullTimeIndicator' 'EmployeeHoursFixedIndicator'
+ 'EmployeePayHourlyIndicator' 'EmployeeScheduleFixedIndicator'
+ 'EmployeeSupervisorIndicator' 'EmploymentPositionEssentialIndicator'
+ 'EmploymentPositionTemporaryIndicator' 'EntityLegalIndicator'
+ 'FinancialAccountClosedIndicator' 'FingerprintTakenIndicator'
+ 'IdentityStolenIndicator' 'InsuranceActiveIndicator'
+ 'InsurancePersonalIndicator' 'ItemLeaseIndicator' 'ItemRentalIndicator'
+ 'ItemValueTaxIncludedIndicator' 'MeasureEstimatedIndicator'
+ 'MedicalConditionPresentIndicator' 'MilitaryExperienceIndicator'
+ 'MilitaryServiceActiveIndicator' 'ObligationCompleteIndicator'
+ 'ObligationComplianceIndicator' 'ObligationExemptionIndicator'
+ 'OrganizationActiveIndicator' 'OrganizationIncorporatedIndicator'
+ 'PassportElectronicIndicator' 'PassportStolenLostIndicator'
+ 'PersonArmedIndicator' 'PersonAssaultedOfficerIndicator'
+ 'PersonCircumcisionIndicator' 'PersonComprehendsSpokenLanguageIndicator'
+ 'PersonDisunionDecreeIndicator' 'PersonDisunionPendingIndicator'
+ 'PersonEmployedIndicator' 'PersonFraudulentIdentificationIndicator'
+ 'PersonJuvenileClaimedIndicator' 'PersonJuvenileVerifiedIndicator'
+ 'PersonLanguageEnglishIndicator' 'PersonLivingIndicator'
+ 'PersonMedicalFileIndicator' 'PersonOrganDonorIndicator'
+ 'PersonPossessCreditCardIndicator' 'PersonReadsLanguageIndicator'
+ 'PersonSpeaksLanguageIndicator' 'PersonUSCitizenIndicator'
+ 'PersonUnionCertificateIndicator' 'PersonWritesLanguageIndicator'
+ 'ProgramPubliclyRunIndicator' 'ProgramResidentialIndicator'
+ 'ProgramSupervisedIndicator' 'ProgressComplianceIndicator'
+ 'ReferralMandatoryIndicator' 'ScheduleNonStopIndicator'
+ 'SiteMobileIndicator' 'SupervisionCurrentIndicator'
+ 'SupervisionMandatoryIndicator' 'TaskCompletedIndicator'
+ 'VehicleCMVIndicator']"
+niem-xs:date,['Date']
+niem-xs:dateTime,['DateTime']
+niem-xs:decimal,"['Amount' 'AngularDegreeValue' 'AzimuthDecimalValue'
+ 'InclinationDecimalValue' 'MeasureDecimalValue' 'MeasureErrorValue'
+ 'RangeMaximumDecimalValue' 'RangeMinimumDecimalValue']"
+niem-xs:double,['MeasureDoubleValue' 'RangeMaximumDoubleValue' 'RangeMinimumDoubleValue']
+niem-xs:duration,"['ActivityActualDuration' 'ActivityEstimatedDuration'
+ 'ActivityPrescribedDuration' 'DateMarginOfErrorDuration'
+ 'EmploymentLengthDuration' 'ObligationDueDuration'
+ 'ObligationPaidDuration' 'ObligationTotalDuration']"
+niem-xs:gDay,['DayDate']
+niem-xs:gMonth,['DecalMonthDate' 'MonthDate']
+niem-xs:gYear,"['CaseYearDate' 'DecalYearDate' 'ItemFirstSoldYearDate'
+ 'ItemModelYearDate' 'YearDate']"
+niem-xs:gYearMonth,['YearMonthDate']
+niem-xs:hexBinary,['HexBinaryObject']
+niem-xs:integer,"['MeasureIntegerValue' 'RangeMaximumIntegerValue'
+ 'RangeMinimumIntegerValue']"
+niem-xs:nonNegativeInteger,"['ConveyanceEngineQuantity' 'FacilityCapacityQuantity'
+ 'FacilityMaxOccupancyQuantity' 'ImageHeightValue' 'ImageWidthValue'
+ 'ProgramCapacityQuantity' 'VehicleAxleQuantity' 'VehicleDoorQuantity'
+ 'VehiclePassengerSafeQuantity' 'VehicleSeatingQuantity']"
+niem-xs:string,"['AddressDeliveryPointID' 'AddressGridID' 'AddressPostalCode'
+ 'AddressPostalExtensionCode' 'AdministrativeID' 'BinaryHashCode'
+ 'BinaryID' 'CaseDocketID' 'CaseSubCategoryText' 'CaseTrackingID'
+ 'ConditionGroupID' 'ContactEmailID' 'ContactRadioCallSignID' 'DecalID'
+ 'DirectDialTelephoneNumberID' 'DocumentCategoryID'
+ 'DocumentFileControlID' 'DocumentGroupID' 'DocumentSequenceID'
+ 'EmployeeID' 'EquipmentName' 'FacilitySystemIPAddressID'
+ 'FinancialAccountNumberID' 'HighwayID' 'IPv4AddressID' 'IPv6AddressID'
+ 'IdentificationID' 'InstantMessengerScreenID' 'ItemOwnerAppliedID'
+ 'ItemVisibleID' 'LocaleCensusBlockID' 'LocaleCensusTractID'
+ 'LocaleEmergencyServicesJurisdictionID' 'LocaleFireJurisdictionID'
+ 'LocalePoliceJurisdictionID' 'MACAddressID' 'MapPageID' 'MapVersionID'
+ 'MessageID' 'MessageRecipientAddressID' 'MessageReferenceID'
+ 'MessageSenderAddressID' 'MissionID' 'MissionName'
+ 'PassportTransmissionTrackingID' 'PublicationISBNID' 'PublicationISSNID'
+ 'ReportID' 'RepositoryID' 'SoftwareComponentVersionID'
+ 'TaskDescriptionText' 'TaskID' 'TaskName' 'TelephoneAreaCodeID'
+ 'TelephoneCountryCodeID' 'TelephoneExchangeID' 'TelephoneLineID'
+ 'TelephoneNumberFullID' 'TelephoneNumberID' 'TelephoneSuffixID'
+ 'UserLogonID']"
+niem-xs:time,['BeginTime' 'EndTime' 'ScheduleDayEndTime' 'ScheduleDayStartTime']
+niem-xs:unsignedInt,"['MeasureUnsignedIntegerValue' 'RangeMaximumUnsignedIntegerValue'
+ 'RangeMinimumUnsignedIntegerValue']"

@@ -1,0 +1,24 @@
+name,nested_tags,tag_options
+LocalTerm,[''],"['term', 'literal', 'definition']"
+annotation,"['LocalTerm', 'appinfo', 'documentation']","['', 'literal', 'term', 'definition']"
+appinfo,['LocalTerm'],"['term', 'literal', 'definition']"
+attribute,"['', 'annotation', 'documentation']","['name', 'ref', 'use', 'type']"
+attributeGroup,[''],['ref']
+complexContent,"['element', 'attribute', 'sequence', 'extension']","['ref', 'minOccurs', 'base', 'maxOccurs', 'use']"
+complexType,"['attributeGroup', 'extension', 'element', 'annotation', 'sequence', 'attribute', 'complexContent', 'simpleContent', 'documentation']","['name', 'ref', 'minOccurs', 'base', 'maxOccurs', 'use']"
+documentation,[''],['']
+element,"['', 'annotation', 'documentation']","['name', 'ref', 'minOccurs', 'abstract', 'type', 'maxOccurs', 'nillable', 'appinfo:appliesToTypes', 'substitutionGroup']"
+enumeration,"['annotation', 'documentation']",['value']
+extension,"['', 'attributeGroup', 'element', 'sequence', 'attribute']","['ref', 'minOccurs', 'base', 'maxOccurs', 'use']"
+import,[''],"['namespace', 'schemaLocation']"
+list,[''],['itemType']
+maxExclusive,"['annotation', 'documentation']",['value']
+maxInclusive,"['annotation', 'documentation']",['value']
+minExclusive,"['annotation', 'documentation']",['value']
+minInclusive,"['annotation', 'documentation']",['value']
+pattern,"['annotation', 'documentation']",['value']
+restriction,"['enumeration', 'minInclusive', 'pattern', 'maxExclusive', 'annotation', 'minExclusive', 'maxInclusive', 'documentation']","['base', 'value']"
+schema,"['complexType', 'simpleContent', 'minInclusive', 'annotation', 'enumeration', 'attributeGroup', 'extension', 'element', 'maxExclusive', 'sequence', 'import', 'minExclusive', 'restriction', 'appinfo', 'complexContent', 'list', 'pattern', 'simpleType', 'attribute', 'maxInclusive', 'LocalTerm', 'documentation']","['xmlns:ct', 'xmlns:xsi', 'abstract', 'value', 'xsi:schemaLocation', 'xmlns:cli', 'name', 'term', 'ref', 'namespace', 'base', 'type', 'nillable', 'appinfo:appliesToTypes', 'xmlns:nc', 'ct:conformanceTargets', 'literal', 'definition', 'minOccurs', 'schemaLocation', 'targetNamespace', 'xmlns:appinfo', 'xmlns:structures', 'version', 'xmlns:xs', 'itemType', 'maxOccurs', 'xmlns:niem-xs', 'use', 'substitutionGroup', 'xml:lang']"
+sequence,['element'],"['maxOccurs', 'ref', 'minOccurs']"
+simpleContent,"['attribute', 'attributeGroup', 'extension']","['base', 'ref', 'use']"
+simpleType,"['enumeration', 'minInclusive', 'pattern', 'maxExclusive', 'annotation', 'minExclusive', 'restriction', 'list', 'maxInclusive', 'documentation']","['name', 'base', 'value', 'itemType']"
